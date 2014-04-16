@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Irish Birds</string>
+    <string name="title_section1">Birds</string>
+    <string name="title_section2">Birds I\'ve seen</string>
+    <string name="title_section3">Birds I want to see</string>
+    <string name="title_section4">Map View</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="ref_guide_title">Irish Birds</string>
+    <string name="search_list">Search for a bird</string>
+    <string name="atoz">Toggle A to Z</string>
+    <string name="birds_seen_title">Birds I\'ve Seen </string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add_to_seen">Add to Birds Seen List</string>
+    <string name="add_to_wishlist">Add to My Wish List</string>
+    <string name="share_sighting">Share Sighting</string>
+    <string name="delete_from_seen">Remove Bird from Seen List</string>
+    <string name="delete_from_wish">Remove Bird from My Wish List</string>
+    <string name="empty"> </string>
+    <string name="main_image">Profile Image</string>
+    <string name="status_sub_head">Status</string>
+    <string name="identification_sub_head">Identification</string>
+    <string name="diet_sub_head">Diet</string>
+    <string name="breeding_sub_head">Breeding</string>
+    <string name="wintering_habits_sub_head">Wintering Habits</string>
+    <string name="where_to_see_sub_head">Where to See</string>
+    <string name="conservation_status_sub_head">Conservation</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wishlist_title">My Wishlist</string>
+
+    <string-array name="nav_drawer_items">
+        <item>&#xf00b;&#160;&#160;&#160;Birds</item>
+        <item>&#xf00c;&#160;&#160;&#160;Birds I\'ve Seen</item>
+        <item>&#xf06e;&#160;&#160;&#160;My Wishlist</item>
+        <item>&#160;&#xf041;&#160;&#160;&#160;Map View</item>
+    </string-array>
+
+    <string name="bird_button">&#xf00b;</string>
+    <string name="seen_button">&#xf00c;</string>
+    <string name="wish_button">&#xf06e;</string>
+    <string name="map_button">&#xf041;</string>
+
+</resources>
