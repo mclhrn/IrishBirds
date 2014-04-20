@@ -39,6 +39,8 @@ public class BirdsSeenFragment extends ListFragment implements TextWatcher {
 
     private OnBirdSeenSelectedListener mCallback;
 
+    private int bgColor;
+
     private View v;
 
     public static BirdsSeenFragment newInstance() {
@@ -86,6 +88,8 @@ public class BirdsSeenFragment extends ListFragment implements TextWatcher {
         // Enable filtering on list
         lv.setTextFilterEnabled(true);
         inputSearch.addTextChangedListener(this);
+
+        bgColor = R.color.seen_list_bg;
     }
 
 
@@ -134,7 +138,7 @@ public class BirdsSeenFragment extends ListFragment implements TextWatcher {
 
         Bird bird = adapter.getItem(position);
 
-        mCallback.OnBirdSeenSelected(bird);
+        mCallback.OnBirdSeenSelected(bird, bgColor);
     }
 
 
@@ -179,6 +183,6 @@ public class BirdsSeenFragment extends ListFragment implements TextWatcher {
 
 
     public interface OnBirdSeenSelectedListener {
-        public void OnBirdSeenSelected(Bird selection);
+        public void OnBirdSeenSelected(Bird selection, int bgColor);
     }
 }

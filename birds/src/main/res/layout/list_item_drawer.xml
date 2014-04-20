@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="48dp"
     android:paddingLeft="10dp"
-    android:background="@drawable/list_selector" >
+    android:background="@drawable/drawer_list_selector" >
 
     <TextView
         android:id="@+id/title"

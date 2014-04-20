@@ -48,22 +48,25 @@ public class HomeActivity extends Activity implements View.OnClickListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
         openDB();
 
         pref = MyApplication.getAppContext().getSharedPreferences("Irish Birds Prefs", 0);
         editor = pref.edit();
 
         parseData = pref.getBoolean("parseData", true);
+
         if (parseData) {
 
             GetData task = new GetData();
             task.execute();
         }
 
-        // TODO Possible Memory Issues Here creating new instances of font
         font = Typeface.createFromAsset(this.getApplicationContext().getAssets(),
                 "fonts/fontawesome-webfont.ttf");
+
         initUI();
+
         setLocation();
     }
 

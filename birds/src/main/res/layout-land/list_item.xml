@@ -3,17 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
     android:background="@drawable/list_selector">
 
 <ImageView
         android:id="@+id/thumb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingBottom="6dp"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="6dp" />
+        android:paddingBottom="8dp"
+        android:paddingRight="25dp"
+        android:paddingTop="8dp" />
 
     <RelativeLayout
         android:layout_width="wrap_content"

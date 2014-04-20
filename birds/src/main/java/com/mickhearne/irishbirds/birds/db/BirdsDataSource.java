@@ -50,6 +50,20 @@ public class BirdsDataSource {
 		dbhelper.close();
 	}
 
+
+    public Bird getFirstBird() {
+
+        // Set up cursor to hold db query result
+        Cursor cursor = database.query(BirdsDBOpenHelper.TABLE_BIRDS,
+                birdsAllColumns, null, null, null, null, null);
+
+        List<Bird> birds = cursorToList(cursor);
+
+        return birds.get(0);
+    }
+
+
+
 	/*
 	 * 
 	 * 

@@ -5,30 +5,30 @@
     <item
         android:id="@+id/add_to_seen"
         android:orderInCategory="100"
-        android:showAsAction="ifRoom"
+        android:showAsAction="ifRoom|collapseActionView"
         android:title="@string/add_to_seen"/>
     <item
         android:id="@+id/add_to_wishlist"
         android:orderInCategory="100"
-        android:showAsAction="ifRoom"
+        android:showAsAction="ifRoom|collapseActionView"
         android:title="@string/add_to_wishlist"/>
 
     <item
         android:id="@+id/delete_from_seen"
         android:orderInCategory="100"
-        android:showAsAction="ifRoom"
+        android:showAsAction="ifRoom|collapseActionView"
         android:title="@string/delete_from_seen"/>
 
     <item
         android:id="@+id/delete_from_wish"
         android:orderInCategory="100"
-        android:showAsAction="ifRoom"
+        android:showAsAction="ifRoom|collapseActionView"
         android:title="@string/delete_from_wish"/>
 
     <item
         android:id="@+id/share_sighting"
         android:orderInCategory="100"
-        android:showAsAction="ifRoom"
+        android:showAsAction="ifRoom|collapseActionView"
         android:title="@string/share_sighting"/>
 
 </menu>

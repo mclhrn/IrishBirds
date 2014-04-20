@@ -26,8 +26,6 @@ import java.util.List;
 public class BirdsWishlistFragment extends ListFragment implements TextWatcher {
 
 
-    private static final int BIRD_DETAIL_ACTIVITY = 1001;
-
     private List<Bird> birds;
 
     private boolean wish_atoz = false;
@@ -37,6 +35,8 @@ public class BirdsWishlistFragment extends ListFragment implements TextWatcher {
     private ArrayAdapter<Bird> adapter;
 
     private OnBirdWishSelectedListener mCallback;
+
+    private int bgColor;
 
     private View v;
 
@@ -86,6 +86,8 @@ public class BirdsWishlistFragment extends ListFragment implements TextWatcher {
         // Enable filtering on list
         lv.setTextFilterEnabled(true);
         inputSearch.addTextChangedListener(this);
+
+        bgColor = R.color.wish_list_bg;
     }
 
 
@@ -133,7 +135,7 @@ public class BirdsWishlistFragment extends ListFragment implements TextWatcher {
 
         Bird bird = adapter.getItem(position);
 
-        mCallback.onBirdWishSelected(bird);
+        mCallback.onBirdWishSelected(bird, bgColor);
     }
 
 
@@ -158,18 +160,6 @@ public class BirdsWishlistFragment extends ListFragment implements TextWatcher {
     }
 
 
-//    @Override
-//    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-//        super.onActivityResult(requestCode, resultCode, data);
-//
-//        if (requestCode == BIRD_DETAIL_ACTIVITY && resultCode == -1) {
-//            datasource.open();
-//            birds = datasource.findWishList();
-//            refreshDisplay();
-//        }
-//    }
-
-
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
@@ -190,7 +180,6 @@ public class BirdsWishlistFragment extends ListFragment implements TextWatcher {
 
 
     public interface OnBirdWishSelectedListener {
-        public void onBirdWishSelected(Bird selection);
+        public void onBirdWishSelected(Bird selection, int bgColor);
     }
-
 }

@@ -22,7 +22,7 @@
     <string name="share_sighting">Share Sighting</string>
     <string name="delete_from_seen">Remove Bird from Seen List</string>
     <string name="delete_from_wish">Remove Bird from My Wish List</string>
-    <string name="empty"> </string>
+    <string name="empty"></string>
     <string name="main_image">Profile Image</string>
     <string name="status_sub_head">Status</string>
     <string name="identification_sub_head">Identification</string>
@@ -35,15 +35,16 @@
     <string name="wishlist_title">My Wishlist</string>
 
     <string-array name="nav_drawer_items">
-        <item>&#xf00b;&#160;&#160;&#160;Birds</item>
-        <item>&#xf00c;&#160;&#160;&#160;Birds I\'ve Seen</item>
-        <item>&#xf06e;&#160;&#160;&#160;My Wishlist</item>
-        <item>&#160;&#xf041;&#160;&#160;&#160;Map View</item>
+        <item>   Birds</item>
+        <item>   Birds I\'ve Seen</item>
+        <item>   My Wishlist</item>
+        <item>    Map View</item>
     </string-array>
 
-    <string name="bird_button">&#xf00b;</string>
-    <string name="seen_button">&#xf00c;</string>
-    <string name="wish_button">&#xf06e;</string>
-    <string name="map_button">&#xf041;</string>
+    <string name="bird_button"></string>
+    <string name="seen_button"></string>
+    <string name="wish_button"></string>
+    <string name="map_button"></string>
+    <string name="title_activity_profile_activty">ProfileActivty</string>
 
 </resources>

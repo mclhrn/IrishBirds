@@ -37,6 +37,10 @@ public class BirdsFragment extends ListFragment implements TextWatcher {
 
     private View v;
 
+    private ListView lv;
+
+    private int bgColor;
+
     OnBirdSelectedListener mCallback;
 
     public static BirdsFragment newInstance() {
@@ -49,6 +53,8 @@ public class BirdsFragment extends ListFragment implements TextWatcher {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         v = inflater.inflate(R.layout.fragment_birds, container, false);
+
+        setRetainInstance(true);
 
         openDB();
 
@@ -65,10 +71,11 @@ public class BirdsFragment extends ListFragment implements TextWatcher {
 
 
     private void initUI() {
-        ListView lv = (ListView) v.findViewById(android.R.id.list);
+        lv = (ListView) v.findViewById(android.R.id.list);
         lv.setTextFilterEnabled(true);
         EditText inputSearch = (EditText) v.findViewById(R.id.ref_input_search);
         inputSearch.addTextChangedListener(this);
+        bgColor = R.color.home_button_birds;
     }
 
 
@@ -125,9 +132,10 @@ public class BirdsFragment extends ListFragment implements TextWatcher {
 
 
     @Override
-    public void onListItemClick(ListView lv, View v, int position, long id) {
+    public void onListItemClick(ListView listView, View v, int position, long id) {
         Bird bird = adapter.getItem(position);
-        mCallback.onBirdSelected(bird);
+        mCallback.onBirdSelected(bird, bgColor);
+        lv.setItemChecked(position, true);
     }
 
 
@@ -165,6 +173,6 @@ public class BirdsFragment extends ListFragment implements TextWatcher {
 
 
     public interface OnBirdSelectedListener {
-        public void onBirdSelected(Bird selection);
+        public void onBirdSelected(Bird selection, int bgColor);
     }
 }

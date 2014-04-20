@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -11,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.mickhearne.irishbirds.birds.HomeActivity;
@@ -26,7 +28,6 @@ import com.mickhearne.irishbirds.birds.utilities.MyToast;
  * to handle interaction events.
  * Use the {@link BirdProfileFragment#newInstance} factory method to
  * create an instance of this fragment.
- *
  */
 public class BirdProfileFragment extends android.app.Fragment {
 
@@ -40,11 +41,22 @@ public class BirdProfileFragment extends android.app.Fragment {
 
     private OnFragmentInteractionListener mListener;
 
+    private int bgColor;
 
-    public static BirdProfileFragment newInstance(Bird bird) {
+    private LinearLayout ll;
+
+
+    public static BirdProfileFragment newInstance() {
+        BirdProfileFragment fragment = new BirdProfileFragment();
+        return fragment;
+    }
+
+
+    public static BirdProfileFragment newInstance(Bird bird, int bgColor) {
         BirdProfileFragment fragment = new BirdProfileFragment();
         Bundle args = new Bundle();
         args.putParcelable("bird", bird);
+        args.putInt("bgColor", bgColor);
         fragment.setArguments(args);
         return fragment;
     }
@@ -60,6 +72,7 @@ public class BirdProfileFragment extends android.app.Fragment {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             bird = getArguments().getParcelable("bird");
+            bgColor = getArguments().getInt("bgColor");
 
             datasource = new BirdsDataSource(getActivity());
             datasource.open();
@@ -72,17 +85,22 @@ public class BirdProfileFragment extends android.app.Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         v = inflater.inflate(R.layout.fragment_bird_profile, container, false);
-
-        // Check if bird has been added to any lists
+        setHasOptionsMenu(true);
         checkLists();
-
         refreshDisplay();
-
         return v;
     }
 
 
+    public void updateContent(Bird mBird) {
+        bird = mBird;
+        refreshDisplay();
+    }
+
+
     private void refreshDisplay() {
+
+
         // Get handles to UI objects
         TextView tv = (TextView) v.findViewById(R.id.name);
         TextView tv2 = (TextView) v.findViewById(R.id.latin);
@@ -94,6 +112,16 @@ public class BirdProfileFragment extends android.app.Fragment {
         TextView tv8 = (TextView) v.findViewById(R.id.where_to_see);
         TextView tv9 = (TextView) v.findViewById(R.id.conservation);
         ImageView iv = (ImageView) v.findViewById(R.id.main_profile_image);
+
+        TextView divBar1 = (TextView) v.findViewById(R.id.div_bar_1);
+        TextView divBar2 = (TextView) v.findViewById(R.id.div_bar_2);
+        TextView divBar3 = (TextView) v.findViewById(R.id.div_bar_3);
+        TextView divBar4 = (TextView) v.findViewById(R.id.div_bar_4);
+
+        divBar1.setBackgroundResource(bgColor);
+        divBar2.setBackgroundResource(bgColor);
+        divBar3.setBackgroundResource(bgColor);
+        divBar4.setBackgroundResource(bgColor);
 
         tv.setText(bird.getName());
         tv2.setText(bird.getLatinName());
@@ -112,6 +140,7 @@ public class BirdProfileFragment extends android.app.Fragment {
         }
     }
 
+
     private void checkLists() {
         isWishlist = datasource.checkWishlist(bird.getId());
         isBirdsSeen = datasource.checkSeenlist(bird.getId());
@@ -120,6 +149,8 @@ public class BirdProfileFragment extends android.app.Fragment {
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        inflater.inflate(R.menu.profile, menu);
+
 
         // Show delete menu item if we came from Birds Seen or Wish
         menu.findItem(R.id.delete_from_seen).setVisible(isBirdsSeen);
@@ -131,9 +162,20 @@ public class BirdProfileFragment extends android.app.Fragment {
 
         // Share Sighting
         menu.findItem(R.id.share_sighting).setVisible(true);
-
-        super.onCreateOptionsMenu(menu,inflater);
+        super.onCreateOptionsMenu(menu, inflater);
     }
+
+
+//    @Override
+//    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+//        inflater.inflate(R.menu.departures, menu);
+//        MenuItem item = menu.findItem(R.id.add_departure);
+//        if (MyFlightsDatasource.checkMyFlights(flight)) {
+//            if (null != item) {
+//                item.setIcon(R.drawable.departures_save_btn_highlight);
+//            }
+//        }
+//    }
 
 
     @Override
@@ -159,6 +201,7 @@ public class BirdProfileFragment extends android.app.Fragment {
             case R.id.delete_from_seen:
                 if (isBirdsSeen) {
                     if (datasource.removeFromBirdsSeen(bird)) {
+                        getActivity().finish();
                         notifyUser(" removed from Birds Seen List");
                     } else {
                         notifyUser(" not removed from Birds Seen list");
@@ -167,6 +210,7 @@ public class BirdProfileFragment extends android.app.Fragment {
             case R.id.delete_from_wish:
                 if (isWishlist) {
                     if (datasource.removeFromWishList(bird)) {
+                        getActivity().finish();
                         notifyUser(" removed from Wishlist");
                     } else {
                         notifyUser(" not removed from Wishlist");
@@ -218,14 +262,13 @@ public class BirdProfileFragment extends android.app.Fragment {
      * fragment to allow an interaction in this fragment to be communicated
      * to the activity and potentially other fragments contained in that
      * activity.
-     * <p>
+     * <p/>
      * See the Android Training lesson <a href=
      * "http://developer.android.com/training/basics/fragments/communicating.html"
      * >Communicating with Other Fragments</a> for more information.
      */
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
-        public void onFragmentInteraction(Uri uri);
+        public void onFragmentInteraction(String screen);
     }
-
 }
