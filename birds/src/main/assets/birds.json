@@ -49,7 +49,7 @@
     "image_thumb": "barnaclegoosethumb",
     "latin": "Branta leucopsis",
     "name": "Barnacle Goose",
-    "status": "Local winter visitor from Greenland, occurring in Ireland between October and; April.",
+    "status": "Local winter visitor from Greenland, occurring in Ireland between October and April.",
     "where_to_see": "The most important sites are the Inishkea Islands in County Mayo and Ballintemple in County Sligo, each supporting over 2,500 birds. Trawbreaga Bay in County Donegal, Malin Head in County Donegal and Rathlin O&rsquo;Birne in County Donegal also support relatively large flocks (usually 500-800 birds).",
     "wintering_habits": "Winters in western Scotland and Ireland. Mostly on remote islands in the northwest Ireland and western Scotland where it is relatively free from disturbance.andHighly gregarious. "
   },
@@ -63,7 +63,7 @@
     "latin": "Limosa lapponica",
     "name": "Bar-tailed Godwit",
     "status": "Winter visitor to coastal estuaries from October to April from Russia and Scandinavia",
-    "where_to_see": "Dundalk Bay in County Louth, Dublin Bay in County Dublin, Wexford Harbour and; Slobs in County Wexford, Lough Foyle in County Derry and Strangford Lough in County Down support highest numbers (1,500-2,500 birds).",
+    "where_to_see": "Dundalk Bay in County Louth, Dublin Bay in County Dublin, Wexford Harbour and Slobs in County Wexford, Lough Foyle in County Derry and Strangford Lough in County Down support highest numbers (1,500-2,500 birds).",
     "wintering_habits": "Wintering distribution entirely coastal. They are largely confined to estuaries, with largest numbers recorded on sandy estuaries. Small numbers recorded using non-estuarine coastline."
   },
   {
@@ -76,7 +76,7 @@
     "latin": "Anser fabalis",
     "name": "Bean Goose ",
     "status": "A rare winter visitor from October to March",
-    "where_to_see": "Dundalk Bay in County Louth, Dublin Bay in County Dublin, Wexford Harbour and; Slobs in County Wexford, Lough Foyle in County Derry and Strangford Lough in County Down support highest numbers (1,500-2,500 birds).",
+    "where_to_see": "Dundalk Bay in County Louth, Dublin Bay in County Dublin, Wexford Harbour and Slobs in County Wexford, Lough Foyle in County Derry and Strangford Lough in County Down support highest numbers (1,500-2,500 birds).",
     "wintering_habits": "Wintering distribution entirely coastal. They are largely confined to estuaries, with largest numbers recorded on sandy estuaries. Small numbers recorded using non-estuarine coastline."
   },
   {
@@ -102,7 +102,7 @@
     "latin": "Cepphus grylle",
     "name": "Black Guillemot",
     "status": "Resident along all Irish coasts.",
-    "where_to_see": "Lough Swilly in County Donegal, the Aran Islands off County Galway, Bray Head and; Wicklow Head in County Wicklow, Cape Clear, County Cork and Rockabill Island, County Dublin are among the best breeding sites in Ireland.",
+    "where_to_see": "Lough Swilly in County Donegal, the Aran Islands off County Galway, Bray Head and Wicklow Head in County Wicklow, Cape Clear, County Cork and Rockabill Island, County Dublin are among the best breeding sites in Ireland.",
     "wintering_habits": "Winters in the vicinity of its breeding sites and can be seen inshore throughout the year. "
   },
   {
@@ -115,7 +115,7 @@
     "latin": "Phoenicurus ochruros gibraltarensis",
     "name": "Black Redstart",
     "status": "Scarce passage in spring and autumn, as well as a scarce winter visitor mainly to eastern and southern coasts.",
-    "where_to_see": "Lough Swilly in County Donegal, the Aran Islands off County Galway, Bray Head and; Wicklow Head in County Wicklow, Cape Clear, County Cork and Rockabill Island, County Dublin are among the best breeding sites in Ireland.",
+    "where_to_see": "Lough Swilly in County Donegal, the Aran Islands off County Galway, Bray Head and Wicklow Head in County Wicklow, Cape Clear, County Cork and Rockabill Island, County Dublin are among the best breeding sites in Ireland.",
     "wintering_habits": "A scarce winter visitor to coastal areas in the east and south of Ireland. Frequently seen at sites which resemble their breeding habitat (exposed cliffs/rocks) with plenty of insects. "
   },
   {
@@ -127,21 +127,21 @@
     "image_thumb": "blackbirdthumb",
     "latin": "Turdus merula",
     "name": "Blackbird",
-    "status": "Resident, and winter visitor from Norway, Sweden, Germany and; Denmark",
-    "where_to_see": "Lough Swilly in County Donegal, the Aran Islands off County Galway, Bray Head and; Wicklow Head in County Wicklow, Cape Clear, County Cork and Rockabill Island, County Dublin are among the best breeding sites in Ireland.",
+    "status": "Resident, and winter visitor from Norway, Sweden, Germany and Denmark",
+    "where_to_see": "Lough Swilly in County Donegal, the Aran Islands off County Galway, Bray Head and Wicklow Head in County Wicklow, Cape Clear, County Cork and Rockabill Island, County Dublin are among the best breeding sites in Ireland.",
     "wintering_habits": "Irish breeders are largely sedentary. Migrants from the Continent arrive in autumn."
   },
   {
     "breeding": "Widespread but nowhere common. Grasshopper Warblers breed in young conifer plantations, rough farmland and the edges of bogs. Presence usually only noted when heard singing. ",
     "conservation": "Green-listed in Ireland. The European population has been assessed as Secure.",
     "diet": "Grasshopper Warblers mainly feed on various insects and caterpillars. ",
-    "identification": "",
+    "identification": "About the same size as a Robin. Adult male Blackcaps have a distinct black cap, covering most of the head. The rest of the body is a rather grey-colour, while the vent is white. Adult female Blackcaps have pale brown cap, similar in extent to that of the male. The rest of the body is grey-brown, not as dark as the male",
     "image_large": "blackcap",
     "image_thumb": "blackcapthumb",
     "latin": "Sylvia atricapilla naevia",
     "name": "Blackcap ",
     "status": "Widespread summer visitor to Ireland from April to September.",
-    "where_to_see": "Lough Swilly in County Donegal, the Aran Islands off County Galway, Bray Head and; Wicklow Head in County Wicklow, Cape Clear, County Cork and Rockabill Island, County Dublin are among the best breeding sites in Ireland.",
+    "where_to_see": "Lough Swilly in County Donegal, the Aran Islands off County Galway, Bray Head and Wicklow Head in County Wicklow, Cape Clear, County Cork and Rockabill Island, County Dublin are among the best breeding sites in Ireland.",
     "wintering_habits": "Winters in tropical west Africa."
   },
   {
@@ -180,7 +180,7 @@
     "latin": "Limosa limosa",
     "name": "Black-tailed Godwit",
     "status": "Winter visitor from Iceland. Numbers remain high throughout the winter, especially September.",
-    "where_to_see": "Little Brosna Callows in County Offaly, Shannon and; Fergus Estuary in County Clare, Cork Harbour in County Cork, Dundalk Bay in County Louth and Ballymacoda in County Cork support highest numbers (1,000-3,000 birds).",
+    "where_to_see": "Little Brosna Callows in County Offaly, Shannon and Fergus Estuary in County Clare, Cork Harbour in County Cork, Dundalk Bay in County Louth and Ballymacoda in County Cork support highest numbers (1,000-3,000 birds).",
     "wintering_habits": "Winters in a variety of habitats, both inland (particularly grassland and river deltas) and coastal (particularly estuaries), though seldom seen along non-estuarine coast."
   },
   {
@@ -231,7 +231,7 @@
     "image_thumb": "brentgoosedarkbelliedthumb",
     "latin": "Branta bernicla bernicla",
     "name": "Brent Goose (dark-bellied)",
-    "status": "Status:andA rare winter visitor with Light-bellied Brent Geese from October to March.",
+    "status": "A rare winter visitor with Light-bellied Brent Geese from October to March.",
     "where_to_see": "Where to see:andThe large flocks of Brent Geese wintering on the North Slob and Kilcoole, Co. Wicklow regularly host one or two individuals in winter.",
     "wintering_habits": "Wintering:andThe majority of Dark-bellied Brent Geese winter in the Netherlands, northern France and the United Kingdom. This sub-species is a rare winter visitor in Ireland, where it associates with Light-bellied Brent Geese at coastal sites (mainly estuaries)."
   },
@@ -245,7 +245,7 @@
     "latin": "Branta bernicla hrota",
     "name": "Light-bellied Brent Goose",
     "status": "Winter migrant from high-Arctic Canada. Most occur in Ireland between October and April.",
-    "where_to_see": "Highest numbers (c. 30,000) are seen at Strangford Lough in Northern Ireland in October, where most congregate on arrival. Thereafter, they move to other estuarine sites. Lough Foyle in County Derry, Dublin Bay in County Dublin, Tralee Bay, Lough Gill and; Akeragh Lough in County Kerry, Rogerstown Estuary in County Dublin, Wexford Harbour and; Slobs in County Wexford are other well-used sites (1,000-3,500 birds).",
+    "where_to_see": "Highest numbers (c. 30,000) are seen at Strangford Lough in Northern Ireland in October, where most congregate on arrival. Thereafter, they move to other estuarine sites. Lough Foyle in County Derry, Dublin Bay in County Dublin, Tralee Bay, Lough Gill and Akeragh Lough in County Kerry, Rogerstown Estuary in County Dublin, Wexford Harbour and Slobs in County Wexford are other well-used sites (1,000-3,500 birds).",
     "wintering_habits": "Mostly found on coastal estuaries during the autumn and early winter, and also on grasslands from mid-winter, until departure for the breeding grounds begins in late April."
   },
   {
@@ -401,7 +401,7 @@
     "latin": "Melanitta nigra",
     "name": "Common Scoter",
     "status": "Resident and winter visitor from the Continentto all Irish coasts between October and April.",
-    "where_to_see": "Wexford Bay in County Wexford, Castlemaine Harbour and; Rossbehy in County Kerry, Brandon Bay - Inner Brandon Bay in County Kerry, Donegal Bay in County Donegal and the Nanny Estuary and; shore in County Meath are among the best wintering sites, supporting 800-4,500 birds.",
+    "where_to_see": "Wexford Bay in County Wexford, Castlemaine Harbour and Rossbehy in County Kerry, Brandon Bay - Inner Brandon Bay in County Kerry, Donegal Bay in County Donegal and the Nanny Estuary and shore in County Meath are among the best wintering sites, supporting 800-4,500 birds.",
     "wintering_habits": "Common Scoter are almost entirely marine during the winter, and tend to congregate in large flocks on shallow seas with sandy bottoms supporting their preferred prey."
   },
   {
@@ -414,7 +414,7 @@
     "latin": "Sterna hirundo",
     "name": "Common Tern",
     "status": "Summer visitor from March to October to all Irish coasts.",
-    "where_to_see": "Wexford Bay in County Wexford, Castlemaine Harbour and; Rossbehy in County Kerry, Brandon Bay - Inner Brandon Bay in County Kerry, Donegal Bay in County Donegal and the Nanny Estuary and; shore in County Meath are among the best wintering sites, supporting 800-4,500 birds.",
+    "where_to_see": "Wexford Bay in County Wexford, Castlemaine Harbour and Rossbehy in County Kerry, Brandon Bay - Inner Brandon Bay in County Kerry, Donegal Bay in County Donegal and the Nanny Estuary and shore in County Meath are among the best wintering sites, supporting 800-4,500 birds.",
     "wintering_habits": "Winters in west and south Africa. "
   },
   {
@@ -518,7 +518,7 @@
     "latin": "Numenius arquata",
     "name": "Curlew",
     "status": "Winter visitor to wetlands throughout Ireland, as well as breeding in small numbers in floodplains and boglands. ",
-    "where_to_see": "Shannon and; Fergus Estuary in County Clare, Cork Harbour in County Cork, Lough Foyle in County Londonderry, Lough Swilly in County Donegal, Strangford Lough in County Down and the Wexford Harbour and; Slobs in County Wexford support between 1,500 and 2,500 birds.",
+    "where_to_see": "Shannon and Fergus Estuary in County Clare, Cork Harbour in County Cork, Lough Foyle in County Londonderry, Lough Swilly in County Donegal, Strangford Lough in County Down and the Wexford Harbour and Slobs in County Wexford support between 1,500 and 2,500 birds.",
     "wintering_habits": "Winters in a wide range of wetland habitats (coastal and inland) and other good feeding areas including damp fields. The Irish breeding population is supplemented by Scottish and Scandinavian breeders in winter."
   },
   {
@@ -530,8 +530,8 @@
     "image_thumb": "curlewsandpiperthumb",
     "latin": "Calidris ferruginea",
     "name": "Curlew Sandpiper",
-    "status": "Scarce passage migrant - occurs while on passage from northern Siberia south to winter in Africa between August and; October.",
-    "where_to_see": "Shannon and; Fergus Estuary in County Clare, Cork Harbour in County Cork, Lough Foyle in County Londonderry, Lough Swilly in County Donegal, Strangford Lough in County Down and the Wexford Harbour and; Slobs in County Wexford support between 1,500 and 2,500 birds.",
+    "status": "Scarce passage migrant - occurs while on passage from northern Siberia south to winter in Africa between August and October.",
+    "where_to_see": "Shannon and Fergus Estuary in County Clare, Cork Harbour in County Cork, Lough Foyle in County Londonderry, Lough Swilly in County Donegal, Strangford Lough in County Down and the Wexford Harbour and Slobs in County Wexford support between 1,500 and 2,500 birds.",
     "wintering_habits": "Winters in a wide range of wetland habitats (coastal and inland) and other good feeding areas including damp fields. The Irish breeding population is supplemented by Scottish and Scandinavian breeders in winter."
   },
   {
@@ -543,8 +543,8 @@
     "image_thumb": "dipperthumb",
     "latin": "Cinclus cinclus",
     "name": "Dipper",
-    "status": "Scarce passage migrant - occurs while on passage from northern Siberia south to winter in Africa between August and; October.",
-    "where_to_see": "Shannon and; Fergus Estuary in County Clare, Cork Harbour in County Cork, Lough Foyle in County Londonderry, Lough Swilly in County Donegal, Strangford Lough in County Down and the Wexford Harbour and; Slobs in County Wexford support between 1,500 and 2,500 birds.",
+    "status": "Scarce passage migrant - occurs while on passage from northern Siberia south to winter in Africa between August and October.",
+    "where_to_see": "Shannon and Fergus Estuary in County Clare, Cork Harbour in County Cork, Lough Foyle in County Londonderry, Lough Swilly in County Donegal, Strangford Lough in County Down and the Wexford Harbour and Slobs in County Wexford support between 1,500 and 2,500 birds.",
     "wintering_habits": "Winters in a wide range of wetland habitats (coastal and inland) and other good feeding areas including damp fields. The Irish breeding population is supplemented by Scottish and Scandinavian breeders in winter."
   },
   {
@@ -557,7 +557,7 @@
     "latin": "Calidris alpina",
     "name": "Dunlin",
     "status": "Summer visitor from NW Africa/SW Europe, winter visitor from Scandinavia to Siberia, passage migrant from Greenland (heading south to winter in Africa). Most occur during the mid-winter period.",
-    "where_to_see": "Shannon and; Fergus Estuary in County Clare and Dundalk Bay in County Louth regularly support andgt;10,000 birds. Other important sites include Cork Harbour in County Cork, Lough Swilly in Donegal and Strangford Lough in Down (6,000- 9,000 birds).",
+    "where_to_see": "Shannon and Fergus Estuary in County Clare and Dundalk Bay in County Louth regularly support andgt;10,000 birds. Other important sites include Cork Harbour in County Cork, Lough Swilly in Donegal and Strangford Lough in Down (6,000- 9,000 birds).",
     "wintering_habits": "Common along all coastal areas - especially on tidal mudflats and estuaries. Very few inland."
   },
   {
@@ -570,7 +570,7 @@
     "latin": "Prunella modularis",
     "name": "Dunnock",
     "status": "Resident",
-    "where_to_see": "Shannon and; Fergus Estuary in County Clare and Dundalk Bay in County Louth regularly support andgt;10,000 birds. Other important sites include Cork Harbour in County Cork, Lough Swilly in Donegal and Strangford Lough in Down (6,000- 9,000 birds).",
+    "where_to_see": "Shannon and Fergus Estuary in County Clare and Dundalk Bay in County Louth regularly support andgt;10,000 birds. Other important sites include Cork Harbour in County Cork, Lough Swilly in Donegal and Strangford Lough in Down (6,000- 9,000 birds).",
     "wintering_habits": "Widespread. "
   },
   {
@@ -583,7 +583,7 @@
     "latin": "Somateria mollissima",
     "name": "Eider",
     "status": "Resident along rocky coasts in the north and north-west of Ireland.",
-    "where_to_see": "Belfast Lough in County Down and Outer Ards in County Down regularly supports almost 1,000 and; 500 birds respectively. Lough Foyle in County Derry, Strangford Lough in County Down, Larne Lough in County Antrim and the Streedagh Estuary in County Sligo are other well-used wintering sites.",
+    "where_to_see": "Belfast Lough in County Down and Outer Ards in County Down regularly supports almost 1,000 and 500 birds respectively. Lough Foyle in County Derry, Strangford Lough in County Down, Larne Lough in County Antrim and the Streedagh Estuary in County Sligo are other well-used wintering sites.",
     "wintering_habits": "Occurs on shallow, inshore coastal waters, near estuary mouths mostly along the northwest and northeast coastlines."
   },
   {
@@ -648,7 +648,7 @@
     "latin": "Anas strepera",
     "name": "Gadwall",
     "status": "Scarce resident at wetlands mainly in the south and east of Ireland.",
-    "where_to_see": "Loughs Neagh and; Beg in County Antrim, Tacumshin Lake in County Wexford, Lady's Island Lake in County Wexford, Strangford Lough in County Down and the Corofin Wetlands in County Clare are among the top sites (each supporting 80- 150 birds).",
+    "where_to_see": "Loughs Neagh and Beg in County Antrim, Tacumshin Lake in County Wexford, Lady's Island Lake in County Wexford, Strangford Lough in County Down and the Corofin Wetlands in County Clare are among the top sites (each supporting 80- 150 birds).",
     "wintering_habits": "Localised wintering distribution at a variety of inland and coastal sites."
   },
   {
@@ -730,16 +730,16 @@
     "wintering_habits": "Eagles are generally resident, though young birds may wander during winter."
   },
   {
-    "breeding": "Breed in heather moors, blanket bogs and; acidic grasslands. Distribution limited to the uplands of northwest counties in Ireland.",
+    "breeding": "Breed in heather moors, blanket bogs and acidic grasslands. Distribution limited to the uplands of northwest counties in Ireland.",
     "conservation": "Red-listed in Ireland due to a large decline in the breeding population. The European population is considered to be Secure.",
-    "diet": "Feed on a variety of soil and surface-living invertebrates, principally beetles and earthworms, but also on plant material such as berries, seeds and grasses. They regularly feed in association with Lapwing and; Black-headed Gulls.",
+    "diet": "Feed on a variety of soil and surface-living invertebrates, principally beetles and earthworms, but also on plant material such as berries, seeds and grasses. They regularly feed in association with Lapwing and Black-headed Gulls.",
     "identification": "Smaller than Grey Plover, with narrower, more pointed wings. Golden brown upperparts, which look grey at close range. Males in summer have more black below than females - extends from throat, towards each eye, and ventrally under neck, chest and belly. In winter, males and females similar in appearence, with no black underparts.",
     "image_large": "goldenplover",
     "image_thumb": "goldenploverthumb",
     "latin": "Pluvialis apricaria",
     "name": "Golden Plover",
-    "status": "Summer visitor from France and; Iberia (though possibly some remain year-round in Ireland) and; winter visitor from Iceland. Most in Ireland between October and; February",
-    "where_to_see": "Ballymacoda in County Cork and Little Brosna Callows in County Offaly regularly support andgt;10,000 birds. Strangford Lough in County Down, Rahasane Turlough in County Galway and Tralee Bay, Lough Gill and; Akeragh Lough in County Kerry are other important wintering sites (7,000-10,000 birds).",
+    "status": "Summer visitor from France and Iberia (though possibly some remain year-round in Ireland) and winter visitor from Iceland. Most in Ireland between October and February",
+    "where_to_see": "Ballymacoda in County Cork and Little Brosna Callows in County Offaly regularly support andgt;10,000 birds. Strangford Lough in County Down, Rahasane Turlough in County Galway and Tralee Bay, Lough Gill and Akeragh Lough in County Kerry are other important wintering sites (7,000-10,000 birds).",
     "wintering_habits": "Throughout the winter, Golden Plovers are regularly found in large, densely-packed flocks, and in a variety of habitats, both coastal and inland. Their distribution is widespread in Ireland."
   },
   {
@@ -752,7 +752,7 @@
     "latin": "Bucephala clangula",
     "name": "Goldeneye",
     "status": "Winter visitor, most occurring in Ireland between November and April, come from the population breeding in Fennoscandia.",
-    "where_to_see": "Loughs Neagh and; Beg in County Antrim, Belfast Lough in County Down, Lough Sheelin in County Cavan, Strangford Lough in County Down and Larne Lough in County Antrim are among the best wintering sites, each supporting between 200 and 7,500 birds.",
+    "where_to_see": "Loughs Neagh and Beg in County Antrim, Belfast Lough in County Down, Lough Sheelin in County Cavan, Strangford Lough in County Down and Larne Lough in County Antrim are among the best wintering sites, each supporting between 200 and 7,500 birds.",
     "wintering_habits": "Winter on coastal estuaries and inland lakes. Relatively widespread distribution in Ireland."
   },
   {
@@ -765,7 +765,7 @@
     "latin": "Carduelis carduelis",
     "name": "Goldfinch",
     "status": "Resident. Some additional birds may arrive from Continent in winter.",
-    "where_to_see": "Loughs Neagh and; Beg in County Antrim, Belfast Lough in County Down, Lough Sheelin in County Cavan, Strangford Lough in County Down and Larne Lough in County Antrim are among the best wintering sites, each supporting between 200 and 7,500 birds.",
+    "where_to_see": "Loughs Neagh and Beg in County Antrim, Belfast Lough in County Down, Lough Sheelin in County Cavan, Strangford Lough in County Down and Larne Lough in County Antrim are among the best wintering sites, each supporting between 200 and 7,500 birds.",
     "wintering_habits": "Widespread."
   },
   {
@@ -778,7 +778,7 @@
     "latin": "Mergus merganser",
     "name": "Goosander",
     "status": "Resident at larger lakes in Counties Wicklow and Donegal. Rare winter visitor throughout Ireland.",
-    "where_to_see": "Found on freshwater. Belfast Lough in County Down andandLough Tay and; Dan in County Wicklow are the most regularly used wintering areas.",
+    "where_to_see": "Found on freshwater. Belfast Lough in County Down andandLough Tay and Dan in County Wicklow are the most regularly used wintering areas.",
     "wintering_habits": "Widespread."
   },
   {
@@ -817,7 +817,7 @@
     "latin": "Podiceps cristatus",
     "name": "Great Crested Grebe",
     "status": "Resident, numbers increase during the winter due to immigrating birds",
-    "where_to_see": "The highest numbers of breeding pairs can be found on loughs in Counties Cavan, Armagh and Monaghan and there are 13 sites that regularly support nationally important numbers of Great Crested Grebes over the winter. Eight sites holding the largest concentrations are Belfast Lough (County Down), Loughs Neagh and; Beg (Co. Antrim), Dundalk Bay (Co. Louth), Carlingford Lough (Co. Down), Lough Swilly (Co. Donegal), Upper Lough Erne (Co. Fermanagh), Cork Harbour (Co. Cork), Lough Sheelin (Co. Cavan).",
+    "where_to_see": "The highest numbers of breeding pairs can be found on loughs in Counties Cavan, Armagh and Monaghan and there are 13 sites that regularly support nationally important numbers of Great Crested Grebes over the winter. Eight sites holding the largest concentrations are Belfast Lough (County Down), Loughs Neagh and Beg (Co. Antrim), Dundalk Bay (Co. Louth), Carlingford Lough (Co. Down), Lough Swilly (Co. Donegal), Upper Lough Erne (Co. Fermanagh), Cork Harbour (Co. Cork), Lough Sheelin (Co. Cavan).",
     "wintering_habits": "Winter distribution is widespread with greatest concentration in the north midlands and northeast and birds from the continent join the resident population. Outside the breeding season Great Crested Grebes are often solitary with some birds moving to the coast through the winter. Occasionally, large congregations form for short periods. Birds start returning to breeding areas from mid-February."
   },
   {
@@ -830,7 +830,7 @@
     "latin": "Gavia immer",
     "name": "Great Northern Diver",
     "status": "A widespread winter visitor to coastal areas from September to April.",
-    "where_to_see": "Three sites hold internationally important numbers of Great Northern Divers- Inner Galway Bay (County Galway), The Mullet Peninsula (Co. Mayo), Donegal Bay (Co. Donegal). Four sites hold nationally important numbers - Courtmacsherry Bay (Co. Cork), Wexford Bay (Co. Wexford), Wexford Harbour and; Slobs (Co. Wexford), Castlemaine Harbour (Co. Kerry).",
+    "where_to_see": "Three sites hold internationally important numbers of Great Northern Divers- Inner Galway Bay (County Galway), The Mullet Peninsula (Co. Mayo), Donegal Bay (Co. Donegal). Four sites hold nationally important numbers - Courtmacsherry Bay (Co. Cork), Wexford Bay (Co. Wexford), Wexford Harbour and Slobs (Co. Wexford), Castlemaine Harbour (Co. Kerry).",
     "wintering_habits": "Great Northern Divers occur along the Irish coastline between September and April and are usually observed as single birds or small groups. They are the most numerous of the divers occurring in Ireland and are particularly abundant off the south, west and northwest coasts over the winter. Great Northern Divers occur along a variety of coastlines, particularly deeper bays and inlets, as well as shallow bays with sandy shores. They can forage up to 10 km offshore and numbers close to shore tend to be highest when winds blow onshore."
   },
   {
@@ -894,8 +894,8 @@
     "image_thumb": "greenlandwhitefrontedgoosethumb",
     "latin": "Anser albifrons flavirostris",
     "name": "Greenland White-Fronted Goose",
-    "status": "Winter migrant, occurring in Ireland between October and; April.",
-    "where_to_see": "Very localised distribution, occurring mostly (up to 9,000 birds) at the Wexford Slobs, with smaller numbers (usually low hundreds) elsewhere. Wexford (North and; South Slobs, Tacumshin Lake and; Cahore Marshes), Loughs Swilly and; Foyle in County Donegal, Lough Gara in County Roscommon, Midland lakes (Loughs Derravarragh, Iron, Owel and; Ennell) in County Westmeath, Little Brosna in County Offaly and River Suck/Shannonbridge in County Roscommon are the most important sites.",
+    "status": "Winter migrant, occurring in Ireland between October and April.",
+    "where_to_see": "Very localised distribution, occurring mostly (up to 9,000 birds) at the Wexford Slobs, with smaller numbers (usually low hundreds) elsewhere. Wexford (North and South Slobs, Tacumshin Lake and Cahore Marshes), Loughs Swilly and Foyle in County Donegal, Lough Gara in County Roscommon, Midland lakes (Loughs Derravarragh, Iron, Owel and Ennell) in County Westmeath, Little Brosna in County Offaly and River Suck/Shannonbridge in County Roscommon are the most important sites.",
     "wintering_habits": "Winters in Ireland and Scotland. Highly gregarious. Traditionally occurred in peatland areas, though now mostly seen feeding on intensively managed grasslands."
   },
   {
@@ -908,7 +908,7 @@
     "latin": "Tringa nebularia",
     "name": "Greenshank",
     "status": "Winter visitor to estuaries from September to April from Scotland and Scandinavia.",
-    "where_to_see": "Very localised distribution, occurring mostly (up to 9,000 birds) at the Wexford Slobs, with smaller numbers (usually low hundreds) elsewhere. Wexford (North and; South Slobs, Tacumshin Lake and; Cahore Marshes), Loughs Swilly and; Foyle in County Donegal, Lough Gara in County Roscommon, Midland lakes (Loughs Derravarragh, Iron, Owel and; Ennell) in County Westmeath, Little Brosna in County Offaly and River Suck/Shannonbridge in County Roscommon are the most important sites.",
+    "where_to_see": "Very localised distribution, occurring mostly (up to 9,000 birds) at the Wexford Slobs, with smaller numbers (usually low hundreds) elsewhere. Wexford (North and South Slobs, Tacumshin Lake and Cahore Marshes), Loughs Swilly and Foyle in County Donegal, Lough Gara in County Roscommon, Midland lakes (Loughs Derravarragh, Iron, Owel and Ennell) in County Westmeath, Little Brosna in County Offaly and River Suck/Shannonbridge in County Roscommon are the most important sites.",
     "wintering_habits": "Mostly coastal distribution - while the majority are found on estuaries, up to 30% are estimated to winter along non-estuarine coast."
   },
   {
@@ -964,7 +964,7 @@
     "wintering_habits": "Wintering:andThis species winters far out on the Atlantic  Ocean feeding on plankton. The majority of sightings are of small groups moving south off the west coast in autumn. Occasionally recorded in winter, but very rare in spring and summer."
   },
   {
-    "breeding": "Breeds across the high arctic regions of Russia and; North America. ",
+    "breeding": "Breeds across the high arctic regions of Russia and North America. ",
     "conservation": "Amber-listedas the majority of Grey Plovers winter at less than ten sites. The European population is considered to be Secure.",
     "diet": "Feeds on a wide variety of burrowing intertidal invertebrates, particularly polychaete worms, molluscs and crustaceans.",
     "identification": "Big and bulky plover, large head and heavy bill. Posture hunched and feeding action pondorous. Black axilliaries, bold white wing-bar and white rump diagnostic in flight.",
@@ -972,21 +972,21 @@
     "image_thumb": "greyploverthumb",
     "latin": "Pluvialis squatarola",
     "name": "Grey Plover",
-    "status": "Winter visitor from Siberia - first birds arrive in Ireland and Britain towards the end of July but most here between September and; April.",
-    "where_to_see": "Wexford Harbour and; Slobs in County Wexford, Dublin Bay in County Dublin, Ballymacoda in County Cork, Dungarvan Harbour in County Waterford and the Shannon and; Fergus Estuary in County Clare support most birds (400-1,200 birds).",
+    "status": "Winter visitor from Siberia - first birds arrive in Ireland and Britain towards the end of July but most here between September and April.",
+    "where_to_see": "Wexford Harbour and Slobs in County Wexford, Dublin Bay in County Dublin, Ballymacoda in County Cork, Dungarvan Harbour in County Waterford and the Shannon and Fergus Estuary in County Clare support most birds (400-1,200 birds).",
     "wintering_habits": "Distribution in Ireland is widespread, but exclusively coastal. They occur mostly along eastern and southern coasts, most often on large muddy estuaries. They regularly roost among dense flocks during high tide, while their distribution is more scattered while feeding."
   },
   {
     "breeding": "Breeding:andBreeds mainly along streams and rivers, frequently building its nest under a bridge. ",
     "conservation": "Green-listed in Ireland. The European population has been evaluated as Secure. ",
     "diet": "Grey Wagtails feed mainly on insects caught on the ground or in flight. ",
-    "identification": "",
+    "identification": "Slightly larger than Pied Wagtail. A very striking bird, with the dark grey head and back offfset by extensive yellow on the breast, belly and vent. The rump is also bright yellow. Grey Wagtails also have a black throat, as well as a white stripe through the eye. The beak and legs are dark grey, the latter with a variable pinkish tinge. The yellow wash on the lower body is less intense on female birds, while juveniles lack the black throat patch and have the yellow restricted to the vent and rump. Juvenile Grey Wagtails also have pink legs and bill in contrast to the adults.",
     "image_large": "greywagtail",
     "image_thumb": "greywagtailthumb",
     "latin": "Motacilla cinerea",
     "name": "Grey Wagtail ",
-    "status": "Winter visitor from Siberia - first birds arrive in Ireland and Britain towards the end of July but most here between September and; April.",
-    "where_to_see": "Wexford Harbour and; Slobs in County Wexford, Dublin Bay in County Dublin, Ballymacoda in County Cork, Dungarvan Harbour in County Waterford and the Shannon and; Fergus Estuary in County Clare support most birds (400-1,200 birds).",
+    "status": "Winter visitor from Siberia - first birds arrive in Ireland and Britain towards the end of July but most here between September and April.",
+    "where_to_see": "Wexford Harbour and Slobs in County Wexford, Dublin Bay in County Dublin, Ballymacoda in County Cork, Dungarvan Harbour in County Waterford and the Shannon and Fergus Estuary in County Clare support most birds (400-1,200 birds).",
     "wintering_habits": "Distribution in Ireland is widespread, but exclusively coastal. They occur mostly along eastern and southern coasts, most often on large muddy estuaries. They regularly roost among dense flocks during high tide, while their distribution is more scattered while feeding."
   },
   {
@@ -998,7 +998,7 @@
     "image_thumb": "greylaggoosethumb",
     "latin": "Anser anser",
     "name": "Greylag Goose",
-    "status": "Winter migrant, with Icelandic birds between November and; April. Feral birds are present year round.",
+    "status": "Winter migrant, with Icelandic birds between November and April. Feral birds are present year round.",
     "where_to_see": "Icelandic birds occur at seven main locations where they are mostly seen in large numbers (up to 3,000, but usually in low hundreds) feeding on grasslands. The feral population is more widespread, occurring usually in smaller numbers, usually less than 10, throughout the country. Lough Swilly in County Donegal, Braganstown in County Louth, Poulaphouca Reservoir in County Wicklow, Mountseskin/Gortlum in County Dublin and the River Suir Lower in County Waterford are among the top sites. There are many other sites that support Greylag Geese of feral origin. Their range is much more widespread. Large numbers occur at Lough Neagh and Strangford Lough.",
     "wintering_habits": "The Icelandic population winters in Scotland and Ireland, occurring mostly at coastal sites. Highly gregarious. "
   },
@@ -1089,7 +1089,7 @@
     "image_thumb": "jacksnipethumb",
     "latin": "Lymnocryptes minimus",
     "name": "Jack Snipe",
-    "status": "Winter visitor - there are 4 populations which breed across northern Europe, Russia and Siberia, and migrate west and south to winter in Europe, Africa and Asia. They occur in Ireland throughout the winter period, and also on passage. Most in Ireland between September and; March.",
+    "status": "Winter visitor - there are 4 populations which breed across northern Europe, Russia and Siberia, and migrate west and south to winter in Europe, Africa and Asia. They occur in Ireland throughout the winter period, and also on passage. Most in Ireland between September and March.",
     "where_to_see": "Carriggower Bog in County Wicklow and Larne Lough in Antrim.",
     "wintering_habits": "Winters all over Ireland, highly elusive."
   },
@@ -1167,8 +1167,8 @@
     "image_thumb": "knotthumb",
     "latin": "Calidris canutus",
     "name": "Knot",
-    "status": "Winter visitor from northern Greenland and from the Queen Elizabeth Islands of high Arctic Canada west to Prince Patrick Island. Most occur between October and; February.",
-    "where_to_see": "Dundalk Bay in County Louth and Strangford Lough in County Down support most birds (7,500 and; 10,000 birds respectively). Dublin Bay in County Dublin, Boyne Estuary in County Louth, Rogerstown Estuary in County Dublin and Shannon and; Fergus Estuary in County Clare all support andgt;2,000 birds.",
+    "status": "Winter visitor from northern Greenland and from the Queen Elizabeth Islands of high Arctic Canada west to Prince Patrick Island. Most occur between October and February.",
+    "where_to_see": "Dundalk Bay in County Louth and Strangford Lough in County Down support most birds (7,500 and 10,000 birds respectively). Dublin Bay in County Dublin, Boyne Estuary in County Louth, Rogerstown Estuary in County Dublin and Shannon and Fergus Estuary in County Clare all support andgt;2,000 birds.",
     "wintering_habits": "The wintering distribution is entirely coastal, and their preferred habitat mostly includes estuarine sites with extensive areas of muddy sand. They occur mostly in large flocks and on fewer estuaries than other wader species. "
   },
   {
@@ -1250,7 +1250,7 @@
     "wintering_habits": "Mainly resident within Ireland, but will gather in large flocks outside of the breeding season. Only rarely visits bird feeders in suburban areas."
   },
   {
-    "breeding": "Clutch: 4-5 eggs (1 brood) Incubation: 21-22 days.Fledging: 40-45 days (Altrical). Age of first breeding: not known. Breeds in lakes, marshes, flooded fields and; estuaries.",
+    "breeding": "Clutch: 4-5 eggs (1 brood) Incubation: 21-22 days.Fledging: 40-45 days (Altrical). Age of first breeding: not known. Breeds in lakes, marshes, flooded fields and estuaries.",
     "conservation": "Green-listed in Ireland. The European population is considered to be Secure.",
     "diet": "Takes a wide variety of animals including small fish, frogs, snails and insects and forages across a range of wetland habitats from lakes to flooded grassland. Often forages alone; but maybe encountered in small groups.",
     "identification": "Medium-sized white heron, with long black legs, yellow feet, black bill and blue-grey lores, and two elongated nape-feathers in breeding plumage.",
@@ -1259,7 +1259,7 @@
     "latin": "Egretta garzetta",
     "name": "Little Egret",
     "status": "Resident at wetlands mainly in the east and south.",
-    "where_to_see": "Sites in Counties Cork and Waterford regularly support most birds - Cork Harbour, Blackwater Estuary, Bantry Bay, Ballymacoda and Courtmacsherry Bay, Broadstrand Bay and; Dunworley are among the best sites (up to 30 birds). ",
+    "where_to_see": "Sites in Counties Cork and Waterford regularly support most birds - Cork Harbour, Blackwater Estuary, Bantry Bay, Ballymacoda and Courtmacsherry Bay, Broadstrand Bay and Dunworley are among the best sites (up to 30 birds). ",
     "wintering_habits": "Little Egrets use a variety of wetland habitats, including shallow lakes, riverbanks, lagoons, coastal estuaries and rocky shoreline."
   },
   {
@@ -1272,7 +1272,7 @@
     "latin": "Tachybaptus ruficollis",
     "name": "Little Grebe",
     "status": "Resident on ponds and lakes throughout Ireland. ",
-    "where_to_see": "During the breeding season look and listen for Little Grebes on water bodies where there is thick vegetation, numbers are highest in low-lying areas. There are 15 sites that regularly support nationally important numbers over the winter and nine sites holding the largest concentration - Loughs Neagh and; Beg (County Antrim), Lough Arrow (Co. Sligo), Strangford Lough (Co. Down), Tacumshin Lake (Co. Wexford), Upper Lough Erne (Co. Fermanagh), Wexford Harbour and; Slobs (Co. Wexford), Lough Eorna (Co. Tipperary), Cork Harbour (Co. Cork), Corofin Wetlands (Co. Clare).",
+    "where_to_see": "During the breeding season look and listen for Little Grebes on water bodies where there is thick vegetation, numbers are highest in low-lying areas. There are 15 sites that regularly support nationally important numbers over the winter and nine sites holding the largest concentration - Loughs Neagh and Beg (County Antrim), Lough Arrow (Co. Sligo), Strangford Lough (Co. Down), Tacumshin Lake (Co. Wexford), Upper Lough Erne (Co. Fermanagh), Wexford Harbour and Slobs (Co. Wexford), Lough Eorna (Co. Tipperary), Cork Harbour (Co. Cork), Corofin Wetlands (Co. Clare).",
     "wintering_habits": "Little Grebes extend their wintering habitat to include ephemeral wetlands and are often encountered on sheltered coasts, estuaries and coastal lakes and lagoons at this time of the year."
   },
   {
@@ -1285,7 +1285,7 @@
     "latin": "Larus minutus",
     "name": "Little Gull",
     "status": "Status:andandWinter visitor to east and south coasts from October to March and scarce passage migrant in spring and autumn.",
-    "where_to_see": "During the breeding season look and listen for Little Grebes on water bodies where there is thick vegetation, numbers are highest in low-lying areas. There are 15 sites that regularly support nationally important numbers over the winter and nine sites holding the largest concentration - Loughs Neagh and; Beg (County Antrim), Lough Arrow (Co. Sligo), Strangford Lough (Co. Down), Tacumshin Lake (Co. Wexford), Upper Lough Erne (Co. Fermanagh), Wexford Harbour and; Slobs (Co. Wexford), Lough Eorna (Co. Tipperary), Cork Harbour (Co. Cork), Corofin Wetlands (Co. Clare).",
+    "where_to_see": "During the breeding season look and listen for Little Grebes on water bodies where there is thick vegetation, numbers are highest in low-lying areas. There are 15 sites that regularly support nationally important numbers over the winter and nine sites holding the largest concentration - Loughs Neagh and Beg (County Antrim), Lough Arrow (Co. Sligo), Strangford Lough (Co. Down), Tacumshin Lake (Co. Wexford), Upper Lough Erne (Co. Fermanagh), Wexford Harbour and Slobs (Co. Wexford), Lough Eorna (Co. Tipperary), Cork Harbour (Co. Cork), Corofin Wetlands (Co. Clare).",
     "wintering_habits": "Wintering:andThe majority of the European population of Little Gulls winter along the coasts of the North and Irish Seas, as well as the Mediterranean. Little Gulls are most frequently observed off the East coast, with smaller numbers present along the south coast. Rare in the north and west of Ireland."
   },
   {
@@ -1297,7 +1297,7 @@
     "image_thumb": "littlestintthumb",
     "latin": "Calidris minuta",
     "name": "Little Stint",
-    "status": "Scarce passage migrant - occurs while on passage from northern Scandinavia and Russia between August and; October.",
+    "status": "Scarce passage migrant - occurs while on passage from northern Scandinavia and Russia between August and October.",
     "where_to_see": "Mid-Clare Coast (Mal Bay-Doonbeg Bay) in County Clare, Ballycotton and Shanagarry in County Cork, as well as Tacumshin in County Wexford are reliable sites. Very few records from November to July. ",
     "wintering_habits": "Wintering:andThe majority of the European population of Little Gulls winter along the coasts of the North and Irish Seas, as well as the Mediterranean. Little Gulls are most frequently observed off the East coast, with smaller numbers present along the south coast. Rare in the north and west of Ireland."
   },
@@ -1375,8 +1375,8 @@
     "image_thumb": "mallardthumb",
     "latin": "Anas platyrhynchos",
     "name": "Mallard",
-    "status": "Resident, winter migrant from Iceland, Fennoscandia, Russia, Poland, Denmark, Germany, The Netherlands, Belgium and; France. Additional captive-bred birds are released each year for hunting. ",
-    "where_to_see": "Loughs Neagh and; Beg in County Antrim, Wexford Harbour and; Slobs in County Wexford, Lough Foyle in County Derry, Strangford Lough in County Down and Lough Swilly in County Donegal are among the top wintering sites (1,000-5,500 birds).",
+    "status": "Resident, winter migrant from Iceland, Fennoscandia, Russia, Poland, Denmark, Germany, The Netherlands, Belgium and France. Additional captive-bred birds are released each year for hunting. ",
+    "where_to_see": "Loughs Neagh and Beg in County Antrim, Wexford Harbour and Slobs in County Wexford, Lough Foyle in County Derry, Strangford Lough in County Down and Lough Swilly in County Donegal are among the top wintering sites (1,000-5,500 birds).",
     "wintering_habits": "Mallard are the most widespread species, although not quite as numerous as Wigeon or Teal. They occur in almost all available wetland habitats in Ireland. "
   },
   {
@@ -1409,7 +1409,7 @@
     "breeding": "Very widespread breeding species in Ireland, with around 500,000 to 1,000,000 pairs. Found in bogs, uplands and areas of scrub and pasture.",
     "conservation": "Green-listed in Ireland. The European popul;ation is considered to be Secure.",
     "diet": "Feeds on Invertebrates such as craneflies, mayflies and spiders and to a lesser extent on seeds.",
-    "identification": "",
+    "identification": "A very non-descript bird when seen in the field. Meadow Pipits are brown above with black streaking on a white breast and belly. The beak and legs are pinkish. It looks very similar to a Skylark, but that species is slightly larger than a Meadow Pipit and has a broad white stripe above the eye. Rock Pipit is dark grey on the back and has much denser dark streaking on the breast",
     "image_large": "meadowpipit",
     "image_thumb": "meadowpipitthumb",
     "latin": "Anthus pratensis",
@@ -1427,7 +1427,7 @@
     "image_thumb": "mediterraneangullthumb",
     "latin": "Larus melanocephalus",
     "name": "Mediterranean Gull",
-    "status": "Breeds in small numbers in the south-east. Winter visitor from northwest France, Belgium and; the Netherlands, occurring from September to April.",
+    "status": "Breeds in small numbers in the south-east. Winter visitor from northwest France, Belgium and the Netherlands, occurring from September to April.",
     "where_to_see": "Common throughout Ireland.",
     "wintering_habits": "Present in Ireland as a wintering species in increasing numbers. Is widespread around the east coast and can also been seen elsewhere in smaller numbers. "
   },
@@ -1505,7 +1505,7 @@
     "image_thumb": "oystercatcherthumb",
     "latin": "Haematopus ostralegus",
     "name": "Oystercatcher",
-    "status": "Resident and; winter visitor (from Iceland and the Faeroes) - largest numbers in Ireland between September and; March",
+    "status": "Resident and winter visitor (from Iceland and the Faeroes) - largest numbers in Ireland between September and March",
     "where_to_see": "Dundalk Bay in County Louth, Strangford Lough in County Down, Belfast Lough in County Down, Dublin Bay in County Dublin and Lough Foyle in County Derry are among the most important wintering sites (each supporting 3,000-10,000 birds)",
     "wintering_habits": "Use all coastal habitats, and particularly favour open sandy coasts"
   },
@@ -1570,7 +1570,7 @@
     "image_thumb": "piedwagtailthumb",
     "latin": "Motacilla alba yarrellii",
     "name": "Pied Wagtail ",
-    "status": "          A common resident throughout Ireland..                                                                                                                ",
+    "status": "A common resident throughout Ireland",
     "where_to_see": "Not a difficult species to see. Often seen in fields along roads.",
     "wintering_habits": "Pied Flycatchers winter in central and southern Africa."
   },
@@ -1583,7 +1583,7 @@
     "image_thumb": "pinkfootedgoosethumb",
     "latin": "Anser brachyrhynchus",
     "name": "Pink-footed Goose ",
-    "status": "          A common resident throughout Ireland..                                                                                                                ",
+    "status": "A common resident throughout Ireland.",
     "where_to_see": "Not a difficult species to see. Often seen in fields along roads.",
     "wintering_habits": "Pied Flycatchers winter in central and southern Africa."
   },
@@ -1609,8 +1609,8 @@
     "image_thumb": "pochardthumb",
     "latin": "Aythya ferina",
     "name": "Pochard",
-    "status": "Scarce summer visitor and widespread winter migrant - most occur between October and; February.",
-    "where_to_see": "Loughs Neagh and; Beg in County Antrim and Lough Corrib in County Galway support almost 25,000 birds and 12,000 birds respectively. Lough Derravaragh in County Westmeath, Lough Ennell in County Westmeath and Lough Kinale and; Derragh Lough in County Longford are other important wintering sites (1,000- 3,000 birds).",
+    "status": "Scarce summer visitor and widespread winter migrant - most occur between October and February.",
+    "where_to_see": "Loughs Neagh and Beg in County Antrim and Lough Corrib in County Galway support almost 25,000 birds and 12,000 birds respectively. Lough Derravaragh in County Westmeath, Lough Ennell in County Westmeath and Lough Kinale and Derragh Lough in County Longford are other important wintering sites (1,000- 3,000 birds).",
     "wintering_habits": "Show a preference for large shallow eutrophic waters, particularly those with well-vegetated marshes and swamps and slow flowing rivers."
   },
   {
@@ -1635,7 +1635,7 @@
     "image_thumb": "purplesandpiperthumb",
     "latin": "Calidris maritima",
     "name": "Purple Sandpiper",
-    "status": "Winter visitor from NE Canada, Greenland, Scandinavia, Russia and; Siberia - most occur between September and; April.",
+    "status": "Winter visitor from NE Canada, Greenland, Scandinavia, Russia and Siberia - most occur between September and April.",
     "where_to_see": "Quilty in County Clare is the best site (up to 300 birds), Outer Ards in County Down, Rockabill, Skerries, Howth, Dun Laoghaire harbour and the Dalkey Islands (County Dublin) and Annagh Head (County Mayo) also support high numbers (35- 95 birds).",
     "wintering_habits": "Occurs at many rocky shore sites and harbours all around the coast. "
   },
@@ -1672,7 +1672,7 @@
     "identification": "Our largest breeding songbird, slightly larger than a Buzzard. In all plumages, the body, legs and bill are black. In flight, has long and rather narrow wings, with a distinctive wedge-shaped tail. Soars occasionally and performs aerobatics. ",
     "image_large": "razorbill",
     "image_thumb": "razorbillthumb",
-    "latin": "",
+    "latin": "Alca torda",
     "name": "Razorbill",
     "status": "Widespread resident throughout Ireland, especially in upland areas.",
     "where_to_see": "Widespread in Ireland. Connemara and Wicklow National Parks are good sites to see Ravens in Ireland. ",
@@ -1701,7 +1701,7 @@
     "latin": "Mergus serrator",
     "name": "Red-breasted Merganser",
     "status": "Resident and winter visitor from the Continent",
-    "where_to_see": "Top wintering sites each support 150-250 birds and include Inner Galway Bay in County Galway, Strangford Lough in County Down, Wexford Harbour and; Slobs in County Wexford and Larne Lough in County Antrim. ",
+    "where_to_see": "Top wintering sites each support 150-250 birds and include Inner Galway Bay in County Galway, Strangford Lough in County Down, Wexford Harbour and Slobs in County Wexford and Larne Lough in County Antrim. ",
     "wintering_habits": "Winter exclusively in brackish and marine waters, particularly in shallow protected estuaries and bays and lagoons, and also offshore. "
   },
   {
@@ -1714,7 +1714,7 @@
     "latin": "Podiceps grisegena",
     "name": "Red-necked Grebe ",
     "status": "Rare winter visitor to coastal areas from October to March",
-    "where_to_see": "Top wintering sites each support 150-250 birds and include Inner Galway Bay in County Galway, Strangford Lough in County Down, Wexford Harbour and; Slobs in County Wexford and Larne Lough in County Antrim. ",
+    "where_to_see": "Top wintering sites each support 150-250 birds and include Inner Galway Bay in County Galway, Strangford Lough in County Down, Wexford Harbour and Slobs in County Wexford and Larne Lough in County Antrim. ",
     "wintering_habits": "Winter exclusively in brackish and marine waters, particularly in shallow protected estuaries and bays and lagoons, and also offshore. "
   },
   {
@@ -1727,11 +1727,11 @@
     "latin": "Tringa totanus",
     "name": "Redshank",
     "status": "Resident, winter visitor from Iceland  and passage migrant (birds on passage from Scandinavia/the Baltic  breeding areas to west African wintering areas). Highest numbers occur  during the early autumn, when there is overlap of the populations.",
-    "where_to_see": "Strangford Lough in County Down, Shannon and; Fergus Estuary in County Clare, Cork Harbour in County Cork, Belfast Lough in County Down, Dundalk Bay in County Louth and Dublin Bay in County Dublin support highest numbers (2,000- 4,000 birds).",
+    "where_to_see": "Strangford Lough in County Down, Shannon and Fergus Estuary in County Clare, Cork Harbour in County Cork, Belfast Lough in County Down, Dundalk Bay in County Louth and Dublin Bay in County Dublin support highest numbers (2,000- 4,000 birds).",
     "wintering_habits": "Winters all around the coasts of Ireland, Britain and many European countries. Favours mudflats, large estuaries and inlets. Smaller numbers at inland lakes and large rivers."
   },
   {
-    "breeding": "Breeding:andBreeds in extensive insect-rich broadleaf forests in Ireland; in Continental Europe in parks, gardens and pine forests (Scandinavia). Will use nest-boxes. ",
+    "breeding": "Breeding:andBreeds in extensive insect-rich broadleaf forests in Ireland in Continental Europe in parks, gardens and pine forests (Scandinavia). Will use nest-boxes. ",
     "conservation": "Red-listed in Ireland, due to its small and declining breeding population. The European population has been evaluated as Declining, due to a moderate continuing decline.",
     "diet": "Insects. Feeds mostly in the tree canopy during the breeding season. Migrants feed on the ground when found at coastal headlands.",
     "identification": "The same size as Robin and Black Redstart. Like the latter species, has rusty red undertail coverst and tail, which is frequently shivered. Adult males are very distinctive, having a blackish face and throat, with an obvious white stripe from the eye across the forehead. The back and mantle are grey, while the underparts are a deep rufous-brown. Adult females and juveniles are inseperable, being a beige brown colour all over. ",
@@ -1740,7 +1740,7 @@
     "latin": "Phoenicurus phoenicurus",
     "name": "Common Redstart",
     "status": "Rare summer visitor to decidous woodlands in County Wicklow. Scarce passage in spring and autumn mainly to eastern and southern coasts.",
-    "where_to_see": "Strangford Lough in County Down, Shannon and; Fergus Estuary in County Clare, Cork Harbour in County Cork, Belfast Lough in County Down, Dundalk Bay in County Louth and Dublin Bay in County Dublin support highest numbers (2,000- 4,000 birds).",
+    "where_to_see": "Strangford Lough in County Down, Shannon and Fergus Estuary in County Clare, Cork Harbour in County Cork, Belfast Lough in County Down, Dundalk Bay in County Louth and Dublin Bay in County Dublin support highest numbers (2,000- 4,000 birds).",
     "wintering_habits": "Winters in tropical Africa. "
   },
   {
@@ -1830,8 +1830,8 @@
     "image_thumb": "ringedploverthumb",
     "latin": "Charadrius hiaticula",
     "name": "Ringed Plover",
-    "status": "Resident and; winter visitor from areas further north where this population also breeds (Iceland, the Baltic and; southern Scandinavia). Peak numbers between August and early October, and then numbers decline slightly (passage birds move further south) and stabilise between November and January.",
-    "where_to_see": "The Mullet, Broadhaven and; Blacksod Bays in County Mayo, Outer Ards in County Down, Tralee Bay, Lough Gill and; Akeragh Lough in County Kerry, Dublin Bay in County Dublin and Inner Galway Bay in County Galway are among the most important wintering sites (250-450 birds).",
+    "status": "Resident and winter visitor from areas further north where this population also breeds (Iceland, the Baltic and southern Scandinavia). Peak numbers between August and early October, and then numbers decline slightly (passage birds move further south) and stabilise between November and January.",
+    "where_to_see": "The Mullet, Broadhaven and Blacksod Bays in County Mayo, Outer Ards in County Down, Tralee Bay, Lough Gill and Akeragh Lough in County Kerry, Dublin Bay in County Dublin and Inner Galway Bay in County Galway are among the most important wintering sites (250-450 birds).",
     "wintering_habits": "Winter around the entire coastline, but are quite sparse along the north and southeast coasts. Mostly recorded along sandy stretches or along the upper shores of estuaries andandnon-estuarine coastline "
   },
   {
@@ -1934,8 +1934,8 @@
     "image_thumb": "ruffthumb",
     "latin": "Philomachus pugnax",
     "name": "Ruff",
-    "status": "Scarce spring and; autumn passage migrant - occurs while moving from Siberia/Central Europe south to winter in Africa.",
-    "where_to_see": "Tacumshin and; Lady's Island Lake (County Wexford), Malahide Estuary (County Dublin), Dundalk Docks (County Louth). Other sites for small numbers include Ballycotton (County Cork) and Kilcoole (County Wicklow) are the most regular sites.",
+    "status": "Scarce spring and autumn passage migrant - occurs while moving from Siberia/Central Europe south to winter in Africa.",
+    "where_to_see": "Tacumshin and Lady's Island Lake (County Wexford), Malahide Estuary (County Dublin), Dundalk Docks (County Louth). Other sites for small numbers include Ballycotton (County Cork) and Kilcoole (County Wicklow) are the most regular sites.",
     "wintering_habits": "Occurs on fresh and brackish water. Sociable."
   },
   {
@@ -1973,8 +1973,8 @@
     "image_thumb": "sanderlingthumb",
     "latin": "Calidris alba",
     "name": "Sanderling",
-    "status": "Winter visitor. Most birds wintering in Ireland are of Siberian origin, while birds on passage are Nearctic, and pass through on their way towards more southerly wintering areas as far as South Africa. First seen along the Irish coastline in July or August, though most arrive in Ireland between September and; April.",
-    "where_to_see": "Dublin Bay in County Dublin, Castlemaine Harbour and; Rossbehy in County Kerry, Drumcliff Bay in County Sligo, Wexford Harbour and; Slobs in County Wexford and Tralee Bay, Lough Gill and; Akeragh Lough in County Kerry (250-450 birds).",
+    "status": "Winter visitor. Most birds wintering in Ireland are of Siberian origin, while birds on passage are Nearctic, and pass through on their way towards more southerly wintering areas as far as South Africa. First seen along the Irish coastline in July or August, though most arrive in Ireland between September and April.",
+    "where_to_see": "Dublin Bay in County Dublin, Castlemaine Harbour and Rossbehy in County Kerry, Drumcliff Bay in County Sligo, Wexford Harbour and Slobs in County Wexford and Tralee Bay, Lough Gill and Akeragh Lough in County Kerry (250-450 birds).",
     "wintering_habits": "Sanderling are mostly found along sandy coastlines, especially non-estuarine. "
   },
   {
@@ -2000,7 +2000,7 @@
     "latin": "Anas marila",
     "name": "Scaup",
     "status": "Winter visitor, from Iceland, northern Europe and western Siberia, mostly occurring between November and April.",
-    "where_to_see": "Loughs Neagh and; Beg in County Antrim by far the most important, supporting almost 4,000 birds. Tralee Bay, Lough Gill and; Akeragh Lough in County Kerry, Carlingford Lough in County Down, Wexford Harbour and; Slobs in County Wexford and Belfast Lough in County Antrim are other important wintering sites (200-900 birds).",
+    "where_to_see": "Loughs Neagh and Beg in County Antrim by far the most important, supporting almost 4,000 birds. Tralee Bay, Lough Gill and Akeragh Lough in County Kerry, Carlingford Lough in County Down, Wexford Harbour and Slobs in County Wexford and Belfast Lough in County Antrim are other important wintering sites (200-900 birds).",
     "wintering_habits": "Scaup occur mostly in small parties and occasionally larger flocks around coastal estuaries and bays, on brackish lagoons and in shallow marine waters, usually less than 10 m in depth."
   },
   {
@@ -2039,7 +2039,7 @@
     "latin": "Tadorna tadorna",
     "name": "Shelduck",
     "status": "Resident and winter migrant - Ireland receives additional birds during the winter (October to March) from Scandinavia and the Baltic. ",
-    "where_to_see": "Shelduck have an almost entirely coastal distribution during the winter. Strangford Lough in County Down is the most important site (andgt;3,000 birds). Other important sites include Cork Harbour in County Cork, Shannon and; Fergus Estuary in County Clare and Dublin Bay in County Dublin (1,000-2,000 birds).",
+    "where_to_see": "Shelduck have an almost entirely coastal distribution during the winter. Strangford Lough in County Down is the most important site (andgt;3,000 birds). Other important sites include Cork Harbour in County Cork, Shannon and Fergus Estuary in County Clare and Dublin Bay in County Dublin (1,000-2,000 birds).",
     "wintering_habits": "Sheltered estuaries or tidal mudflats."
   },
   {
@@ -2064,7 +2064,7 @@
     "image_thumb": "shovelerthumb",
     "latin": "Anas clypeata",
     "name": "Shoveler",
-    "status": "Resident  and; winter migrant. Most occur between October and March. Wintering  birds originate from breeding populations which range across France, northern Europe, the Baltic and western Russia. Ireland and northern Britain also support the small Icelandic breeding population during the winter.",
+    "status": "Resident and winter migrant. Most occur between October and March. Wintering birds originate from breeding populations which range across France, northern Europe, the Baltic and western Russia. Ireland and northern Britain also support the small Icelandic breeding population during the winter.",
     "where_to_see": "Ballyallia Lake in County Clare, Little Brosna Callows in County Offaly, Southern Roscommon Lakes in County Roscommon and Lough Rea in County Galway are among the top wintering sites (200-400 birds).",
     "wintering_habits": "Shoveler prefer shallow eutrophic waters rich in plankton, and occur on a variety of habitats while wintering in Ireland, including coastal estuaries, lagoons and inland lakes and callows."
   },
@@ -2109,7 +2109,7 @@
   },
   {
     "breeding": "Breeding:andDoes not breed in Ireland. The majority of the European population breeds in northern Scandinavia and across Russia.",
-    "conservation": "     The Irish population has been Green-listed. The European breeding population of Slavonian Grebe has been evaluated as Declining due to a moderate recent decline. ",
+    "conservation": "The Irish population has been Green-listed. The European breeding population of Slavonian Grebe has been evaluated as Declining due to a moderate recent decline. ",
     "diet": "Diet:andDives for small fish such as minnows, plaice and Sandeels.",
     "identification": "Slightly smaller than Goldeneye. Adult males in breeding plumage are unmistakable, the head and neck being white with a black patch around the eye, as well as black lines on the back of the head and along the flanks. The rest of the body is a pale grey. Adult male Smew in eclipse plumage are similar to females, except for the black patch around the eye, as well as retaining some white on the head. Female and juvenile Smew are indistinguishable from each other and are colloquialy known as &quot;red-head&quot; Smew. They appear similar to a female Goldeneye, but can be recognised by the large white patch on the throat and the dark eye. ",
     "image_large": "smew",
@@ -2130,7 +2130,7 @@
     "latin": "Gallinago gallinago",
     "name": "Snipe",
     "status": "Summer visitor from west Europe and west Africa, winter visitor from Faeroe Islands, Iceland and northern Scotland.",
-    "where_to_see": "Underrecorded during surveys. Shannon and; Fergus Estuary in County Clare, Ballymacoda in County Cork and Tralee Bay, Lough Gill and; Akeragh Lough in Kerry have supported the highest numbers (andgt;150 birds).",
+    "where_to_see": "Underrecorded during surveys. Shannon and Fergus Estuary in County Clare, Ballymacoda in County Cork and Tralee Bay, Lough Gill and Akeragh Lough in Kerry have supported the highest numbers (andgt;150 birds).",
     "wintering_habits": "Highly dispersed distribution in winter. They forage across a variety of wetland and damp habitats. Particularly high concentrations are found on the fringes of lowland lakes "
   },
   {
@@ -2143,7 +2143,7 @@
     "latin": "Plectrophenax nivalis",
     "name": "Snow Bunting",
     "status": "Summer visitor from west Europe and west Africa, winter visitor from Faeroe Islands, Iceland and northern Scotland.",
-    "where_to_see": "Underrecorded during surveys. Shannon and; Fergus Estuary in County Clare, Ballymacoda in County Cork and Tralee Bay, Lough Gill and; Akeragh Lough in Kerry have supported the highest numbers (andgt;150 birds).",
+    "where_to_see": "Underrecorded during surveys. Shannon and Fergus Estuary in County Clare, Ballymacoda in County Cork and Tralee Bay, Lough Gill and Akeragh Lough in Kerry have supported the highest numbers (andgt;150 birds).",
     "wintering_habits": "Snow Buntings winter along the coast, mainly in the north and west of Ireland. Seen either singly or in small groups feeding along seashores, in dunes or tilled fields. Also recorded on the exposed tops of mountains, such as the Mournes and Wicklow Mountains."
   },
   {
@@ -2298,7 +2298,7 @@
     "image_thumb": "swallowthumb",
     "latin": "Hirundo rustica",
     "name": "Swallow",
-    "status": "     Widespread summer visitor throughout Ireland from mid-March to late-September.",
+    "status": "Widespread summer visitor throughout Ireland from mid-March to late-September.",
     "where_to_see": "Common throughout Ireland in the summer. Large flocks gather at wetland sites prior to migration.",
     "wintering_habits": "Swallows spend the winter in Southern Africa, migrating across the Mediterranean Sea and the Sahara Desert in spring and autumn."
   },
@@ -2324,8 +2324,8 @@
     "image_thumb": "tealthumb",
     "latin": "Anas crecca",
     "name": "Teal",
-    "status": "Resident and; winter migrant. Most of the Icelandic population winter in Ireland, and also some from Fennoscandia and northern Russia.",
-    "where_to_see": "Shannon and; Fergus Estuary in County Clare, Little Brosna Callows in County Offaly, Lough Ree in County Longford, Strangford Lough in County Down and Loughs Neagh and; Beg in County Antrim are among the best wintering sites (2,000- 3,000 birds on each).",
+    "status": "Resident and winter migrant. Most of the Icelandic population winter in Ireland, and also some from Fennoscandia and northern Russia.",
+    "where_to_see": "Shannon and Fergus Estuary in County Clare, Little Brosna Callows in County Offaly, Lough Ree in County Longford, Strangford Lough in County Down and Loughs Neagh and Beg in County Antrim are among the best wintering sites (2,000- 3,000 birds on each).",
     "wintering_habits": "Widespread on wetlands with good cover, such as reedbeds. Wide variety of habitats, both coastal and inland, and usually below an altitude of 200 metres, including coastal lagoons and estuaries and inland marshes, lakes, ponds and turloughs."
   },
   {
@@ -2337,8 +2337,8 @@
     "image_thumb": "treesparrowthumb",
     "latin": "Passer montanus",
     "name": "Tree Sparrow",
-    "status": "Resident and; winter migrant. Most of the Icelandic population winter in Ireland, and also some from Fennoscandia and northern Russia.",
-    "where_to_see": "Shannon and; Fergus Estuary in County Clare, Little Brosna Callows in County Offaly, Lough Ree in County Longford, Strangford Lough in County Down and Loughs Neagh and; Beg in County Antrim are among the best wintering sites (2,000- 3,000 birds on each).",
+    "status": "Resident and winter migrant. Most of the Icelandic population winter in Ireland, and also some from Fennoscandia and northern Russia.",
+    "where_to_see": "Shannon and Fergus Estuary in County Clare, Little Brosna Callows in County Offaly, Lough Ree in County Longford, Strangford Lough in County Down and Loughs Neagh and Beg in County Antrim are among the best wintering sites (2,000- 3,000 birds on each).",
     "wintering_habits": "Largely sedentary, but young birds may disperse to new areas. Occasionally joins large Finch flocks in stubble fields with spilt grain. "
   },
   {
@@ -2350,7 +2350,7 @@
     "image_thumb": "treecreeperthumb",
     "latin": "Certhia familiaris",
     "name": "Treecreeper",
-    "status": "Resident and; winter migrant. Most of the Icelandic population winter in Ireland, and also some from Fennoscandia and northern Russia.",
+    "status": "Resident and winter migrant. Most of the Icelandic population winter in Ireland, and also some from Fennoscandia and northern Russia.",
     "where_to_see": "Extensive broadleaf forests, such as found in Killarney  National Park or Portumna Forest Park are good areas to look for Treecreepers. ",
     "wintering_habits": "The majority of the population is resident with only local dispersal of young in autumn. Has recently been observed visiting peanut feeders.  "
   },
@@ -2363,14 +2363,14 @@
     "image_thumb": "tuftedduckthumb",
     "latin": "Aythya fuligula",
     "name": "Tufted Duck",
-    "status": "Resident and; winter visitor. Birds breeding in southeast England have been seen to move to Ireland, possibly influenced by cold weather.",
-    "where_to_see": "Loughs Neagh and; Beg in County Antrim the most important site, supporting andgt;20,000 birds. Lough Corrib in County Galway, Lough Ree in County Longford, Lough Ennell in County Westmeath and Lough Derg (Shannon) in County Tipperary are other important wintering sites (1,000-6,000 birds).",
+    "status": "Resident and winter visitor. Birds breeding in southeast England have been seen to move to Ireland, possibly influenced by cold weather.",
+    "where_to_see": "Loughs Neagh and Beg in County Antrim the most important site, supporting andgt;20,000 birds. Lough Corrib in County Galway, Lough Ree in County Longford, Lough Ennell in County Westmeath and Lough Derg (Shannon) in County Tipperary are other important wintering sites (1,000-6,000 birds).",
     "wintering_habits": "Lowland freshwater lakes. Often seen on town lakes, canals and slow-moving rivers."
   },
   {
     "breeding": "Does not breed in Ireland - breeding range all around shores of Scandinavia. Small numbers of non-breeding Turnstones (mainly first-summers) can be seen through the summer months.",
     "conservation": "Green-listed in Ireland. The European population is considered to be Secure.",
-    "diet": "Sandhoppers and; other marine invertebrates. Also fish carrion washed up on shore.",
+    "diet": "Sandhoppers and other marine invertebrates. Also fish carrion washed up on shore.",
     "identification": "The wader most likely to be found along our rocky shoreline. Mainly a winter visitor, but good numbers pass through Ireland in spring and autumn en route to/from arctic and subarctic breeding grounds. About the size of a Starling, with a stocky build and short orange legs. In winter, its dark brown upperparts, white underside and black breast crescent make it difficult to see amongst seaweed. Spring birds are brighter and show rich chestnut markings on the wing and back. In flight, Turnstones show a series of black and white stripes, resembling a miniature Oystercatcher. Usually occurs in small flocks, moving with head down, constantly flicking over seaweed fronds, pebbles and beach debris with its short, stubby bill, in search of sand hoppers and other invertebrates. ",
     "image_large": "turnstone",
     "image_thumb": "turnstonethumb",
@@ -2507,7 +2507,7 @@
     "latin": "Cygnus cygnus",
     "name": "Whooper Swan",
     "status": "Winter visitor to wetlands throughout Ireland from October to April.",
-    "where_to_see": "Relatively widespread, especially north and west of a line between Limerick and Dublin. Lough Swilly and; River Foyle (Co. Donegal) and Lough Foyle on the Donegal/Derry boundary, Lough Gara (Co. Sligo) and the Lough Oughter wetland complex all support greatest numbers (400-2,000 birds).",
+    "where_to_see": "Relatively widespread, especially north and west of a line between Limerick and Dublin. Lough Swilly and River Foyle (Co. Donegal) and Lough Foyle on the Donegal/Derry boundary, Lough Gara (Co. Sligo) and the Lough Oughter wetland complex all support greatest numbers (400-2,000 birds).",
     "wintering_habits": "Most on lowland open farmland around inland wetlands, regularly seen while feeding on grasslands and stubble."
   },
   {
@@ -2520,7 +2520,7 @@
     "latin": "Anas penelope",
     "name": "Wigeon",
     "status": "Common winter visitor to wetlands throughout Ireland from September and April",
-    "where_to_see": "Lough Foyle in County Derry, Little Brosna Callows in County Offaly, Castlemaine Harbour and; Rossbehy in County Kerry, Shannon and; Fergus Estuary in County Clare and Tacumshin Lake in County Wexford are among the top sites (5,000-9,000 birds).",
+    "where_to_see": "Lough Foyle in County Derry, Little Brosna Callows in County Offaly, Castlemaine Harbour and Rossbehy in County Kerry, Shannon and Fergus Estuary in County Clare and Tacumshin Lake in County Wexford are among the top sites (5,000-9,000 birds).",
     "wintering_habits": "Widespread - they occur on coastal marshes, freshwater and brackish lagoons, estuaries, bays. Many on inland wetlands,andlakes, rivers and turloughs. The Icelandic breeding component of this population winters mostly in Ireland and western Britain, though some continue on to parts of continental Europe."
   },
   {
@@ -2533,7 +2533,7 @@
     "latin": "Phylloscopus trochilus",
     "name": "Willow Warbler",
     "status": "A common summer visitor from April to September.",
-    "where_to_see": "Lough Foyle in County Derry, Little Brosna Callows in County Offaly, Castlemaine Harbour and; Rossbehy in County Kerry, Shannon and; Fergus Estuary in County Clare and Tacumshin Lake in County Wexford are among the top sites (5,000-9,000 birds).",
+    "where_to_see": "Lough Foyle in County Derry, Little Brosna Callows in County Offaly, Castlemaine Harbour and Rossbehy in County Kerry, Shannon and Fergus Estuary in County Clare and Tacumshin Lake in County Wexford are among the top sites (5,000-9,000 birds).",
     "wintering_habits": "Willow Warblers winter in central and southern Africa. "
   },
   {
@@ -2571,7 +2571,7 @@
     "image_thumb": "woodcockthumb",
     "latin": "Scolopax rusticola",
     "name": "Woodcock",
-    "status": "Resident and; winter visitor from Scandinavia and Russia.",
+    "status": "Resident winter visitor from Scandinavia and Russia.",
     "where_to_see": "Highly elusive, and underrecorded. Readily takes to coniferous plantations.",
     "wintering_habits": "Wider distribution in winter, occurring in woodland, also scrub and some open areas (bracken and heather-covered hills)."
   },

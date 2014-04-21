@@ -38,7 +38,6 @@
 
         <activity
             android:name="com.mickhearne.irishbirds.birds.ProfileActivty"
-            android:label="@string/title_activity_profile_activty"
             android:parentActivityName="com.mickhearne.irishbirds.birds.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

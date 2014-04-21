@@ -10,9 +10,20 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
+    signingConfigs {
+        release {
+            storeFile file("birds.jks")
+            storePassword "password"
+            keyAlias "birds"
+            keyPassword "password"
+        }
+    }
+
     buildTypes {
         release {
             runProguard false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }

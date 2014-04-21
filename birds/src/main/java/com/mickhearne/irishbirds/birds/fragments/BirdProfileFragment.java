@@ -98,6 +98,13 @@ public class BirdProfileFragment extends android.app.Fragment {
     }
 
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        getActivity().getActionBar().setTitle(bird.getName());
+    }
+
+
     private void refreshDisplay() {
 
 
@@ -183,6 +190,8 @@ public class BirdProfileFragment extends android.app.Fragment {
         switch (item.getItemId()) {
             case R.id.add_to_seen:
                 if (datasource.addToBirdsSeen(bird, HomeActivity.LAT, HomeActivity.LNG)) {
+                    checkLists();
+                    getActivity().invalidateOptionsMenu();
                     notifyUser(" added to Birds Seen List");
                 } else {
                     notifyUser(" not added to Birds Seen List");
@@ -190,6 +199,8 @@ public class BirdProfileFragment extends android.app.Fragment {
                 break;
             case R.id.add_to_wishlist:
                 if (datasource.addToWishList(bird)) {
+                    checkLists();
+                    getActivity().invalidateOptionsMenu();
                     notifyUser(" added to Wishlist");
                 } else {
                     notifyUser(" not added to Wishlist");
@@ -201,7 +212,8 @@ public class BirdProfileFragment extends android.app.Fragment {
             case R.id.delete_from_seen:
                 if (isBirdsSeen) {
                     if (datasource.removeFromBirdsSeen(bird)) {
-                        getActivity().finish();
+                        checkLists();
+                        getActivity().invalidateOptionsMenu();
                         notifyUser(" removed from Birds Seen List");
                     } else {
                         notifyUser(" not removed from Birds Seen list");
@@ -210,7 +222,8 @@ public class BirdProfileFragment extends android.app.Fragment {
             case R.id.delete_from_wish:
                 if (isWishlist) {
                     if (datasource.removeFromWishList(bird)) {
-                        getActivity().finish();
+                        checkLists();
+                        getActivity().invalidateOptionsMenu();
                         notifyUser(" removed from Wishlist");
                     } else {
                         notifyUser(" not removed from Wishlist");
