@@ -13,7 +13,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file("birds.jks")
+            storeFile file("birds.keystore")
             storePassword "password"
             keyAlias "birds"
             keyPassword "password"
@@ -22,7 +22,7 @@ android {
 
     buildTypes {
         release {
-            runProguard false
+            runProguard true
             signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }

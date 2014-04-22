@@ -149,8 +149,8 @@ public class BirdProfileFragment extends android.app.Fragment {
 
 
     private void checkLists() {
-        isWishlist = datasource.checkWishlist(bird.getId());
         isBirdsSeen = datasource.checkSeenlist(bird.getId());
+        isWishlist = datasource.checkWishlist(bird.getId());
     }
 
 
@@ -171,18 +171,6 @@ public class BirdProfileFragment extends android.app.Fragment {
         menu.findItem(R.id.share_sighting).setVisible(true);
         super.onCreateOptionsMenu(menu, inflater);
     }
-
-
-//    @Override
-//    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-//        inflater.inflate(R.menu.departures, menu);
-//        MenuItem item = menu.findItem(R.id.add_departure);
-//        if (MyFlightsDatasource.checkMyFlights(flight)) {
-//            if (null != item) {
-//                item.setIcon(R.drawable.departures_save_btn_highlight);
-//            }
-//        }
-//    }
 
 
     @Override
@@ -219,6 +207,7 @@ public class BirdProfileFragment extends android.app.Fragment {
                         notifyUser(" not removed from Birds Seen list");
                     }
                 }
+                break;
             case R.id.delete_from_wish:
                 if (isWishlist) {
                     if (datasource.removeFromWishList(bird)) {

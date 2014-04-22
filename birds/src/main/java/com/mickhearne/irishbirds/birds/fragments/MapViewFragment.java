@@ -1,7 +1,11 @@
 package com.mickhearne.irishbirds.birds.fragments;
 
 import android.app.Fragment;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.os.Bundle;
+import android.util.Base64;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,6 +22,8 @@ import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
 import com.mickhearne.irishbirds.birds.model.BirdsSeenModel;
 import com.mickhearne.irishbirds.birds.utilities.MyToast;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.List;
 
 public class MapViewFragment extends Fragment {
@@ -56,6 +62,8 @@ public class MapViewFragment extends Fragment {
 
         birdsSeen = datasource.findBirdsForMap();
 
+        getShaKey();
+
         try {
             // Loading map
             initilizeMap();
@@ -65,6 +73,33 @@ public class MapViewFragment extends Fragment {
 
         return v;
     }
+
+
+
+
+    private void getShaKey() {
+
+        try {
+            PackageInfo info = getActivity().getPackageManager().getPackageInfo("com.mickhearne.irishbirds.birds",
+                    PackageManager.GET_SIGNATURES);
+            for (Signature signature : info.signatures) {
+                MessageDigest md = MessageDigest.getInstance("SHA");
+                md.update(signature.toByteArray());
+                Log.v("birds", "KeyHash--------------------------:" + Base64.encodeToString(md.digest(),
+                        Base64.DEFAULT));
+            }
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+
+        }
+
+    }
+
+
+
 
 
     private void initilizeMap() {

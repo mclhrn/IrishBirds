@@ -26,7 +26,8 @@
         </activity>
         <activity
             android:name="com.mickhearne.irishbirds.birds.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
         </activity>
 
         <meta-data
