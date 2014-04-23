@@ -39,6 +39,7 @@
         <item>   Birds I\'ve Seen</item>
         <item>   My Wishlist</item>
         <item>    Map View</item>
+        <item>   Feedback</item>
     </string-array>
 
     <string name="bird_button"></string>
@@ -46,5 +47,11 @@
     <string name="wish_button"></string>
     <string name="map_button"></string>
     <string name="title_activity_profile_activty">ProfileActivty</string>
+    <string name="dialog_text">"Thank you for using Irish Birds. \n\nIf you have any positive or negative feedback, or if you have any suggestions or feature requests, please visit the Google Play Store and rate the app."</string>
+    <string name="dialog_positive">Rate</string>
+    <string name="dialog_negative">Not now</string>
+    <string name="dialog_title">Rate Irish Birds</string>
+    <string name="couldnt_launch_market">Problem connecting to Google Play</string>
+    <string name="title_activity_birds">BirdsActivity</string>
 
 </resources>

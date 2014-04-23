@@ -112,6 +112,8 @@ public class NavigationDrawerFragment extends Fragment {
         navDrawerItems.add(new NavDrawerItem(navMenuTitles[2]/*, true, "22"*/));
         // Map
         navDrawerItems.add(new NavDrawerItem(navMenuTitles[3]));
+        // Feedback
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[4]));
 
         mDrawerListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

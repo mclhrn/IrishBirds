@@ -1,28 +1,27 @@
 package com.mickhearne.irishbirds.birds;
 
 import android.app.ActionBar;
+import android.app.DialogFragment;
 import android.app.Fragment;
 import android.app.FragmentManager;
-import android.app.FragmentTransaction;
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
-import android.util.Log;
-import android.view.Menu;
 import android.support.v4.widget.DrawerLayout;
+import android.util.Log;
+import android.widget.Toast;
 
-//import com.mickhearne.irishbirds.birds.fragments.BirdsSeenFragment;
-//import com.mickhearne.irishbirds.birds.fragments.BirdsWishFragment;
-//import com.mickhearne.irishbirds.birds.fragments.MapsActivity;
 import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
 import com.mickhearne.irishbirds.birds.fragments.BirdProfileFragment;
+import com.mickhearne.irishbirds.birds.fragments.BirdsFragment;
 import com.mickhearne.irishbirds.birds.fragments.BirdsSeenFragment;
 import com.mickhearne.irishbirds.birds.fragments.BirdsWishlistFragment;
+import com.mickhearne.irishbirds.birds.fragments.FeedbackFragment;
 import com.mickhearne.irishbirds.birds.fragments.MapViewFragment;
 import com.mickhearne.irishbirds.birds.fragments.NavigationDrawerFragment;
-import com.mickhearne.irishbirds.birds.fragments.BirdsFragment;
 import com.mickhearne.irishbirds.birds.model.Bird;
 import com.mickhearne.irishbirds.birds.utilities.MyToast;
 
@@ -32,7 +31,8 @@ public class MainActivity extends FragmentActivity
         BirdsFragment.OnBirdSelectedListener,
         BirdsSeenFragment.OnBirdSeenSelectedListener,
         BirdsWishlistFragment.OnBirdWishSelectedListener,
-        BirdProfileFragment.OnFragmentInteractionListener {
+        BirdProfileFragment.OnFragmentInteractionListener,
+        FeedbackFragment.DialogClickListener {
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
@@ -55,6 +55,7 @@ public class MainActivity extends FragmentActivity
 
     private BirdsDataSource datasource;
 
+
     public static Intent getInstance() {
         if (instance == null) {
             instance = new Intent(context, MainActivity.class);
@@ -68,7 +69,6 @@ public class MainActivity extends FragmentActivity
     public void onSaveInstanceState(Bundle savedState) {
         super.onSaveInstanceState(savedState);
         savedState.putInt("fragmentNumber", currentFrag);
-        Log.i("birds", "Firing saved instance state!!!!");
     }
 
 
@@ -84,7 +84,6 @@ public class MainActivity extends FragmentActivity
 
         if (null != savedInstanceState) {
             currentFrag = savedInstanceState.getInt("fragmentNumber");
-            Log.i("birds", "Firing saved instance state from onCreate and currentFrag = " + currentFrag);
         }
 
         addDrawer();
@@ -110,6 +109,7 @@ public class MainActivity extends FragmentActivity
 //            }
 //        }
     }
+
 
     private void addDrawer() {
 
@@ -139,15 +139,15 @@ public class MainActivity extends FragmentActivity
         switch (position) {
             case 0:
                 fragment = BirdsFragment.newInstance();
-                currentFrag = position;
+                loadFragment(fragment, position);
                 break;
             case 1:
                 fragment = BirdsSeenFragment.newInstance();
-                currentFrag = position;
+                loadFragment(fragment, position);
                 break;
             case 2:
                 fragment = BirdsWishlistFragment.newInstance();
-                currentFrag = position;
+                loadFragment(fragment, position);
                 break;
             case 3:
                 try {
@@ -156,15 +156,23 @@ public class MainActivity extends FragmentActivity
                         getFragmentManager().beginTransaction().remove(fragment).commit();
                     }
                     fragment = new MapViewFragment();
-                    currentFrag = position;
+                    loadFragment(fragment, position);
                 } catch (IllegalStateException e) {
                     Log.i("DAA", "Fail destroying Map Fragment");
                 }
                 break;
+            case 4:
+                showDialog();
+                break;
             default:
                 break;
         }
+    }
+
+
+    public void loadFragment(Fragment fragment, int position) {
         if (fragment != null) {
+            currentFrag = position;
             FragmentManager fragmentManager = getFragmentManager();
             fragmentManager.beginTransaction()
                     .replace(R.id.container, fragment)
@@ -208,8 +216,41 @@ public class MainActivity extends FragmentActivity
     }
 
 
+    // Profile screen override - empty for now
     @Override
     public void onFragmentInteraction(String screen) {
 
+    }
+
+    // Display feedback dialog
+    void showDialog() {
+        DialogFragment newFragment = FeedbackFragment.newInstance();
+        newFragment.show(getFragmentManager(), "dialog");
+    }
+
+
+    @Override
+    public void onPositiveClick() {
+        launchMarket();
+    }
+
+
+    @Override
+    public void onNegativeClick() {
+
+        // Do Nothing
+
+    }
+
+
+    // Launch Google Play to rate app
+    private void launchMarket() {
+        Uri uri = Uri.parse("market://details?id=" + getPackageName());
+        Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
+        try {
+            startActivity(goToMarket);
+        } catch (ActivityNotFoundException e) {
+            MyToast.showToast("Problem connecting to Google Play");
+        }
     }
 }

@@ -62,8 +62,6 @@ public class MapViewFragment extends Fragment {
 
         birdsSeen = datasource.findBirdsForMap();
 
-        getShaKey();
-
         try {
             // Loading map
             initilizeMap();
@@ -73,33 +71,6 @@ public class MapViewFragment extends Fragment {
 
         return v;
     }
-
-
-
-
-    private void getShaKey() {
-
-        try {
-            PackageInfo info = getActivity().getPackageManager().getPackageInfo("com.mickhearne.irishbirds.birds",
-                    PackageManager.GET_SIGNATURES);
-            for (Signature signature : info.signatures) {
-                MessageDigest md = MessageDigest.getInstance("SHA");
-                md.update(signature.toByteArray());
-                Log.v("birds", "KeyHash--------------------------:" + Base64.encodeToString(md.digest(),
-                        Base64.DEFAULT));
-            }
-        } catch (PackageManager.NameNotFoundException e) {
-            e.printStackTrace();
-
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-
-        }
-
-    }
-
-
-
 
 
     private void initilizeMap() {
