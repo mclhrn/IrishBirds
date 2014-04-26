@@ -92,8 +92,9 @@ public class BirdProfileFragment extends android.app.Fragment {
     }
 
 
-    public void updateContent(Bird mBird) {
-        bird = mBird;
+    public void updateContent(Bird mBird, int bgColor) {
+        this.bird = mBird;
+        this.bgColor = bgColor;
         refreshDisplay();
     }
 

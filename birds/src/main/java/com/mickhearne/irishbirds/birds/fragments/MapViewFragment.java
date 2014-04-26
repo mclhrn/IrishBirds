@@ -1,9 +1,11 @@
 package com.mickhearne.irishbirds.birds.fragments;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
@@ -13,7 +15,9 @@ import android.view.ViewGroup;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.GoogleMapOptions;
 import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.mickhearne.irishbirds.birds.HomeActivity;
@@ -26,96 +30,61 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.List;
 
-public class MapViewFragment extends Fragment {
+public class MapViewFragment extends SupportMapFragment {
 
 
-    private View v;
+    private OnGoogleMapFragmentListener mCallback;
 
-    private BirdsDataSource datasource;
-
-    private List<BirdsSeenModel> birdsSeen;
-
-    private LatLng myMarker;
-
-    private static final LatLng CURRENT_LOC = new LatLng(HomeActivity.LAT, HomeActivity.LNG);
-
-    private GoogleMap map;
+    private static final String SUPPORT_MAP_BUNDLE_KEY = "MapOptions";
 
 
-    public MapViewFragment() {
-        // Required empty public constructor
+    public static interface OnGoogleMapFragmentListener {
+        void onMapReady(GoogleMap map);
     }
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+
+    public static MapViewFragment newInstance() {
+        return new MapViewFragment();
     }
 
+
+    public static MapViewFragment newInstance(GoogleMapOptions options) {
+        Bundle arguments = new Bundle();
+        arguments.putParcelable(SUPPORT_MAP_BUNDLE_KEY, options);
+
+        MapViewFragment fragment = new MapViewFragment();
+        fragment.setArguments(arguments);
+        return fragment;
+    }
+
+
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        v = inflater.inflate(R.layout.fragment_map, container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = super.onCreateView(inflater, container, savedInstanceState);
+        if (mCallback != null) {
+            mCallback.onMapReady(getMap());
+        }
+        return view;
+    }
 
-        datasource = new BirdsDataSource(getActivity());
 
-        datasource.open();
-
-        birdsSeen = datasource.findBirdsForMap();
-
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
         try {
-            // Loading map
-            initilizeMap();
-        } catch (Exception e) {
-            e.printStackTrace();
+            mCallback = (OnGoogleMapFragmentListener) getActivity();
+        } catch (ClassCastException e) {
+            throw new ClassCastException(getActivity().getClass().getName() + " must implement OnGoogleMapFragmentListener");
         }
-
-        return v;
-    }
-
-
-    private void initilizeMap() {
-        if (map == null) {
-            map = ((com.google.android.gms.maps.MapFragment) getFragmentManager().findFragmentById(R.id.map)).getMap();
-
-            // check if map is created successfully or not
-            if (map == null) {
-                MyToast.showToast("Sorry! unable to create maps");
-            } else {
-                addMarkers();
-            }
-        }
-    }
-
-    private void addMarkers() {
-        for (int i = 0; i < birdsSeen.size(); i++) {
-
-            map.addMarker(new MarkerOptions().position(myMarker = new LatLng(birdsSeen.get(i)
-                    .getLatitude(), birdsSeen.get(i)
-                    .getLongitude()))
-                    .title(birdsSeen.get(i).getName()));
-        }
-
-        map.addMarker(new MarkerOptions().position(CURRENT_LOC).title("You are here"));
-
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(CURRENT_LOC, 17));
-
-        // Zoom in, animating the camera.
-        map.animateCamera(CameraUpdateFactory.zoomTo(14), 2000, null);
-
-    }
-
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        datasource.open();
-        initilizeMap();
     }
 
 
     @Override
     public void onPause() {
         super.onPause();
-        datasource.close();
+
+        if (getMap() != null) {
+
+        }
     }
 }
