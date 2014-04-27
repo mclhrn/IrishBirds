@@ -150,10 +150,9 @@ public class HomeActivity extends Activity implements View.OnClickListener {
                 mIntent.putExtra("fragmentNumber", 2);
                 break;
             case R.id.map_icon:
-                mIntent.putExtra("fragmentNumber", 3);
+                mIntent = new Intent(this, MapsActivity.class);
                 break;
             default:
-
                 break;
         }
         startActivity(mIntent);

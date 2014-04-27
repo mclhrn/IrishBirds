@@ -4,7 +4,6 @@ import android.app.ActionBar;
 import android.app.DialogFragment;
 import android.app.Fragment;
 import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
@@ -13,25 +12,15 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
-import android.widget.Toast;
 
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
-import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
 import com.mickhearne.irishbirds.birds.fragments.BirdProfileFragment;
 import com.mickhearne.irishbirds.birds.fragments.BirdsFragment;
 import com.mickhearne.irishbirds.birds.fragments.BirdsSeenFragment;
 import com.mickhearne.irishbirds.birds.fragments.BirdsWishlistFragment;
 import com.mickhearne.irishbirds.birds.fragments.FeedbackFragment;
-import com.mickhearne.irishbirds.birds.fragments.MapViewFragment;
 import com.mickhearne.irishbirds.birds.fragments.NavigationDrawerFragment;
 import com.mickhearne.irishbirds.birds.model.Bird;
-import com.mickhearne.irishbirds.birds.model.BirdsSeenModel;
 import com.mickhearne.irishbirds.birds.utilities.MyToast;
-
-import java.util.List;
 
 
 public class MainActivity extends FragmentActivity
@@ -40,8 +29,7 @@ public class MainActivity extends FragmentActivity
         BirdsSeenFragment.OnBirdSeenSelectedListener,
         BirdsWishlistFragment.OnBirdWishSelectedListener,
         BirdProfileFragment.OnFragmentInteractionListener,
-        FeedbackFragment.DialogClickListener,
-        MapViewFragment.OnGoogleMapFragmentListener {
+        FeedbackFragment.DialogClickListener {
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
@@ -60,10 +48,6 @@ public class MainActivity extends FragmentActivity
     private int currentFrag;
 
     private boolean detailPage;
-
-    private GoogleMap mUIGoogleMap;
-
-    private MapViewFragment mapFrag = null;
 
 
     public static Intent getInstance() {
@@ -106,14 +90,6 @@ public class MainActivity extends FragmentActivity
             // We are in layout mode
             detailPage = true;
 
-
-            // TODO Sort out map layouts here
-
-
-            if (mapFrag != null) {
-                Log.i("birds", "Map Frag value is not null");
-            }
-
         } else {
 
             // Not in layout mode
@@ -151,46 +127,22 @@ public class MainActivity extends FragmentActivity
         switch (position) {
             case 0:
                 destroyFragment(fragment);
-
-
-                if (mapFrag != null) {
-                    mapFrag.onDestroyView();
-                }
-
-
-
                 fragment = BirdsFragment.newInstance();
                 loadFragment(fragment, position);
                 break;
             case 1:
                 destroyFragment(fragment);
-
-
-                if (mapFrag != null) {
-                    mapFrag.onDestroyView();
-                }
-
-
-
                 fragment = BirdsSeenFragment.newInstance();
                 loadFragment(fragment, position);
                 break;
             case 2:
                 destroyFragment(fragment);
-
-                if (mapFrag != null) {
-                    mapFrag.onDestroyView();
-                }
-
-                Log.i("birds", "Map Frag value is: " + mapFrag.toString());
-
                 fragment = BirdsWishlistFragment.newInstance();
                 loadFragment(fragment, position);
                 break;
             case 3:
-                currentFrag = position;
-                mapFrag = MapViewFragment.newInstance();
-                getSupportFragmentManager().beginTransaction().replace(R.id.container, mapFrag).commit();
+                Intent mIntent = new Intent(this, MapsActivity.class);
+                startActivity(mIntent);
                 break;
             case 4:
                 showDialog();
@@ -210,14 +162,6 @@ public class MainActivity extends FragmentActivity
             }
         } catch (IllegalStateException e) {
             Log.i("DAA", "Fail destroying List Fragment");
-        }
-        checkForMap();
-    }
-
-
-    private void checkForMap() {
-        if (mapFrag != null) {
-            getSupportFragmentManager().beginTransaction().remove(mapFrag).commit();
         }
     }
 
@@ -324,43 +268,5 @@ public class MainActivity extends FragmentActivity
         } catch (ActivityNotFoundException e) {
             MyToast.showToast("Problem connecting to Google Play");
         }
-    }
-
-
-    /**
-     * Map Stuff
-     */
-    @Override
-    public void onMapReady(GoogleMap map) {
-
-        mUIGoogleMap = map;
-
-        BirdsDataSource datasource = new BirdsDataSource(this);
-        datasource.open();
-
-        List<BirdsSeenModel> birdsSeen = datasource.findBirdsForMap();
-        addMarkers(birdsSeen);
-    }
-
-
-    // Add markers to Map
-    private void addMarkers(List<BirdsSeenModel> birdsSeen) {
-
-        LatLng myMarker;
-        LatLng CURRENT_LOC = new LatLng(HomeActivity.LAT, HomeActivity.LNG);
-
-        for (int i = 0; i < birdsSeen.size(); i++) {
-
-            mUIGoogleMap.addMarker(new MarkerOptions().position(myMarker = new LatLng(birdsSeen.get(i)
-                    .getLatitude(), birdsSeen.get(i)
-                    .getLongitude()))
-                    .title(birdsSeen.get(i).getName()));
-        }
-
-        mUIGoogleMap.addMarker(new MarkerOptions().position(CURRENT_LOC).title("You are here"));
-        mUIGoogleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(CURRENT_LOC, 17));
-
-        // Zoom in, animating the camera.
-        mUIGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(14), 2000, null);
     }
 }
