@@ -1,6 +1,7 @@
 package com.mickhearne.irishbirds.birds;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -13,6 +14,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
 import com.mickhearne.irishbirds.birds.model.Bird;
 import com.mickhearne.irishbirds.birds.utilities.JSONPullParser;
@@ -65,9 +68,28 @@ public class HomeActivity extends Activity implements View.OnClickListener {
         font = Typeface.createFromAsset(this.getApplicationContext().getAssets(),
                 "fonts/fontawesome-webfont.ttf");
 
-        initUI();
+        checkPlay();
 
         setLocation();
+    }
+
+    private void checkPlay() {
+        // Getting status
+        int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getBaseContext());
+
+        // Showing status
+        if(status == ConnectionResult.SUCCESS) {
+
+            Log.i("birds", "Play Installrd");
+            initUI();
+
+        } else {
+            Log.i("birds", "Play not Installrd");
+            int requestCode = 10;
+            Dialog dialog = GooglePlayServicesUtil.getErrorDialog(status, this, requestCode);
+            dialog.show();
+
+        }
     }
 
 

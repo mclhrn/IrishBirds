@@ -106,6 +106,14 @@ public class MainActivity extends FragmentActivity
             // We are in layout mode
             detailPage = true;
 
+
+            // TODO Sort out map layouts here
+
+
+            if (mapFrag != null) {
+                Log.i("birds", "Map Frag value is not null");
+            }
+
         } else {
 
             // Not in layout mode
@@ -143,22 +151,43 @@ public class MainActivity extends FragmentActivity
         switch (position) {
             case 0:
                 destroyFragment(fragment);
+
+
+                if (mapFrag != null) {
+                    mapFrag.onDestroyView();
+                }
+
+
+
                 fragment = BirdsFragment.newInstance();
                 loadFragment(fragment, position);
                 break;
             case 1:
                 destroyFragment(fragment);
+
+
+                if (mapFrag != null) {
+                    mapFrag.onDestroyView();
+                }
+
+
+
                 fragment = BirdsSeenFragment.newInstance();
                 loadFragment(fragment, position);
                 break;
             case 2:
                 destroyFragment(fragment);
+
+                if (mapFrag != null) {
+                    mapFrag.onDestroyView();
+                }
+
+                Log.i("birds", "Map Frag value is: " + mapFrag.toString());
+
                 fragment = BirdsWishlistFragment.newInstance();
                 loadFragment(fragment, position);
                 break;
             case 3:
-
-
                 currentFrag = position;
                 mapFrag = MapViewFragment.newInstance();
                 getSupportFragmentManager().beginTransaction().replace(R.id.container, mapFrag).commit();
