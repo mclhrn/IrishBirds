@@ -3,6 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/list_item_title"
     android:orientation="vertical">
 
 
@@ -41,54 +42,53 @@
                 android:id="@+id/birds_icon"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
+                android:layout_marginRight="3dp"
                 android:layout_weight="2"
                 android:background="@drawable/square_button_selector"
-                android:layout_marginRight="3dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:text="@string/bird_button"
-                android:textSize="26sp"
-                android:textColor="@color/home_toggle_text_color"/>
+                android:textColor="@color/home_toggle_text_color"
+                android:textSize="26sp" />
 
             <Button
                 android:id="@+id/birds_seen_icon"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
                 android:layout_weight="1"
                 android:background="@drawable/square_button_selector"
-                android:layout_marginLeft="3dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:text="@string/seen_button"
-                android:textSize="26sp"
                 android:textColor="@color/home_toggle_text_color"
-                android:layout_marginRight="3dp" />
+                android:textSize="26sp" />
 
             <Button
                 android:id="@+id/birds_wish_icon"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
                 android:layout_weight="1"
                 android:background="@drawable/square_button_selector"
-                android:layout_marginRight="3dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:text="@string/wish_button"
-                android:textSize="26sp"
                 android:textColor="@color/home_toggle_text_color"
-                android:layout_marginLeft="3dp" />
+                android:textSize="26sp" />
 
             <Button
                 android:id="@+id/map_icon"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
+                android:layout_marginLeft="3dp"
                 android:layout_weight="2"
                 android:background="@drawable/square_button_selector"
-                android:layout_marginLeft="3dp"
                 android:gravity="center_vertical|center_horizontal"
                 android:text="@string/map_button"
-                android:textSize="26sp"
-                android:textColor="@color/home_toggle_text_color"/>
+                android:textColor="@color/home_toggle_text_color"
+                android:textSize="26sp" />
 
         </LinearLayout>
-
 
 
     </LinearLayout>
