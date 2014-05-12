@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:background="@drawable/list_selector">
+
+<ImageView
+        android:id="@+id/thumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingRight="25dp"
+        android:paddingTop="8dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/list_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:singleLine="false"
+                android:textColor="#000000"
+                android:textIsSelectable="false"
+                android:textSize="16sp"
+                android:text="BIRD NAme Here"/>
+
+            <TextView
+                android:id="@+id/latin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666666"
+                android:textIsSelectable="false"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                android:text="And Latin here" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

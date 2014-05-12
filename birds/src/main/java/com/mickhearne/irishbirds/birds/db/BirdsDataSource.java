@@ -42,7 +42,7 @@ public class BirdsDataSource {
 	public void open() {
 		Log.i(LOGTAG, "Database Open.");
 		database = dbhelper.getWritableDatabase();
-	}
+    }
 
 	// close db
 	public void close() {

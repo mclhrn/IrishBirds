@@ -80,11 +80,9 @@ public class HomeActivity extends Activity implements View.OnClickListener {
         // Showing status
         if(status == ConnectionResult.SUCCESS) {
 
-            Log.i("birds", "Play Installrd");
             initUI();
 
         } else {
-            Log.i("birds", "Play not Installrd");
             int requestCode = 10;
             Dialog dialog = GooglePlayServicesUtil.getErrorDialog(status, this, requestCode);
             dialog.show();

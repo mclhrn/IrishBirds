@@ -2,6 +2,7 @@ package com.mickhearne.irishbirds.birds.fragments;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
@@ -107,7 +108,6 @@ public class BirdProfileFragment extends android.app.Fragment {
 
 
     private void refreshDisplay() {
-
 
         // Get handles to UI objects
         TextView tv = (TextView) v.findViewById(R.id.name);
