@@ -19,6 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
+            android:paddingLeft="50dp"
             android:orientation="horizontal">
 
             <TextView
@@ -40,20 +41,22 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:textIsSelectable="false"
-                    android:textColor="@color/text"
                     android:textSize="28sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textColor="@color/text"/>
 
                 <TextView
                     android:id="@+id/latin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:textColor="@color/text"
                     android:textIsSelectable="false"
                     android:textSize="14sp"
-                    android:textStyle="italic" />
+                    android:textStyle="italic"
+                    android:textColor="@color/text"/>
+
             </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
@@ -66,88 +69,118 @@
             android:paddingBottom="20dp"
             android:background="@color/profile_background">
 
-            <TextView
-                android:id="@+id/div_bar_2"
-                android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:background="#e19132"
-                android:text="@string/empty" />
+                <TextView
+                    android:id="@+id/div_bar_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#e19132"
+                    android:text="@string/empty" />
 
-            <ImageView
-                android:id="@+id/main_profile_image"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:adjustViewBounds="true"
-                android:contentDescription="@string/main_image"
-                android:src="@drawable/firecrest" />
+                <ImageView
+                    android:id="@+id/main_profile_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/main_image"
+                    android:src="@drawable/firecrest" />
 
-            <TextView
-                android:id="@+id/div_bar_3"
-                android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:background="#e19132"
-                android:text="@string/empty" />
+                <TextView
+                    android:id="@+id/div_bar_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="#e19132"
+                    android:text="@string/empty" />
 
         </LinearLayout>
+
 
 
         <!--Main Text-->
         <TextView
             style="@style/profile_sub_head"
-            android:text="@string/status_sub_head" />
+            android:text="@string/status_sub_head"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
 
         <TextView
+            android:id="@+id/status"
             style="@style/profile_body_text"
-            android:id="@+id/status" />
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
+
 
         <TextView
             style="@style/profile_sub_head"
-            android:text="@string/identification_sub_head" />
+            android:text="@string/identification_sub_head"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
 
         <TextView
+            android:id="@+id/identification"
             style="@style/profile_body_text"
-            android:id="@+id/identification" />
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
 
         <TextView
             style="@style/profile_sub_head"
-            android:text="@string/diet_sub_head" />
+            android:text="@string/diet_sub_head"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
 
         <TextView
+            android:id="@+id/diet"
             style="@style/profile_body_text"
-            android:id="@+id/diet" />
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
 
         <TextView
             style="@style/profile_sub_head"
-            android:text="@string/breeding_sub_head" />
+            android:text="@string/breeding_sub_head"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
 
         <TextView
+            android:id="@+id/breeding"
             style="@style/profile_body_text"
-            android:id="@+id/breeding" />
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
 
         <TextView
             style="@style/profile_sub_head"
-            android:text="@string/wintering_habits_sub_head" />
+            android:text="@string/wintering_habits_sub_head"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
 
         <TextView
+            android:id="@+id/wintering_habits"
             style="@style/profile_body_text"
-            android:id="@+id/wintering_habits" />
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
 
         <TextView
             style="@style/profile_sub_head"
-            android:text="@string/where_to_see_sub_head" />
+            android:text="@string/where_to_see_sub_head"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
 
         <TextView
+            android:id="@+id/where_to_see"
             style="@style/profile_body_text"
-            android:id="@+id/where_to_see" />
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
 
         <TextView
             style="@style/profile_sub_head"
-            android:text="@string/conservation_status_sub_head" />
+            android:text="@string/conservation_status_sub_head"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
 
         <TextView
+            android:id="@+id/conservation"
             style="@style/profile_body_text"
-            android:id="@+id/conservation" />
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"/>
 
         <TextView
             android:id="@+id/div_bar_4"
