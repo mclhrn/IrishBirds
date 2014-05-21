@@ -28,9 +28,9 @@
     "wintering_habits": "On the open ocean of the western Mediterranean and east Atlantic."
   },
   {
-    "breeding": "Breeding:andBreeds in ruined buildings, such as castles and to a lesser extent in outbuildings (barns/sheds). Will use special nest boxes. Breeding success heavily dependant on the availability of suitable prey. ",
+    "breeding": "Breeds in ruined buildings, such as castles and to a lesser extent in outbuildings (barns/sheds). Will use special nest boxes. Breeding success heavily dependant on the availability of suitable prey. ",
     "conservation": "Red-listed in Ireland due to a significant decline in the breeding population. The European population is currently evaluated as Declining.",
-    "diet": "Diet:andHunts small mammals and frogs. In Ireland, found to be very dependant on Greater White-tooted Shrew with other small mammals forming a much smaller percentage of prey caught. ",
+    "diet": "Hunts small mammals and frogs. In Ireland, found to be very dependant on Greater White-tooted Shrew with other small mammals forming a much smaller percentage of prey caught. ",
     "identification": "Rarely seen during the day, only active late at night. Most frequently seen flying across road in car head-lights. Appears a ghostly white, with no markings on the underwing - Long-eared Owl has a dark comma mark. Given a close view, shows a remarkably intricate patterning on the wings, back and head.  ",
     "image_large": "barnowl",
     "image_thumb": "barnowlthumb",
@@ -67,7 +67,7 @@
     "wintering_habits": "Wintering distribution entirely coastal. They are largely confined to estuaries, with largest numbers recorded on sandy estuaries. Small numbers recorded using non-estuarine coastline."
   },
   {
-    "breeding": "Breeding:andBreeds from Scandinavia eastwards across northern Asia.",
+    "breeding": "Breeds from Scandinavia eastwards across northern Asia.",
     "conservation": "Green-listed in Ireland. The European population has been evaluated as Secure.        ",
     "diet": "Feed along the tidal edge, or in shallow water (up to 15 cm depth). They usually commence feeding on an ebbing tide, and feed continuously for up to 6 hours. Polychaete worms, particularly lugworms, form a large proportion of their diet. On the muddier estuaries, where lugworms may be absent, they take ragworms and bivalves.",
     "identification": "Very similar to Greylag Goose and care is needed to separate the two species. Bean Goose differs from Greylag Goose by having a dark brown head and neck, as well as darker orange legs. The beak colouring also differs, with Bean Goose having a mainly dark beak with orangey tip.Frequently there is a white rim surrounding the bill as in Greenland White-fronted Goose. The wings also lack the large bluey-grey patches of the Greylag Goose. Two different types of Bean Goose have occured in Ireland: Tundra Bean Goose and Taiga Bean Goose. These differ in bill structure and colouring, with Tundra having a small dark beak (similar to Pink-footed Goose), whereas Taiga has a large, mainly orange-coloured beak. ",
@@ -106,7 +106,7 @@
     "wintering_habits": "Winters in the vicinity of its breeding sites and can be seen inshore throughout the year. "
   },
   {
-    "breeding": "Breeding:andDoes not breed in Ireland. The small breeding population in Britain (andlt;100 pairs) prefers bare areas in industrial estates and towns. In Continental Europe, breeds in towns, vineyards and rocky slopesin uplands. ",
+    "breeding": "Does not breed in Ireland. The small breeding population in Britain (andlt;100 pairs) prefers bare areas in industrial estates and towns. In Continental Europe, breeds in towns, vineyards and rocky slopesin uplands. ",
     "conservation": "Amber-listed, due to concerns over the European population, which is currently regarded as Depleted due to a moderate historical decline.",
     "diet": "Insects. Sits on exposed perch, before a hopping or flying a short distance to catch suitable prey.",
     "identification": "About the same size as a Robin and has a similar shape. In all plumages has rusty-red undertail coverts and tail, which is frequently shivered. Adult males are a glossy black on the head, back and underparts. Has a small white patch on the primaries. Juvenile and adult females are inseperable, being a mousy grey-brown colour all over. Very similar to female/juvenile Common Redstarts in this plumage, though the latter tend to be a more beige-brown colour. ",
@@ -223,17 +223,17 @@
     "wintering_habits": "Bramblings are winter visitors to Ireland, almost always associating with flocks of Chaffinches and other finches. Tends to be seen in rural areas, though will visit garden bird feeders. The numbers of Bramblings wintering in Ireland vary from year to year depending on the weather and availability of food in Continental Europe. Outside of Ireland, flocks of several million Bramblings have been recorded at favoured feeding sites in winter."
   },
   {
-    "breeding": "Breeding:andDark-bellied Brent Geese breed in the tundra of northern Siberia.",
+    "breeding": "Dark-bellied Brent Geese breed in the tundra of northern Siberia.",
     "conservation": "Green-listed in Ireland. The European population is regarded as Secure.",
-    "diet": "Diet:andFavoured food is eel-grass found in coastal estuaries. Dark-bellied Brent Geese also feed on other estuarine plants such as glassworts and sea aster, and to a lesser extent grasses and cereals.",
+    "diet": "Favoured food is eel-grass found in coastal estuaries. Dark-bellied Brent Geese also feed on other estuarine plants such as glassworts and sea aster, and to a lesser extent grasses and cereals.",
     "identification": "Very similar to the much commoner Light-bellied Brent Goose and care is needed to separate the two species. Dark-bellied Brent can identified by the darker and much more extensive grey colouring on the flanks and back. The white flank patch that is very obvious in Light-bellied Brent Goose is reduced to a stripe along the flanks. Juvenile Light-bellied Brent similarly show a lack of a white flank patch, however these have extensive white barring on the back, which is not shown by adults. ",
     "image_large": "brentgoosedarkbellied",
     "image_thumb": "brentgoosedarkbelliedthumb",
     "latin": "Branta bernicla bernicla",
     "name": "Brent Goose (dark-bellied)",
     "status": "A rare winter visitor with Light-bellied Brent Geese from October to March.",
-    "where_to_see": "Where to see:andThe large flocks of Brent Geese wintering on the North Slob and Kilcoole, Co. Wicklow regularly host one or two individuals in winter.",
-    "wintering_habits": "Wintering:andThe majority of Dark-bellied Brent Geese winter in the Netherlands, northern France and the United Kingdom. This sub-species is a rare winter visitor in Ireland, where it associates with Light-bellied Brent Geese at coastal sites (mainly estuaries)."
+    "where_to_see": "The large flocks of Brent Geese wintering on the North Slob and Kilcoole, Co. Wicklow regularly host one or two individuals in winter.",
+    "wintering_habits": "The majority of Dark-bellied Brent Geese winter in the Netherlands, northern France and the United Kingdom. This sub-species is a rare winter visitor in Ireland, where it associates with Light-bellied Brent Geese at coastal sites (mainly estuaries)."
   },
   {
     "breeding": "Nests in small, loose colonies by coastal tundra, with pools and small inlets.",
@@ -249,17 +249,17 @@
     "wintering_habits": "Mostly found on coastal estuaries during the autumn and early winter, and also on grasslands from mid-winter, until departure for the breeding grounds begins in late April."
   },
   {
-    "breeding": "Breeding:andDoes not breed in Ireland.andBuff-breasted Sandpipers breed in the extreme north of Alaska and Canada.",
+    "breeding": "Does not breed in Ireland.andBuff-breasted Sandpipers breed in the extreme north of Alaska and Canada.",
     "conservation": "Green-listedandin Ireland. The European population is considered to be Secure.",
-    "diet": "Diet:andMainly worms and other insects.",
+    "diet": "Mainly worms and other insects.",
     "identification": "Buff-breasted Sandpipers look very similar to juvenile Ruff. In comparison to Ruff, Buff-breasted Sandpiper is slightly smaller, has a shorter bill and has an all dark rump. The eye also appears larger, giving the bird a &quot;kinder&quot; expression. Otherwise has buffy brown coloured head and body, with a neat scaly pattern on the back and wings.  ",
     "image_large": "buffbreastedsandpiper",
     "image_thumb": "buffbreastedsandpiperthumb",
     "latin": "Tryngites subruficollis",
     "name": "Buff-breasted Sandpiper",
-    "status": "Status:andandA scarce passage migrant to the south and west coasts from July to October.",
-    "where_to_see": "Where to see:andTacumshin Lake in County Wexford is one of the most reliable sites for Buff-breasted Sandpipers in Ireland and even Europe. Up to a dozen individuals have been recorded and andone or two individuals are usually present from late August to October.",
-    "wintering_habits": "Wintering:andOn the Pampas of northern Argentina, Paraguay and Brazil.and"
+    "status": "A scarce passage migrant to the south and west coasts from July to October.",
+    "where_to_see": "Tacumshin Lake in County Wexford is one of the most reliable sites for Buff-breasted Sandpipers in Ireland and even Europe. Up to a dozen individuals have been recorded and andone or two individuals are usually present from late August to October.",
+    "wintering_habits": "On the Pampas of northern Argentina, Paraguay and Brazil.and"
   },
   {
     "breeding": "Breeds throughout Ireland, usually in hedgerows and deciduous woodland. . ",
@@ -270,8 +270,8 @@
     "image_thumb": "bullfinchthumb",
     "latin": "Pyrrhula pyrrhula",
     "name": "Bullfinch",
-    "status": "Status:andandA scarce passage migrant to the south and west coasts from July to October.",
-    "where_to_see": "Where to see:andTacumshin Lake in County Wexford is one of the most reliable sites for Buff-breasted Sandpipers in Ireland and even Europe. Up to a dozen individuals have been recorded and andone or two individuals are usually present from late August to October.",
+    "status": "A scarce passage migrant to the south and west coasts from July to October.",
+    "where_to_see": "Tacumshin Lake in County Wexford is one of the most reliable sites for Buff-breasted Sandpipers in Ireland and even Europe. Up to a dozen individuals have been recorded and andone or two individuals are usually present from late August to October.",
     "wintering_habits": "Widespread, especially in gardens."
   },
   {
@@ -504,9 +504,9 @@
     "image_thumb": "cuckoothumb",
     "latin": "Cuculus canorus",
     "name": "Cuckoo",
-    "status": "Status:andWidespread summer visitor to Ireland from April to August.",
-    "where_to_see": "Where to see:andOccurs throughout Ireland though nowhere especially common. Good areas to see Cuckoo are the Burren and Connemara, which hold the highest density of breeding pairs.",
-    "wintering_habits": "Wintering:andCuckoos winter in central and southern Africa."
+    "status": "Widespread summer visitor to Ireland from April to August.",
+    "where_to_see": "Occurs throughout Ireland though nowhere especially common. Good areas to see Cuckoo are the Burren and Connemara, which hold the highest density of breeding pairs.",
+    "wintering_habits": "Cuckoos winter in central and southern Africa."
   },
   {
     "breeding": "Nests on the ground in rough pastures, meadows and heather. Not a common breeder, but found in most parts of the country.",
@@ -675,37 +675,37 @@
     "name": "Garden Warbler",
     "status": "Scarce summer visitor to woodlands in the midlands and northern Ireland from April to September. Also a scarce passage migrant mainly in spring and autumn to headlands on southern and western coasts.",
     "where_to_see": "A trip to Gt. Skellig of the Kerry coast in the breeding season will pass by the colony of Little Skellig and affords spectacular views from the boat. A trip to the island of Great Saltee off the Wexford coast will give land based views of the small colony there. ",
-    "wintering_habits": "Wintering:andWinters in tropical Africa. A relatively common passage migrant to headlands along the south and west coast, chiefly in autumn.  "
+    "wintering_habits": "Winters in tropical Africa. A relatively common passage migrant to headlands along the south and west coast, chiefly in autumn.  "
   },
   {
-    "breeding": "Breeding:andOnly occasionally breeds in Ireland on well-vegetated ponds. Migrants can be seen anywhere in Ireland, though predominantly in the south and east. Garganey breed from Europe eastwards to Central Asia.",
+    "breeding": "Only occasionally breeds in Ireland on well-vegetated ponds. Migrants can be seen anywhere in Ireland, though predominantly in the south and east. Garganey breed from Europe eastwards to Central Asia.",
     "conservation": "Green-listed in Ireland. The European population is considered to be Secure.",
-    "diet": "Diet:andFeeds on a variety of plant seeds, pondweeds, grasses, as well as aquatic macro-invertebrates (beetles, midges).",
+    "diet": "Feeds on a variety of plant seeds, pondweeds, grasses, as well as aquatic macro-invertebrates (beetles, midges).",
     "identification": "Slightly larger than Teal. Adult males are very distinctive, having a broad white supercilium. The rest of the body is a warm brown, except for the densely barred greyish flanks. Adult female Garganey are very similar to female Teal, having a subtly different head pattern (small white supercilium and white throat patch). Also has a grey instead of the distinctive green of the Teal, though this requires close views in good light. Juvenile Garganey are very similar to females. ",
     "image_large": "garganey",
     "image_thumb": "garganeythumb",
     "latin": "Anas querquedula",
     "name": "Garganey",
-    "status": "Status:andScarce summer visitor to wetlands from March to September.",
-    "where_to_see": "Where to see:andTacumshin Lake in south County Wexford is one of the most reliable sites to see Garganey in Ireland.",
-    "wintering_habits": "Wintering:andA summer visitor to Ireland and Europe, with the population wintering in central Africa.and"
+    "status": "Scarce summer visitor to wetlands from March to September.",
+    "where_to_see": "Tacumshin Lake in south County Wexford is one of the most reliable sites to see Garganey in Ireland.",
+    "wintering_habits": "A summer visitor to Ireland and Europe, with the population wintering in central Africa.and"
   },
   {
-    "breeding": "Breeding:andDoes notandbreed in Ireland.andGlaucous Gulls breed in Iceland, Greenland, northern Canada and Siberia.",
-    "conservation": "Conservation Concern:andGreen-listed in Ireland, while the European population has been assessed as Secure. ",
-    "diet": "Diet:andOmnivorous, scavenging around rubbish tips and harbours.",
+    "breeding": "Does notandbreed in Ireland.andGlaucous Gulls breed in Iceland, Greenland, northern Canada and Siberia.",
+    "conservation": "Green-listed in Ireland, while the European population has been assessed as Secure. ",
+    "diet": "Omnivorous, scavenging around rubbish tips and harbours.",
     "identification": "Larger than Herring Gull, approaching Great Black-backed Gull in size. Very similar to both Herring and Iceland Gulls. Adult summer Glaucous Gulls are similar to Herring Gull, except for the white wing-tips. Adult winter Glaucous Gulls have extensive dark streaking on the head and neck, but are otherwise the same as adult summer birds. First-winter Glaucous Gulls are a dark chocolate brown all over, though the wings are usually slightly paler. Has a long, mainly pink bill with an obvious black tip. As with Iceland Gull, first-winter Glaucous Gulls tend to fade towards a whiter plumage over the winter. Second-winter birds are heavily streaked brown all over, but also retain a lot of white in plumage, as well as the distinctive bill pattern. Third-winter Glaucous Gulls are very similar to adult winter birds, but have some faded brown markings on the wing. See Iceland Gull for more details on separating these two very similar species. ",
     "image_large": "glaucousgull",
     "image_thumb": "glaucousgullthumb",
     "latin": "Larus hyperboreus",
     "name": "Glaucous Gull",
-    "status": "Status:andandScarce winter visitor to all Irish coasts from October to April.",
-    "where_to_see": "Where to see:andRegular sites for this species include Nimmo&rsquo;s Pier in Galway and Killybegs in Donegal.",
-    "wintering_habits": "Wintering:andThis species winters only marginally south of its breeding range and fewer are seen Ireland in most winters than Iceland Gulls."
+    "status": "Scarce winter visitor to all Irish coasts from October to April.",
+    "where_to_see": "Regular sites for this species include Nimmo&rsquo;s Pier in Galway and Killybegs in Donegal.",
+    "wintering_habits": "This species winters only marginally south of its breeding range and fewer are seen Ireland in most winters than Iceland Gulls."
   },
   {
     "breeding": "Goldcrests breed in a wide variety of habitats, including broadleaf forests, hedgerows and suburban gardens. It is also one of the few species that will breed in dense coniferous woodlands.",
-    "conservation": "Conservation Concern:andGreen-listed in Ireland, while the European population has been assessed as Secure. ",
+    "conservation": "Green-listed in Ireland, while the European population has been assessed as Secure. ",
     "diet": "Feeds almost exclusively on insects and other invertebrates.",
     "identification": "Our smallest breeding bird species, measuring just 9cm in length. Very active, moving quickly between branches and can be difficult to get a good view of. Adult male Goldcrests have a bright yellow crown stripe with at least some orange tint. Bordered by thick black stripe on either side, with the rest of the head greyish green. The back, rump and tail are dark olive-green and there is a small white wing-bar. The underparts are pale grey-green. Adult female Goldcrests are identical to males, except that the crown never shows any orange (pure yellow). Juveniles lack the ornate head colouring of the adults, having a plain grey head instead.",
     "image_large": "goldcrest",
@@ -718,7 +718,7 @@
   },
   {
     "breeding": "Formerly bred in Ireland &ndash; extirpated in the 18th Century. Currently being re-introduced into County Donegal to re-establish an Irish breeding population. Around 400 pairs breed in Scotland. Widespread but nowhere common in Continental Europe.",
-    "conservation": "Conservation Concern:andGreen-listed in Ireland, while the European population has been assessed as Secure. ",
+    "conservation": "Green-listed in Ireland, while the European population has been assessed as Secure. ",
     "diet": "Actively hunts a wide variety of larger birds (grouse, crows, gulls), as well as mammals (rabbits, young foxes). Will also eat carrion. ",
     "identification": "Ireland's second largest bird of prey, being almost twice the size of Common Buzzard. Adult birds generally appear a uniform dark brown when seen at a distance in flight. In good light, a pale patch may be seen on the upperwing, as well as some limited barring on the tail. When seen at close range, the massive size is immediately apparent, as is the golden coloured head. Juvenile birds have large white patches on the wings, as well as a large white rump and tail (dark-tipped). Over the next four to five years it takes for subadult Golden Eagles to mature, these white patches are gradually reduced through moult to reach adult plumage. ",
     "image_large": "goldeneagle",
@@ -912,17 +912,17 @@
     "wintering_habits": "Mostly coastal distribution - while the majority are found on estuaries, up to 30% are estimated to winter along non-estuarine coast."
   },
   {
-    "breeding": "Breeding:andGreen-winged Teals breed throughout northern North America.",
+    "breeding": "Green-winged Teals breed throughout northern North America.",
     "conservation": "Green-listed in Ireland. The European population is considered to be Secure.",
-    "diet": "Diet:andA wide variety of seeds, grasses, aquatic plants (Pondweeds) and invertebrates",
+    "diet": "A wide variety of seeds, grasses, aquatic plants (Pondweeds) and invertebrates",
     "identification": "Very similar to Common Teal and care is needed to seperate the two species. Adult male Green-winged Teal can be identified by the white vertical stripe on the flank, a feature never shown by Common Teal. Adult male Green-winged Teal also lack the obvious horizontal white stripe, while the yellow markings on the head are much reduced. Adult females and juveniles are indistinguishable from Common Teal. ",
     "image_large": "greenwingedteal",
     "image_thumb": "greenwingedtealthumb",
     "latin": "Anas carolinensis",
     "name": "Green-winged Teal",
     "status": "Rare winter visitor to wetlands from October to March.",
-    "where_to_see": "Where to see:andGreen-winged Teals could be seen in any large flock of Common Teal in Ireland.",
-    "wintering_habits": "Wintering:andWinters in wetlands in the United States south to Central America. A few birds occasionally wander to Ireland and can be seen in flocks of Common Teal in winter."
+    "where_to_see": "Green-winged Teals could be seen in any large flock of Common Teal in Ireland.",
+    "wintering_habits": "Winters in wetlands in the United States south to Central America. A few birds occasionally wander to Ireland and can be seen in flocks of Common Teal in winter."
   },
   {
     "breeding": "Clutch: 3-4 eggs (rarely 2 broods). Incubation: 27-29 days. Fledging: 50-55 days (Altricial). Age of first breeding: 2 years. Grey Herons breed in large trees and can form large heronries, some of which have been in use for over 100 years.",
@@ -951,17 +951,17 @@
     "wintering_habits": "Wintering birds are found in their breeding areas. An extremely sedentary bird, some birds may not move more than one kilometre from where they hatched. "
   },
   {
-    "breeding": "Breeding:andDoes not breed in Ireland.andGrey Phalaropes breed on bogs and marshes in the high Arctic of Siberia and Canada. A few pairs also breed in Iceland.",
+    "breeding": "Does not breed in Ireland.andGrey Phalaropes breed on bogs and marshes in the high Arctic of Siberia and Canada. A few pairs also breed in Iceland.",
     "conservation": "Green-listedandin Ireland. The European population has been evaluated as Secure. ",
-    "diet": "Diet:andFeeds on a wide variety of macro-invertebrates and crustaceans, as well as plankton on the open ocean. Has a curious habit of spinning around while feeding.",
+    "diet": "Feeds on a wide variety of macro-invertebrates and crustaceans, as well as plankton on the open ocean. Has a curious habit of spinning around while feeding.",
     "identification": "The same size as Dunlin. Adult summer Grey Phalaropes are very distinctive, having brick red underparts and dark upperparts. There is a large white patch surrounding the eye, with the rest of the head black. Females are more brightly coloured than males, reflecting the reversed sex roles. There are currently no records of birds in this plumage in Ireland. Adult winter Grey Phalaropes are very plain in appearance in comparison to summer-plumaged individuals. The back is light grey, with the rest of the underparts white with a faint greyish wash. Has a prominent black stripe through the eye. In flight, has prominent white wingbars and dark rump and tail. Juveniles are similar to adult winter birds, but have a large amount of black on the wing. ",
     "image_large": "greyphalarope",
     "image_thumb": "greyphalaropethumb",
     "latin": "Phalaropus fulicarius",
     "name": "Grey Phalarope",
-    "status": "Status:andandA passage migrant in variable numbers off the west coast from August to November.",
-    "where_to_see": "Where to see:andCoastal headlands on the west coast, such as Annagh and Kilcummin Heads in County Mayo and the Bridges  of Ross in County Clare are reliable sites to see Grey Phalaropes.",
-    "wintering_habits": "Wintering:andThis species winters far out on the Atlantic  Ocean feeding on plankton. The majority of sightings are of small groups moving south off the west coast in autumn. Occasionally recorded in winter, but very rare in spring and summer."
+    "status": "A passage migrant in variable numbers off the west coast from August to November.",
+    "where_to_see": "Coastal headlands on the west coast, such as Annagh and Kilcummin Heads in County Mayo and the Bridges  of Ross in County Clare are reliable sites to see Grey Phalaropes.",
+    "wintering_habits": "This species winters far out on the Atlantic  Ocean feeding on plankton. The majority of sightings are of small groups moving south off the west coast in autumn. Occasionally recorded in winter, but very rare in spring and summer."
   },
   {
     "breeding": "Breeds across the high arctic regions of Russia and North America. ",
@@ -977,7 +977,7 @@
     "wintering_habits": "Distribution in Ireland is widespread, but exclusively coastal. They occur mostly along eastern and southern coasts, most often on large muddy estuaries. They regularly roost among dense flocks during high tide, while their distribution is more scattered while feeding."
   },
   {
-    "breeding": "Breeding:andBreeds mainly along streams and rivers, frequently building its nest under a bridge. ",
+    "breeding": "Breeds mainly along streams and rivers, frequently building its nest under a bridge. ",
     "conservation": "Green-listed in Ireland. The European population has been evaluated as Secure. ",
     "diet": "Grey Wagtails feed mainly on insects caught on the ground or in flight. ",
     "identification": "Slightly larger than Pied Wagtail. A very striking bird, with the dark grey head and back offfset by extensive yellow on the breast, belly and vent. The rump is also bright yellow. Grey Wagtails also have a black throat, as well as a white stripe through the eye. The beak and legs are dark grey, the latter with a variable pinkish tinge. The yellow wash on the lower body is less intense on female birds, while juveniles lack the black throat patch and have the yellow restricted to the vent and rump. Juvenile Grey Wagtails also have pink legs and bill in contrast to the adults.",
@@ -1141,9 +1141,9 @@
     "image_thumb": "kingfisherthumb",
     "latin": "Alcedo atthis",
     "name": "Kingfisher",
-    "status": "Status:andResident on Irish streams, rivers and canals.",
-    "where_to_see": "Where to see:andWidespread in Ireland. Booterstown Marsh in County Dublin is a reliable site to see this species. ",
-    "wintering_habits": "Wintering:andA very sedentary species, Kingfishers rarely move from their territories. However, during poor weather in winter some may move to lakes and coasts."
+    "status": "Resident on Irish streams, rivers and canals.",
+    "where_to_see": "Widespread in Ireland. Booterstown Marsh in County Dublin is a reliable site to see this species. ",
+    "wintering_habits": "A very sedentary species, Kingfishers rarely move from their territories. However, during poor weather in winter some may move to lakes and coasts."
   },
   {
     "breeding": "Forms colonies, sometimes thousands strong, often with other seabirds. Breeds on steep sea cliffs where it builds a nesting platform on the most vertical and sometimes improbably steep areas. Will -occasionally use man-made structures such as old buildings. Has been recorded in Ireland in Dunmore East in Co. Cork breeding on old buildings, and in Britain on gas platforms at sea and in old warehouses inland. ",
@@ -1276,22 +1276,22 @@
     "wintering_habits": "Little Grebes extend their wintering habitat to include ephemeral wetlands and are often encountered on sheltered coasts, estuaries and coastal lakes and lagoons at this time of the year."
   },
   {
-    "breeding": "Breeding:andDoes not breed in Ireland.andLittle Gulls breed colonially in marshes in Scandinavia and Eastern Europe.",
+    "breeding": "Does not breed in Ireland.andLittle Gulls breed colonially in marshes in Scandinavia and Eastern Europe.",
     "conservation": "Green-listedandin Ireland.andThe European population has been evaluated as depleted by BirdLife International, due to a moderate historical decline.",
-    "diet": "Diet:andFeeds by picking small fish, crabs and other invertebrates off the surface of the sea and less frequently lakes and ponds.",
+    "diet": "Feeds by picking small fish, crabs and other invertebrates off the surface of the sea and less frequently lakes and ponds.",
     "identification": "The smallest gull species seen in Ireland, being about one third smaller than Black-headed Gull. Adult summer Little Gulls have an all black head contrasting with the white underparts and pale grey back. The wing tips are white in contrast to the black and wing-tips of Black-headed Gull. In flight, one of the most obvious feature are the black underwings. Adult winter Little Gulls have an all white head, except for some small black markings behind the eye and on the nape, but do not differ otherwise from the adult summer-plumage. First-winter Little Gulls have the same head pattern as adult winter birds, but differ in having a broad black bar across the wing, as well as black wing tips and a white underwing. Also has a broad black bar on the tip of the tail.Second-winter Little Gulls appear much as adult winter birds, but have small black markings on the wing tips and a white underwing. ",
     "image_large": "littlegull",
     "image_thumb": "littlegullthumb",
     "latin": "Larus minutus",
     "name": "Little Gull",
-    "status": "Status:andandWinter visitor to east and south coasts from October to March and scarce passage migrant in spring and autumn.",
+    "status": "Winter visitor to east and south coasts from October to March and scarce passage migrant in spring and autumn.",
     "where_to_see": "During the breeding season look and listen for Little Grebes on water bodies where there is thick vegetation, numbers are highest in low-lying areas. There are 15 sites that regularly support nationally important numbers over the winter and nine sites holding the largest concentration - Loughs Neagh and Beg (County Antrim), Lough Arrow (Co. Sligo), Strangford Lough (Co. Down), Tacumshin Lake (Co. Wexford), Upper Lough Erne (Co. Fermanagh), Wexford Harbour and Slobs (Co. Wexford), Lough Eorna (Co. Tipperary), Cork Harbour (Co. Cork), Corofin Wetlands (Co. Clare).",
-    "wintering_habits": "Wintering:andThe majority of the European population of Little Gulls winter along the coasts of the North and Irish Seas, as well as the Mediterranean. Little Gulls are most frequently observed off the East coast, with smaller numbers present along the south coast. Rare in the north and west of Ireland."
+    "wintering_habits": "The majority of the European population of Little Gulls winter along the coasts of the North and Irish Seas, as well as the Mediterranean. Little Gulls are most frequently observed off the East coast, with smaller numbers present along the south coast. Rare in the north and west of Ireland."
   },
   {
-    "breeding": "Breeding:andDoes not breed in Ireland.andLittle Gulls breed colonially in marshes in Scandinavia and Eastern Europe.",
+    "breeding": "Does not breed in Ireland.andLittle Gulls breed colonially in marshes in Scandinavia and Eastern Europe.",
     "conservation": "Green-listedandin Ireland.andThe European population has been evaluated as depleted by BirdLife International, due to a moderate historical decline.",
-    "diet": "Diet:andFeeds by picking small fish, crabs and other invertebrates off the surface of the sea and less frequently lakes and ponds.",
+    "diet": "Feeds by picking small fish, crabs and other invertebrates off the surface of the sea and less frequently lakes and ponds.",
     "identification": "The smallest regularly occurring wader in Ireland, mostly seen on passage from August to October. It is roughly two-thirds the size of a Dunlin, with which it often associates. Its small size, rufous tones on the upperparts contrasting with a white underparts and agitated rapid feeding action all help to identify it. It has black legs and a small pointed bill. Most of the birds occurring here are juveniles, which show a distinctive white &quot;V&quot; on the back - visible as the bird bends to feed. Usually seen singly or in groups of less than five.",
     "image_large": "littlestint",
     "image_thumb": "littlestintthumb",
@@ -1299,7 +1299,7 @@
     "name": "Little Stint",
     "status": "Scarce passage migrant - occurs while on passage from northern Scandinavia and Russia between August and October.",
     "where_to_see": "Mid-Clare Coast (Mal Bay-Doonbeg Bay) in County Clare, Ballycotton and Shanagarry in County Cork, as well as Tacumshin in County Wexford are reliable sites. Very few records from November to July. ",
-    "wintering_habits": "Wintering:andThe majority of the European population of Little Gulls winter along the coasts of the North and Irish Seas, as well as the Mediterranean. Little Gulls are most frequently observed off the East coast, with smaller numbers present along the south coast. Rare in the north and west of Ireland."
+    "wintering_habits": "The majority of the European population of Little Gulls winter along the coasts of the North and Irish Seas, as well as the Mediterranean. Little Gulls are most frequently observed off the East coast, with smaller numbers present along the south coast. Rare in the north and west of Ireland."
   },
   {
     "breeding": "Nest colonially on the ground. Only a few colonies are found in Ireland.",
@@ -1317,7 +1317,7 @@
   {
     "breeding": "Breeds in lowlands throughout Ireland, usually in a stand of conifers. ",
     "conservation": "Green-listed in Ireland. The European population is currently evaluated as Secure.",
-    "diet": "Diet:andHunts small mammals, frogs and birds. Has been observed taking migrant birds disorientated at lighthouses and other bright lights. ",
+    "diet": "Hunts small mammals, frogs and birds. Has been observed taking migrant birds disorientated at lighthouses and other bright lights. ",
     "identification": "Infrequently seen during the day, only active late at night. Most frequently seen flying across road in car head-lights. Appears a largely white, with a dark comma marking on the underwing. If seen during the day, has intricate pattern of brown and black streaks all-over. Has two obvious tufts on the head (do not serve as ears!) and orange eyes. Juveniles are beige, with an obvious black face mask.",
     "image_large": "longearedowl",
     "image_thumb": "longearedowlthumb",
@@ -1393,17 +1393,17 @@
     "wintering_habits": "Winters at sea in the South Atlantic off South America. "
   },
   {
-    "breeding": "Breeding:andFormerly bred in large reedbeds in Ireland. Single birds have been noted at several wetland sites throughout Ireland though these are almost always young non-breeding birds. Around 150 pairs of Marsh Harrier breed in the UK and this species is fairly common at wetland sites in Central and Eastern Europe.",
+    "breeding": "Formerly bred in large reedbeds in Ireland. Single birds have been noted at several wetland sites throughout Ireland though these are almost always young non-breeding birds. Around 150 pairs of Marsh Harrier breed in the UK and this species is fairly common at wetland sites in Central and Eastern Europe.",
     "conservation": "Green-listedandin Ireland. The European population is currently Secure.",
-    "diet": "Diet:andActively hunts for birds and small mammals in wetlands.",
+    "diet": "Actively hunts for birds and small mammals in wetlands.",
     "identification": "About the same size as Hen Harrier and has similar behaviour. Adult male Marsh Harriers are very distinctive, having an all grey head and reddishy-brown body. In flight, large black patches can be seen on the primaries, with the rest of the wing mainly grey. Adult females are a dark brown colour, except for beige partches on the head and throat. In flight, they appear almost uniformly brown. Subadult Marsh Harriers are variable in appearance, though most resemble females.  ",
     "image_large": "marshharrier",
     "image_thumb": "marshharrierthumb",
     "latin": "Circus aeruginosus",
     "name": "Marsh Harrier",
-    "status": "Status:andandHas bred in Ireland. A scarce summer visitor to well-vegetated wetlands from March to September throughout Ireland. May occasionally overwinter.",
-    "where_to_see": "Where to see:andTacumshin Lake in County Wexford regularly hosts one or two Marsh Harriers in the summer months.",
-    "wintering_habits": "Wintering:andThe European population is partially migratory. Some overwinter in western and southern Europe, while the majority move south to tropical Africa. Occasionally seen in winter at wetland sites in Ireland."
+    "status": "Has bred in Ireland. A scarce summer visitor to well-vegetated wetlands from March to September throughout Ireland. May occasionally overwinter.",
+    "where_to_see": "Tacumshin Lake in County Wexford regularly hosts one or two Marsh Harriers in the summer months.",
+    "wintering_habits": "The European population is partially migratory. Some overwinter in western and southern Europe, while the majority move south to tropical Africa. Occasionally seen in winter at wetland sites in Ireland."
   },
   {
     "breeding": "Very widespread breeding species in Ireland, with around 500,000 to 1,000,000 pairs. Found in bogs, uplands and areas of scrub and pasture.",
@@ -1416,7 +1416,7 @@
     "name": "Meadow Pipit",
     "status": "One of the commonest bird species in Ireland, favouring rough pastures and uplands. ",
     "where_to_see": "Common throughout Ireland.",
-    "wintering_habits": "Wintering:andThe European population is partially migratory. Some overwinter in western and southern Europe, while the majority move south to tropical Africa. Occasionally seen in winter at wetland sites in Ireland."
+    "wintering_habits": "The European population is partially migratory. Some overwinter in western and southern Europe, while the majority move south to tropical Africa. Occasionally seen in winter at wetland sites in Ireland."
   },
   {
     "breeding": "A recent colonist, the Mediterranean Gull arrived in Ireland in 1995 and first bred in the Republic in 1996 in Co. Wexford. Prefers low lying islands near the coast on which to breed. Only two or three pairs breed but this is likely to increase with more and more birds seen in suitable habitat in the breeding season. Regularly breeds, at Ladies Island Lake in Co. Wexford, along with other nesting seabirds, including Black-headed Gulls, with which it is often associated. The bulk of the population of this species breeds in eastern Europe, with small colonies in western",
@@ -1510,17 +1510,17 @@
     "wintering_habits": "Use all coastal habitats, and particularly favour open sandy coasts"
   },
   {
-    "breeding": "Breeding:andDoes not breed in Ireland. Pectoral Sandpiper breeds in eastern Siberia and Arctic North America.",
+    "breeding": "Does not breed in Ireland. Pectoral Sandpiper breeds in eastern Siberia and Arctic North America.",
     "conservation": "Amber-listed as Ireland hosts internationally important numbers of Oystercatchers in winter. The European population is considered to be Secure.",
-    "diet": "Diet:andLike the commoner Dunlin, Pectoral Sandpipers probe the mud for the various invertebrates found in wetlands and estuaries.",
+    "diet": "Like the commoner Dunlin, Pectoral Sandpipers probe the mud for the various invertebrates found in wetlands and estuaries.",
     "identification": "Very similar to Dunlin and care is needed when identifying this species. In all plumages appears very similar to juvenile Dunlin, though Pectoral Sandpiper slightly larger than that species. Best identified by the abruptly ending breast band, which runs into a point. Juvenile Pectoral Sandpipers arealmost indistinguishable from adults.  ",
     "image_large": "pectoralsandpiper",
     "image_thumb": "pectoralsandpiperthumb",
     "latin": "Calidris melanotos",
     "name": "Pectoral Sandpiper",
-    "status": "Status:andandScarce passage migrant on western and southern coasts from July to November.",
-    "where_to_see": "Where to see:andTacumshin in south County Wexford is one of the more reliable sites for this species, with up to 5 reported annually. Has been recorded in suitable habitat throughout Ireland.",
-    "wintering_habits": "Wintering:andPectoral Sandpipers winter in South America. Birds seen in Ireland in late-summer and early autumn are migrants"
+    "status": "Scarce passage migrant on western and southern coasts from July to November.",
+    "where_to_see": "Tacumshin in south County Wexford is one of the more reliable sites for this species, with up to 5 reported annually. Has been recorded in suitable habitat throughout Ireland.",
+    "wintering_habits": "Pectoral Sandpipers winter in South America. Birds seen in Ireland in late-summer and early autumn are migrants"
   },
   {
     "breeding": "Breeds on coastal and inland cliffs. Most birds on the coast breed on the south, west and north coasts, coastal breeding on the east coast is limited by the availability of suitable nesting cliffs. Most inland birds breed on mountain cliffs but will also breed at lower levels. The species is still recovering from a dramatic and well documented decline in the 1950s and 60s due to the effects of pesticide poisoning. The responsible pesticides have been banned and the species has been recovering slowly.",
@@ -1731,7 +1731,7 @@
     "wintering_habits": "Winters all around the coasts of Ireland, Britain and many European countries. Favours mudflats, large estuaries and inlets. Smaller numbers at inland lakes and large rivers."
   },
   {
-    "breeding": "Breeding:andBreeds in extensive insect-rich broadleaf forests in Ireland in Continental Europe in parks, gardens and pine forests (Scandinavia). Will use nest-boxes. ",
+    "breeding": "Breeds in extensive insect-rich broadleaf forests in Ireland in Continental Europe in parks, gardens and pine forests (Scandinavia). Will use nest-boxes. ",
     "conservation": "Red-listed in Ireland, due to its small and declining breeding population. The European population has been evaluated as Declining, due to a moderate continuing decline.",
     "diet": "Insects. Feeds mostly in the tree canopy during the breeding season. Migrants feed on the ground when found at coastal headlands.",
     "identification": "The same size as Robin and Black Redstart. Like the latter species, has rusty red undertail coverst and tail, which is frequently shivered. Adult males are very distinctive, having a blackish face and throat, with an obvious white stripe from the eye across the forehead. The back and mantle are grey, while the underparts are a deep rufous-brown. Adult females and juveniles are inseperable, being a beige brown colour all over. ",
@@ -1796,7 +1796,7 @@
     "wintering_habits": "Winters in central and southern Africa. "
   },
   {
-    "breeding": "Breeding:andBreeds on scree slopes in mountainous terrain with limited vegetation. Now restricted to only a handful of sites. ",
+    "breeding": "Breeds on scree slopes in mountainous terrain with limited vegetation. Now restricted to only a handful of sites. ",
     "conservation": "Amber-listed in Ireland due to its small breeding population. The European population is considered to be Secure.",
     "diet": "Insects, especially earthworms. Also berries and other fruit including apples.",
     "identification": "The same size as a Blackbird. Adult males have glossy black plumage similar to that of the adult male Blackbird. Main difference lies in the broad white crescent on the breast. The wings also tend to be a more silvery colour than would be found on a Blackbird. Adult female Ring Ouzels are a more browner black colour than the males. The crescent is not pure white, more a beige-brown. First-winter Ring Ouzels are similar to adult females, but the crescent is an almost invisible brown smudge. The throat is white with black streaking. Ring Ouzels in the Alps have extensive white arrow markings on the underparts and some Ring Ouzels may have hints of these markings. However, there are as yet no definite records of Alpine Ring Ouzels in Ireland. ",
@@ -1809,17 +1809,17 @@
     "wintering_habits": "Wintering areas poorly known, thought to be southern Iberia and North Africa."
   },
   {
-    "breeding": "Breeding:andHas bred in Ireland. This involved a Ring-billed Gull successfully pairing with a Common Gull. The majority of Ring-billed Gulls breed in northern North America.",
+    "breeding": "Has bred in Ireland. This involved a Ring-billed Gull successfully pairing with a Common Gull. The majority of Ring-billed Gulls breed in northern North America.",
     "conservation": "Green-listedandin Ireland.andThe North American population is not threatened.",
-    "diet": "Diet:andOmnivorous like the Common Gull, feeding on a wide variety of prey (crustaceans, fish, and starfish) and may also scavenge at rubbish tips.",
+    "diet": "Omnivorous like the Common Gull, feeding on a wide variety of prey (crustaceans, fish, and starfish) and may also scavenge at rubbish tips.",
     "identification": "Slightly larger than Common Gull in size and very similar to that species. Adult summer Ring-billed Gulls are most easily identified by the thick yellow band with broad black band near the tip. In comparison to Common Gull, has a pale iris and slightly paler grey upperparts. Adult winter birds are similar to summer-plumaged birds, but have a variably streaked head. First winter Ring-billed Gulls have a densely streaked head, as well as barred underparts. The wing also has extensive brown and black markings, while the tail has a broad black bar at the tip. The legs and bill are pale pink, with the latter having an obvious black tip. Second winter Ring-billed Gulls appear similar to adult winter birds, but retain some markings on the tail and tend to have more extensive markings on the wing. The bill and legs are a dull greenish colour. ",
     "image_large": "ringbilledgull",
     "image_thumb": "ringbilledgullthumb",
     "latin": "Larus delawarensis",
     "name": "Ring-billed Gull",
     "status": "Scarce winter visitor to all Irish coasts from September to April.",
-    "where_to_see": "Where to see:andNimmo&rsquo;s Pier in Galway City regularly hosts 3 to 5 Ring-billed Gulls in winter. Sandymount Strand in Dublin Bay also attracts one or two individuals.",
-    "wintering_habits": "Wintering:andWinters in United States and the northern Caribbean. Around 10 to 15 birds are recorded wintering annually in Ireland."
+    "where_to_see": "Nimmo&rsquo;s Pier in Galway City regularly hosts 3 to 5 Ring-billed Gulls in winter. Sandymount Strand in Dublin Bay also attracts one or two individuals.",
+    "wintering_habits": "Winters in United States and the northern Caribbean. Around 10 to 15 birds are recorded wintering annually in Ireland."
   },
   {
     "breeding": "Mostly coastal breeding distribution, preferring to nest on exposed wide sandy or shingle beaches. Some breed inland, particularly in the west, where their preferred nesting habitat is on short-grazed pasture beside rivers and along lake ",
@@ -1835,17 +1835,17 @@
     "wintering_habits": "Winter around the entire coastline, but are quite sparse along the north and southeast coasts. Mostly recorded along sandy stretches or along the upper shores of estuaries andandnon-estuarine coastline "
   },
   {
-    "breeding": "Breeding:andRing-necked Ducks breed in northern America.",
+    "breeding": "Ring-necked Ducks breed in northern America.",
     "conservation": "Green-listed in Ireland. The European population is regarded as Secure.",
-    "diet": "Diet:andMainly feeds by diving for freshwater invertebrates (beetles, shrimp). Ring-necked Ducks will also feed on plants, such as pondweeds.",
+    "diet": "Mainly feeds by diving for freshwater invertebrates (beetles, shrimp). Ring-necked Ducks will also feed on plants, such as pondweeds.",
     "identification": "Very similar to Tufted Duck and care is needed to distinguish the two species. Slightly smaller than Tufted Duck and lacks that species distinctive crest. Adult males can be separated from Tufted Duck by having much greyer flanks with a white vertical stripe, as well as different pattern on the bill (broad white stripe near the tip). Adult females appear quite different to female Tufted Duck, being much paler overall and having an obvious white eyering. Also shows a hint of the obvious vertical white stripe found on the flanks of the male. Juvenile Ring-necked Ducks are similar to females, though the head pattern is not as contrasting and lacks the broad white stripe on the bill. ",
     "image_large": "ringneckedduck",
     "image_thumb": "ringneckedduckthumb",
     "latin": "Aythya collaris",
     "name": "Ring-necked Duck",
     "status": "A rare winter visitor to wetlands from October to March, almost always associating with flocks of Tufted Duck.",
-    "where_to_see": "Where to see:andRing-necked Ducks could be seen in any large flock of Tufted Ducks in Ireland.",
-    "wintering_habits": "Wintering:andThe species winters south of the breeding grounds in the United States to Central America. Occasionally wanders to Ireland and then can be seen with Tufted Duck on larger lakes. In September/October 2008, a flock of 15 was recorded on Inishmore on the Aran Islands.and"
+    "where_to_see": "Ring-necked Ducks could be seen in any large flock of Tufted Ducks in Ireland.",
+    "wintering_habits": "The species winters south of the breeding grounds in the United States to Central America. Occasionally wanders to Ireland and then can be seen with Tufted Duck on larger lakes. In September/October 2008, a flock of 15 was recorded on Inishmore on the Aran Islands.and"
   },
   {
     "breeding": "Breeds throughout Ireland in many different habitats. Nest usually well-concealed in a bank, ivy or cavity in tree or wall. Sometimes chooses unusual location such as a hat or garment hanging in garden shed. Will use open-fronted nestboxes. ",
@@ -1857,7 +1857,7 @@
     "latin": "Erithacus rubecula",
     "name": "Robin",
     "status": "Resident",
-    "where_to_see": "Where to see:andRing-necked Ducks could be seen in any large flock of Tufted Ducks in Ireland.",
+    "where_to_see": "Ring-necked Ducks could be seen in any large flock of Tufted Ducks in Ireland.",
     "wintering_habits": "Widespread. "
   },
   {
@@ -1939,17 +1939,17 @@
     "wintering_habits": "Occurs on fresh and brackish water. Sociable."
   },
   {
-    "breeding": "Breeding:andDoes not breed in Ireland.andThe majority of Sabine&rsquo;s Gulls breed in the high Arctic of Greenland, Canada and Siberia.",
+    "breeding": "Does not breed in Ireland.andThe majority of Sabine&rsquo;s Gulls breed in the high Arctic of Greenland, Canada and Siberia.",
     "conservation": "Green-listedandin Ireland.andThe European population has been evaluated as secure by BirdLife International. ",
-    "diet": "Diet:andSabine&rsquo;s Gulls forage for small marine fish and plankton on the open ocean.",
+    "diet": "Sabine&rsquo;s Gulls forage for small marine fish and plankton on the open ocean.",
     "identification": "Slightly smaller than Black-headed Gull. Adult summer Sabine's Gull have a black head , legs and bill, the latter having a yellow tip. The back is dark grey contrasting with the white underparts. In flight, a thick black band is noticeable on the primary feathers of the wing, with a broad white section on the inner primaries and secondaries. The rest of the wing is dark grey. Adult winter Sabine's Gulls are similar to adult summer, but have much less black on the head - usually restricted to a patch on the nape. Most adult Sabine's Gulls seen in Ireland tend to be in winter-plumage, though full summer-plumaged birds are infrequently seen. Juveniles appear quite different to adults, with head and neck being dusky brown. The back is also a neatly scaled grey-brown colour, while the tail has a broad black band at the tip. On the wing, the dark grey of the adult is replaced by brown. ",
     "image_large": "sabinesgull",
     "image_thumb": "sabinesgullthumb",
     "latin": "Xema sabini",
     "name": "Sabine's Gull",
-    "status": "Status:andandScarce passage migrant off the west and south coast from August to November. Rare in the Irish Sea in September and October.",
-    "where_to_see": "Where to see:andCoastal headlands on the west coast such as the Bridges of Ross or Annagh Head are good sites to see this species. One Sabine's Gull has been wintering for several years in Cobh harbour. ",
-    "wintering_habits": "Wintering:andThis species winters in the South  Atlantic off South America and South Africa. In Ireland, most Sabine&rsquo;s Gulls are observed moving south from their breeding grounds in autumn, with only a few returning birds seen in spring."
+    "status": "Scarce passage migrant off the west and south coast from August to November. Rare in the Irish Sea in September and October.",
+    "where_to_see": "Coastal headlands on the west coast such as the Bridges of Ross or Annagh Head are good sites to see this species. One Sabine's Gull has been wintering for several years in Cobh harbour. ",
+    "wintering_habits": "This species winters in the South  Atlantic off South America and South Africa. In Ireland, most Sabine&rsquo;s Gulls are observed moving south from their breeding grounds in autumn, with only a few returning birds seen in spring."
   },
   {
     "breeding": "Sand Martins breed in burrows dug into river banks or quarries. These breeding sites are vulnerable to predation by Mink and Red Fox. Feeding birds disperse widely, favouring wetlands and rural areas. Less frequently seen in urban areas.",
@@ -1962,7 +1962,7 @@
     "name": "Sand Martin",
     "status": "     Widespread summer visitor throughout Ireland from mid-March to September.",
     "where_to_see": "Common throughout Ireland. ",
-    "wintering_habits": "Wintering:andThis species winters in sub-Saharan Africa, crossing the Sahara Desert in autumn and spring. "
+    "wintering_habits": "This species winters in sub-Saharan Africa, crossing the Sahara Desert in autumn and spring. "
   },
   {
     "breeding": "Breeds across Arctic tundra, preferring small patches of vegetation.",
@@ -2052,7 +2052,7 @@
     "latin": "Asio flammeus",
     "name": "Short-eared Owl",
     "status": "A scarce winter visitor throughout Ireland and rare breeding species, mainly in the south and east. Favours uplands and coastal lowlands. ",
-    "where_to_see": "Where to see:andThe Wicklow coast, including the East Coast Nature Reserve is a good area to look for Short-eared Owls in winter. Numbers fluctuate from year to year, so may absent from even optimal sites in some years. ",
+    "where_to_see": "The Wicklow coast, including the East Coast Nature Reserve is a good area to look for Short-eared Owls in winter. Numbers fluctuate from year to year, so may absent from even optimal sites in some years. ",
     "wintering_habits": "Widespread winter visitor to coastal lowlands (dunes, scrubby fields, machair). Sometimes two or more Short-eared Owls can be seen hunting together at favoured sites. "
   },
   {
@@ -2090,9 +2090,9 @@
     "image_thumb": "skylarkthumb",
     "latin": "Alauda arvensis",
     "name": "Skylark",
-    "status": "Status:andCommon resident throughout Ireland in uplands and areas of farmland, especially cereal.",
-    "where_to_see": "Where to see:andWidespread in Ireland. ",
-    "wintering_habits": "Wintering:andUsually moves out of breeding areas to winter in flocks on stubble fields, grasslands and coastal areas. Birds from continental Europe arrive in variable numbers from September and depart March/April."
+    "status": "Common resident throughout Ireland in uplands and areas of farmland, especially cereal.",
+    "where_to_see": "Widespread in Ireland. ",
+    "wintering_habits": "Usually moves out of breeding areas to winter in flocks on stubble fields, grasslands and coastal areas. Birds from continental Europe arrive in variable numbers from September and depart March/April."
   },
   {
     "breeding": "Slavonian Grebe has not been recorded breeding in Ireland. Breeds on well vegetated lakes and ponds in north-west Scotland and Iceland, as well as from Scandinavia east to Asia and North America.",
@@ -2104,21 +2104,21 @@
     "latin": "Podiceps auritus",
     "name": "Slavonian Grebe",
     "status": "Local winter visitor to coastal areas from October to March.",
-    "where_to_see": "Where to see:andWidespread in Ireland.",
-    "wintering_habits": "Wintering:andUsually moves out of breeding areas to winter in flocks on stubble fields, grasslands and coastal areas. Birds from continental Europe arrive in variable numbers from September and depart March/April."
+    "where_to_see": "Widespread in Ireland.",
+    "wintering_habits": "Usually moves out of breeding areas to winter in flocks on stubble fields, grasslands and coastal areas. Birds from continental Europe arrive in variable numbers from September and depart March/April."
   },
   {
-    "breeding": "Breeding:andDoes not breed in Ireland. The majority of the European population breeds in northern Scandinavia and across Russia.",
+    "breeding": "Does not breed in Ireland. The majority of the European population breeds in northern Scandinavia and across Russia.",
     "conservation": "The Irish population has been Green-listed. The European breeding population of Slavonian Grebe has been evaluated as Declining due to a moderate recent decline. ",
-    "diet": "Diet:andDives for small fish such as minnows, plaice and Sandeels.",
+    "diet": "Dives for small fish such as minnows, plaice and Sandeels.",
     "identification": "Slightly smaller than Goldeneye. Adult males in breeding plumage are unmistakable, the head and neck being white with a black patch around the eye, as well as black lines on the back of the head and along the flanks. The rest of the body is a pale grey. Adult male Smew in eclipse plumage are similar to females, except for the black patch around the eye, as well as retaining some white on the head. Female and juvenile Smew are indistinguishable from each other and are colloquialy known as &quot;red-head&quot; Smew. They appear similar to a female Goldeneye, but can be recognised by the large white patch on the throat and the dark eye. ",
     "image_large": "smew",
     "image_thumb": "smewthumb",
     "latin": "Mergellus albellus",
     "name": "Smew",
-    "status": "Status:andandA rare winter visitor to wetlands from October to March.",
-    "where_to_see": "Where to see:andThe North Slob in County Wexford regularly hosts one or two Smew in winter, with Lough Neagh and Portmore Lough in Antrim also being reliable sites for this species.",
-    "wintering_habits": "Wintering:andSmew are only rare winter visitors to ponds and lakes in Ireland, mainly in the north and north-east. Most birds winter in Central Europe and may move westwards when lakes there freeze over."
+    "status": "A rare winter visitor to wetlands from October to March.",
+    "where_to_see": "The North Slob in County Wexford regularly hosts one or two Smew in winter, with Lough Neagh and Portmore Lough in Antrim also being reliable sites for this species.",
+    "wintering_habits": "Smew are only rare winter visitors to ponds and lakes in Ireland, mainly in the north and north-east. Most birds winter in Central Europe and may move westwards when lakes there freeze over."
   },
   {
     "breeding": "Nests on the ground, usually concealed in a grassy tussock, in or near wet or boggy terrain. Young leave the nest soon after hatching. ",
@@ -2155,9 +2155,9 @@
     "image_thumb": "snowgoosethumb",
     "latin": "Anser caerulescens",
     "name": "Snow Goose",
-    "status": "Status:andA rare winter visitor from October to March",
-    "where_to_see": "Where to see:andA rare winter visitor almost always associating with other geese at lowland sites. Snow Geese have been regularly sighted at the North Slob in County Wexford.",
-    "wintering_habits": "Wintering:andWinters in large flocks along the Atlantic and Pacific coasts of the United States. One or two individuals may associate with Greenland White-fronted Geese by mistake and end up wintering in Ireland. This species is also regularly kept in bird collections and escaped individuals can be seen at all times of the year."
+    "status": "A rare winter visitor from October to March",
+    "where_to_see": "A rare winter visitor almost always associating with other geese at lowland sites. Snow Geese have been regularly sighted at the North Slob in County Wexford.",
+    "wintering_habits": "Winters in large flocks along the Atlantic and Pacific coasts of the United States. One or two individuals may associate with Greenland White-fronted Geese by mistake and end up wintering in Ireland. This species is also regularly kept in bird collections and escaped individuals can be seen at all times of the year."
   },
   {
     "breeding": "Does not breed in Ireland. The majority of the European population breeds in Scandinavia and Russia. ",
@@ -2212,21 +2212,21 @@
     "wintering_habits": "Spotted Flycatchers winter in central and southern Africa."
   },
   {
-    "breeding": "Breeding:andDoes not breed in Ireland.andSpotted Redshank breeds in bogs and marshes of northern Scandinavia east across Siberia.",
-    "conservation": "Green-listedandin Ireland. The European population has been evaluated as Decling, due to a moderate recent decline.",
-    "diet": "Diet:andHunts for fry, crabs and macro-invertebrates on muddy shores of estuaries and freshwater ponds.",
+    "breeding": "Does not breed in Ireland.andSpotted Redshank breeds in bogs and marshes of northern Scandinavia east across Siberia.",
+    "conservation": "Green-listed in Ireland. The European population has been evaluated as Decling, due to a moderate recent decline.",
+    "diet": "Hunts for fry, crabs and macro-invertebrates on muddy shores of estuaries and freshwater ponds.",
     "identification": "Slightly larger and very similar to Redshank, especially in winter plumage. In all plumages has a distinctive bill pattern, where the upper mandible is entirely black and the lower mandible red. Adult summer Spotted Redshanks are very distinctive, being almost entirely black. Only the underwing remains white, while the rump is distinctly barred. Spotted Redshanks retain this plumage for only a few weeks and it is only infrequently seen in Ireland. Adult winter birds are much paler in comparison to Redshank, having a pale grey back and white underparts. Juveniles have dark brown barred underparts and back.  ",
     "image_large": "spottedredshank",
     "image_thumb": "spottedredshankthumb",
     "latin": "Tringa erythropus",
     "name": "Spotted Redshank",
-    "status": "Status:andandPassage migrant in variable numbers to all Irish coasts from July to November. Scarce winter visitor mainly to the south and east coast.",
-    "where_to_see": "Where to see:andGood sites to see Spotted Redshanks are North Slob (autumn and winter), and Tacumshin in County Wexford, as well as Ballycotton and Clonakilty estuaries in County Cork.",
-    "wintering_habits": "Wintering:andThe majority of the European population winters in tropical Africa and Asia. On their migration, they can be regularly seen feeding with Common Redshanks on estuaries and muddy margins of ponds and lakes. Most sightings are of juveniles in autumn, with only a few summer-plumaged adults seen in spring. A few (andlt;100) spend the winter, mainly on estuaries on the south coast."
+    "status": "Passage migrant in variable numbers to all Irish coasts from July to November. Scarce winter visitor mainly to the south and east coast.",
+    "where_to_see": "Good sites to see Spotted Redshanks are North Slob (autumn and winter), and Tacumshin in County Wexford, as well as Ballycotton and Clonakilty estuaries in County Cork.",
+    "wintering_habits": "The majority of the European population winters in tropical Africa and Asia. On their migration, they can be regularly seen feeding with Common Redshanks on estuaries and muddy margins of ponds and lakes. Most sightings are of juveniles in autumn, with only a few summer-plumaged adults seen in spring. A few (andlt;100) spend the winter, mainly on estuaries on the south coast."
   },
   {
     "breeding": "A widespread bird, found both in the countryside, in woodland and in farmland, and in towns and cities. Breeds throughout Ireland, but rare or absent on mountain and on moor land. Breeds in holes or crevices in buildings and in trees. Often breeds in loose colonies. Males will pair with several females at once. ",
-    "conservation": "Green-listedandin Ireland. The European population has been evaluated as Decling, due to a moderate recent decline.",
+    "conservation": "Green-listed in Ireland. The European population has been evaluated as Decling, due to a moderate recent decline.",
     "diet": "Can be seen foraging in a wide variety of situations, usually on grassland in parks, gardens and farmland, but will also feed in trees. Will also feed on scrapes in the streets, on refuse tips and on the strandline. Feeds on both plant and animal material. Foods include invertebrates, fruits, cereals and seeds.",
     "identification": "At a distance can look like a small thrush, but has a short tail and pointed wings. Adults are dark, juveniles are greyish brown. The legs are dull pink at all times. Adults in summer plumage have a glossy all dark plumage with a green and purple sheen and the bill is yellow. In the winter, adults are heavily spotted in yellowish white and the bill is dark. Juveniles are brown, as mentioned above; first winter birds retain the brown juvenile feathering on the head whilst the rest of the plumage is similar to adult winter. ",
     "image_large": "starling",
@@ -2277,17 +2277,17 @@
     "wintering_habits": "Pelagic, winters at sea in the South Atlantic. "
   },
   {
-    "breeding": "Breeding:andDoes not breed in Ireland. The breeding grounds lie in Arctic Canada and Alaska.",
+    "breeding": "Does not breed in Ireland. The breeding grounds lie in Arctic Canada and Alaska.",
     "conservation": "Green-listedandin Ireland. The European population is considered to be Secure.",
-    "diet": "Diet:andFeeds mainly on mussels, clams and crustaceans caught after diving in shallow waters.",
+    "diet": "Feeds mainly on mussels, clams and crustaceans caught after diving in shallow waters.",
     "identification": "Very similar to Common Scoter and care is needed to distinguish the two species.Slightly larger than Common Scoter and has a similarly all dark body. Adult males can be distinguished by their gaudy bill pattern, as well as small white patches on the forehead and neck. Adult female Surf Scoters have an all dark bill and has a much reduced white patch on the neck. Juveniles are very similar to adult females. ",
     "image_large": "surfscoter",
     "image_thumb": "surfscoterthumb",
     "latin": "Mellanitta perspicillata",
     "name": "Surf Scoter",
-    "status": "Status:andandA rare winter visitor to all Irish coasts from October to March within flocks of Common Scoter.",
-    "where_to_see": "Where to see:andThere are no regular sites to see Surf Scoters in Ireland and any wintering flock of Common Scoter may potentially hold one or two individuals.",
-    "wintering_habits": "Wintering:andThe main wintering grounds are the Pacific and Atlantic coasts of the United States and Canada. A few birds may cross the Atlantic and can then potentially be seen with Common Scoters off all Irish coasts.and"
+    "status": "A rare winter visitor to all Irish coasts from October to March within flocks of Common Scoter.",
+    "where_to_see": "There are no regular sites to see Surf Scoters in Ireland and any wintering flock of Common Scoter may potentially hold one or two individuals.",
+    "wintering_habits": "The main wintering grounds are the Pacific and Atlantic coasts of the United States and Canada. A few birds may cross the Atlantic and can then potentially be seen with Common Scoters off all Irish coasts.and"
   },
   {
     "breeding": "Constructs a bowl-shaped nest out of mud in suitable spots in barns and other buildings.",
@@ -2433,7 +2433,7 @@
     "wintering_habits": "Winters mainly in southern Scandinavia, with only a few sightings in Ireland every year. Every few years there is a larger invasion into Ireland when the food supplies in their normal winter range is exhausted prematurely. Normally seen in groups of five to fifty birds, but flocks of up to 400 Waxwings have been recorded in Ireland. "
   },
   {
-    "breeding": "Breeding:andBreeds in a variety of habitats, typically with some areas of exposed rock and short vegetation, such as along rocky coasts, pasture with stone walls and bogs in uplands.",
+    "breeding": "Breeds in a variety of habitats, typically with some areas of exposed rock and short vegetation, such as along rocky coasts, pasture with stone walls and bogs in uplands.",
     "conservation": "Green-listed in Ireland. The European population has been evaluated as Secure. ",
     "diet": "Insects",
     "identification": "Between Robin and Song Thrush in size. In all plumages, has a very obvious tail pattern of a broad lack stripe at the tip with another extending towards the white rump. The whole effect is of a black &quot;T&quot;. ",
@@ -2446,7 +2446,7 @@
     "wintering_habits": "Winters in southern Africa. Has one of the longest migration routes of any songbird. Birds breeding in north-easternandCanada fly almost non-stop across the northern Atlantic toandIberia and North Africa."
   },
   {
-    "breeding": "Breeding:andBreeds in a variety of habitats, typically with some areas of exposed rock and short vegetation, such as along rocky coasts, pasture with stone walls and bogs in uplands.",
+    "breeding": "Breeds in a variety of habitats, typically with some areas of exposed rock and short vegetation, such as along rocky coasts, pasture with stone walls and bogs in uplands.",
     "conservation": "Green-listed in Ireland. The European population has been evaluated as Secure. ",
     "diet": "Molluscs, crustaceans and polychaete worms",
     "identification": "Very like, but slightly smaller than, Curlew, with long legs and long decurved bill (shorter than Curlew's). Similar grey/brown plumage, but can appear darker than Curlew. When seen well, distinctive &quot;striped&quot; head pattern can be discerned - formed by a dark crown, with a pale streak through the centre, a pale supercillium and a dark eyestripe. ",
@@ -2472,17 +2472,17 @@
     "wintering_habits": "Wintering:Winters in tropical Africa. "
   },
   {
-    "breeding": "Breeds in a wide variety of habitats, including insect-rich meadows and bracken-covered slopes in uplands. ",
-    "conservation": "Green-listed in Ireland. The European population has been evaluated as Secure. ",
-    "diet": "Insects",
-    "identification": "The same size as Robin and Stonechat and broadly resembles the latter species. Frequently uses exposed perches like Stonechat. In all plumages has a grey-brown rump, with a broad black stripeat the base of the tail. The white base to the tail is not obvious. Adult males have a dark head with a broad white supercilium. The back is streaked brown and black. The underparts (throat and breast) are a rich orange-buff. In flight, shows two large white patches on the wing. Adult females are similar to adult male Whinchats, but have a buffy-brown head and beige supercilium. The underparts also tend top be less extensively orange. Juveniles resemble adult females, but have some dark spotting on the breast.",
+    "breeding": "Does not currently breed in Ireland. It is expected that the re-introduced population will start breeding from 2012/2013 onwards. The last wild pair bred in County Mayo in 1912 and formerly a widespread breeding species. This is reflected in the prevalence of place names in western Ireland referencing 'eagles'.",
+    "conservation": "Green-listed in Ireland. The European population has been evaluated as Rare, as there are currently less than 10,000 pairs breeding in Europe. Suffered large declines due to persecution and use of pesticides, but key populations in Europe are increasing. In Ireland, several re-introduced birds have been found dead due to ingestion of poisoned baits.",
+    "diet": "Feeds on carrion, such as dead sheep and seals, as well as fish caught after a spectacular dive. Less frequently takes medium-sized mammals, such as Hares and seabirds (Fulmar) from nesting sites.",
+    "identification": "Together with Mute Swan, the largest resident bird species in Ireland. Has a wingspan of over two metres (six feet), with a body length of around 1 metre.",
     "image_large": "whitetailedeagle",
     "image_thumb": "whitetailedeaglethumb",
     "latin": "Haliaeetus albicilla",
     "name": "White-tailed Eagle",
-    "status": "Widespread summer visitor from April to September to uplands and scrubland throughout Ireland. Scarce passage in spring and autumn mainly to eastern and southern coasts.",
-    "where_to_see": "Mainly coastal sites. Very small numbers occasionally overwinter in coastal areas.&nbsp;",
-    "wintering_habits": "Wintering:Winters in tropical Africa. "
+    "status": "Re-introduced to Killarney National Park in 2007. Formerly a widespread resident along all Irish coasts.",
+    "where_to_see": "Killarney National Park in County Kerry offers the best chance to see the re-introduced birds. Tracking by GPS has shown that the released eagles have dispersed significantly and have been recorded in almost all Irish counties.",
+    "wintering_habits": "Resident. Young birds move to new territories after fledging."
   },
   {
     "breeding": "Breeds in a variety of habitats, including scrub with gorse, hedgerowsand uplands.",
