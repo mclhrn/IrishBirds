@@ -1,13 +1,7 @@
 package com.mickhearne.irishbirds.birds;
 
 import android.app.Activity;
-import android.content.Intent;
-import android.content.res.Configuration;
-import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import com.mickhearne.irishbirds.birds.fragments.BirdProfileFragment;
 import com.mickhearne.irishbirds.birds.model.Bird;
