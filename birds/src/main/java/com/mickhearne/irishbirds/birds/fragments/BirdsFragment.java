@@ -54,7 +54,7 @@ public class BirdsFragment extends ListFragment implements TextWatcher {
         super.onCreate(savedInstanceState);
         v = inflater.inflate(R.layout.fragment_birds, container, false);
 
-        setRetainInstance(true);
+//        setRetainInstance(true);
 
         openDB();
 

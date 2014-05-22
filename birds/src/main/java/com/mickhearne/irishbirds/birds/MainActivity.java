@@ -47,8 +47,6 @@ public class MainActivity extends FragmentActivity
 
     private int currentFrag;
 
-    private boolean detailPage;
-
 
     public static Intent getInstance() {
         if (instance == null) {
@@ -83,19 +81,6 @@ public class MainActivity extends FragmentActivity
         addDrawer();
 
         mTitle = getTitle();
-
-        // Determine if layout is landscape or not
-        if (findViewById(R.id.displayDetail) != null) {
-
-            // We are in layout mode
-            detailPage = true;
-
-        } else {
-
-            // Not in layout mode
-            detailPage = false;
-
-        }
     }
 
 
@@ -193,23 +178,10 @@ public class MainActivity extends FragmentActivity
      */
     @Override
     public void onBirdSelected(Bird selection, int bgColor) {
-
-        if (detailPage) {
-
-            BirdProfileFragment detailFragment = BirdProfileFragment.newInstance(selection, bgColor);
-
-            FragmentManager fragmentManager = getFragmentManager();
-            fragmentManager.beginTransaction()
-                    .replace(R.id.displayDetail, detailFragment)
-                    .commit();
-
-        } else {
-
             Intent mIntent = new Intent(this, ProfileActivty.class);
             mIntent.putExtra("com.mickhearne.irishbirds.birds.model.Bird", selection);
             mIntent.putExtra("bgColor", bgColor);
             startActivity(mIntent);
-        }
     }
 
 
