@@ -100,12 +100,28 @@ public class ProfileActivty extends Activity implements
     @Override
     public void onBirdSelected(Bird selection, int bgColor) {
 
-            BirdProfileFragment detailFragment = BirdProfileFragment.newInstance(selection, bgColor);
+        Fragment fragment = null;
+        destroyFragment(fragment);
 
-            FragmentManager fragmentManager = getFragmentManager();
-            fragmentManager.beginTransaction()
-                    .replace(R.id.displayDetail, detailFragment)
-                    .commit();
+        fragment = BirdProfileFragment.newInstance(selection, bgColor);
+
+        FragmentManager fragmentManager = getFragmentManager();
+        fragmentManager.beginTransaction()
+                .replace(R.id.container, fragment)
+                .commit();
+    }
+
+
+    private void destroyFragment(Fragment fragment) {
+
+        try {
+            fragment = this.getFragmentManager().findFragmentById(R.id.container);
+            if (fragment != null) {
+                getFragmentManager().beginTransaction().remove(fragment).commit();
+            }
+        } catch (IllegalStateException e) {
+            Log.i("DAA", "Fail destroying Profile Fragment");
+        }
     }
 
 
