@@ -1,6 +1,7 @@
 package com.mickhearne.irishbirds.birds.fragments;
 
 import android.app.Activity;
+import android.app.Fragment;
 import android.app.ListFragment;
 import android.os.Bundle;
 import android.text.Editable;
@@ -8,6 +9,8 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -21,8 +24,7 @@ import java.util.List;
 
 import com.mickhearne.irishbirds.birds.R;
 
-//public class BirdsFragment extends ListFragment implements AbsListView.OnItemClickListener {
-public class BirdsFragment extends ListFragment implements TextWatcher {
+public class BirdsFragment extends Fragment implements TextWatcher {
 
 
     private List<Bird> birds;
@@ -37,7 +39,7 @@ public class BirdsFragment extends ListFragment implements TextWatcher {
 
     private View v;
 
-    private ListView lv;
+    private AbsListView lv;
 
     private int bgColor;
 
@@ -69,7 +71,7 @@ public class BirdsFragment extends ListFragment implements TextWatcher {
 
 
     private void initUI() {
-        lv = (ListView) v.findViewById(android.R.id.list);
+        lv = (AbsListView) v.findViewById(R.id.list);
         lv.setTextFilterEnabled(true);
         EditText inputSearch = (EditText) v.findViewById(R.id.ref_input_search);
         inputSearch.addTextChangedListener(this);
@@ -112,7 +114,17 @@ public class BirdsFragment extends ListFragment implements TextWatcher {
 
     private void refreshDisplay() {
         adapter = new ListViewAdapter(getActivity(), birds);
-        setListAdapter(adapter);
+        lv.setAdapter(adapter);
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View v,
+                                    int position, long id) {
+
+                Bird bird = adapter.getItem(position);
+                mCallback.onBirdSelected(bird, bgColor);
+                lv.setItemChecked(position, true);
+            }
+        });
     }
 
 
@@ -129,12 +141,12 @@ public class BirdsFragment extends ListFragment implements TextWatcher {
     }
 
 
-    @Override
-    public void onListItemClick(ListView listView, View v, int position, long id) {
-        Bird bird = adapter.getItem(position);
-        mCallback.onBirdSelected(bird, bgColor);
-        lv.setItemChecked(position, true);
-    }
+//    @Override
+//    public void onListItemClick(ListView listView, View v, int position, long id) {
+//        Bird bird = adapter.getItem(position);
+//        mCallback.onBirdSelected(bird, bgColor);
+//        lv.setItemChecked(position, true);
+//    }
 
 
     @Override
