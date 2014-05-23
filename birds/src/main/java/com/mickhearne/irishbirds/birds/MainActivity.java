@@ -111,17 +111,14 @@ public class MainActivity extends FragmentActivity
 
         switch (position) {
             case 0:
-                destroyFragment(fragment);
                 fragment = BirdsFragment.newInstance();
                 loadFragment(fragment, position);
                 break;
             case 1:
-                destroyFragment(fragment);
                 fragment = BirdsSeenFragment.newInstance();
                 loadFragment(fragment, position);
                 break;
             case 2:
-                destroyFragment(fragment);
                 fragment = BirdsWishlistFragment.newInstance();
                 loadFragment(fragment, position);
                 break;
@@ -138,17 +135,17 @@ public class MainActivity extends FragmentActivity
     }
 
 
-    private void destroyFragment(Fragment fragment) {
-
-        try {
-            fragment = this.getFragmentManager().findFragmentById(R.id.displayDetail);
-            if (fragment != null) {
-                getFragmentManager().beginTransaction().remove(fragment).commit();
-            }
-        } catch (IllegalStateException e) {
-            Log.i("DAA", "Fail destroying List Fragment");
-        }
-    }
+//    private void destroyFragment(Fragment fragment) {
+//
+//        try {
+//            fragment = this.getFragmentManager().findFragmentById(R.id.displayDetail);
+//            if (fragment != null) {
+//                getFragmentManager().beginTransaction().remove(fragment).commit();
+//            }
+//        } catch (IllegalStateException e) {
+//            Log.i("DAA", "Fail destroying List Fragment");
+//        }
+//    }
 
 
     public void loadFragment(Fragment fragment, int position) {
