@@ -87,6 +87,7 @@ public class BirdsDBOpenHelper extends SQLiteOpenHelper {
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		db.execSQL("DROP TABLE IF EXISTS " + TABLE_BIRDS);
 		db.execSQL("DROP TABLE IF EXISTS " + TABLE_BIRDS_SEEN);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_BIRDS_WISHLIST);
 		onCreate(db);
 	}
 }
