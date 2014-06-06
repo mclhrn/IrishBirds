@@ -8,6 +8,7 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 
 import com.mickhearne.irishbirds.birds.R;
+import com.mickhearne.irishbirds.birds.utilities.AnalyticsData;
 
 
 /**
@@ -55,6 +56,15 @@ public class FeedbackFragment extends DialogFragment {
                             }
                         }
                 ).create();
+    }
+
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // Google Analytics
+        AnalyticsData.sendWithScreenName("Feedback Screen");
     }
 
 

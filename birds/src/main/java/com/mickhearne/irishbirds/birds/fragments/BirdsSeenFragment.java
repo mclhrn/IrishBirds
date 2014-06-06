@@ -21,6 +21,7 @@ import com.mickhearne.irishbirds.birds.list.ListViewAdapter;
 import com.mickhearne.irishbirds.birds.R;
 import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
 import com.mickhearne.irishbirds.birds.model.Bird;
+import com.mickhearne.irishbirds.birds.utilities.AnalyticsData;
 import com.mickhearne.irishbirds.birds.utilities.MyToast;
 
 import java.util.List;
@@ -135,6 +136,7 @@ public class BirdsSeenFragment extends Fragment implements TextWatcher {
 
     public void onResume() {
         super.onResume();
+
         initScreen();
     }
 
@@ -147,13 +149,13 @@ public class BirdsSeenFragment extends Fragment implements TextWatcher {
     }
 
 
-//    @Override
-//    public void onListItemClick(ListView lv, View v, int position, long id) {
-//
-//        Bird bird = adapter.getItem(position);
-//
-//        mCallback.OnBirdSeenSelected(bird, bgColor);
-//    }
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // Google Analytics
+        AnalyticsData.sendWithScreenName("Bird Seen Screen");
+    }
 
 
     @Override

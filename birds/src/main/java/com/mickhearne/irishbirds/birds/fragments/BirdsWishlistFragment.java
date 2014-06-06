@@ -21,6 +21,7 @@ import com.mickhearne.irishbirds.birds.list.ListViewAdapter;
 import com.mickhearne.irishbirds.birds.R;
 import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
 import com.mickhearne.irishbirds.birds.model.Bird;
+import com.mickhearne.irishbirds.birds.utilities.AnalyticsData;
 import com.mickhearne.irishbirds.birds.utilities.MyToast;
 
 import java.util.List;
@@ -145,13 +146,13 @@ public class BirdsWishlistFragment extends Fragment implements TextWatcher {
     }
 
 
-//    @Override
-//    public void onListItemClick(ListView lv, View v, int position, long id) {
-//
-//        Bird bird = adapter.getItem(position);
-//
-//        mCallback.onBirdWishSelected(bird, bgColor);
-//    }
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // Google Analytics
+        AnalyticsData.sendWithScreenName("Bird Wish List Screen");
+    }
 
 
     @Override

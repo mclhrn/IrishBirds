@@ -18,6 +18,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
 import com.mickhearne.irishbirds.birds.model.Bird;
+import com.mickhearne.irishbirds.birds.utilities.AnalyticsData;
 import com.mickhearne.irishbirds.birds.utilities.JSONPullParser;
 import com.mickhearne.irishbirds.birds.utilities.MyLocation;
 import com.mickhearne.irishbirds.birds.utilities.MyToast;
@@ -41,11 +42,8 @@ public class HomeActivity extends Activity implements View.OnClickListener {
 
     private BirdsDataSource datasource;
 
-    private static SharedPreferences pref;
-
     private static SharedPreferences.Editor editor;
 
-    private boolean parseData;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -54,10 +52,10 @@ public class HomeActivity extends Activity implements View.OnClickListener {
 
         openDB();
 
-        pref = MyApplication.getAppContext().getSharedPreferences("Irish Birds Prefs", 0);
+        SharedPreferences pref = MyApplication.getAppContext().getSharedPreferences("Irish Birds Prefs", 0);
         editor = pref.edit();
 
-        parseData = pref.getBoolean("parseData", true);
+        boolean parseData = pref.getBoolean("parseData", true);
 
         if (parseData) {
 
@@ -194,5 +192,14 @@ public class HomeActivity extends Activity implements View.OnClickListener {
 
         MyLocation myLocation = new MyLocation();
         myLocation.getLocation(this, locationResult);
+    }
+
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // Google Analytics
+        AnalyticsData.sendWithScreenName("Home Screen");
     }
 }

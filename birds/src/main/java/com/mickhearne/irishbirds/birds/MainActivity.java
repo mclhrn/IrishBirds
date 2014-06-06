@@ -135,19 +135,6 @@ public class MainActivity extends FragmentActivity
     }
 
 
-//    private void destroyFragment(Fragment fragment) {
-//
-//        try {
-//            fragment = this.getFragmentManager().findFragmentById(R.id.displayDetail);
-//            if (fragment != null) {
-//                getFragmentManager().beginTransaction().remove(fragment).commit();
-//            }
-//        } catch (IllegalStateException e) {
-//            Log.i("DAA", "Fail destroying List Fragment");
-//        }
-//    }
-
-
     public void loadFragment(Fragment fragment, int position) {
 
         if (fragment != null) {

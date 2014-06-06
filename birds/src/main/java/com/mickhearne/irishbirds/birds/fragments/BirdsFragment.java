@@ -23,6 +23,7 @@ import com.mickhearne.irishbirds.birds.model.Bird;
 import java.util.List;
 
 import com.mickhearne.irishbirds.birds.R;
+import com.mickhearne.irishbirds.birds.utilities.AnalyticsData;
 
 public class BirdsFragment extends Fragment implements TextWatcher {
 
@@ -130,23 +131,26 @@ public class BirdsFragment extends Fragment implements TextWatcher {
 
     public void onResume() {
         super.onResume();
+
         datasource.open();
+    }
+
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // Google Analytics
+        AnalyticsData.sendWithScreenName("Bird Reference Guide Screen");
     }
 
 
     @Override
     public void onPause() {
         super.onPause();
+
         datasource.close();
     }
-
-
-//    @Override
-//    public void onListItemClick(ListView listView, View v, int position, long id) {
-//        Bird bird = adapter.getItem(position);
-//        mCallback.onBirdSelected(bird, bgColor);
-//        lv.setItemChecked(position, true);
-//    }
 
 
     @Override

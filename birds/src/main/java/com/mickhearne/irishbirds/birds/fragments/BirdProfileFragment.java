@@ -20,6 +20,7 @@ import com.mickhearne.irishbirds.birds.HomeActivity;
 import com.mickhearne.irishbirds.birds.R;
 import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
 import com.mickhearne.irishbirds.birds.model.Bird;
+import com.mickhearne.irishbirds.birds.utilities.AnalyticsData;
 import com.mickhearne.irishbirds.birds.utilities.MyToast;
 
 /**
@@ -104,6 +105,15 @@ public class BirdProfileFragment extends android.app.Fragment {
     public void onResume() {
         super.onResume();
         getActivity().getActionBar().setTitle(bird.getName());
+    }
+
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // Google Analytics
+        AnalyticsData.sendWithScreenName("Bird Profile Screen: " + bird.getName());
     }
 
 
