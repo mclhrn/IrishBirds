@@ -19,9 +19,9 @@ android {
     }
     buildTypes {
         release {
-            runProguard true
+//            runProguard true
             signingConfig signingConfigs.release
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
     productFlavors {
@@ -35,4 +35,5 @@ dependencies {
     compile 'com.google.android.gms:play-services:+'
     compile 'com.android.support:appcompat-v7:19.+'
     compile files('libs/libGoogleAnalyticsServices.jar')
+    compile files('libs/firebase-client-jvm-LATEST.jar')
 }

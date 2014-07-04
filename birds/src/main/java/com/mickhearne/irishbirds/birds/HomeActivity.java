@@ -14,6 +14,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
@@ -24,8 +28,11 @@ import com.mickhearne.irishbirds.birds.utilities.MyLocation;
 import com.mickhearne.irishbirds.birds.utilities.MyToast;
 
 import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -49,6 +56,35 @@ public class HomeActivity extends Activity implements View.OnClickListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+
+
+
+
+
+        String url = "https://irishbirds.firebaseio.com/birds";
+        Firebase dataRef = new Firebase(url);
+        dataRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot snapshot) {
+
+                Log.i("mick", "Firebase stuff count: " + snapshot.getChildren().iterator().hasNext());
+
+
+            }
+
+            @Override
+            public void onCancelled(FirebaseError error) {
+                System.err.println("Listener was cancelled");
+            }
+        });
+
+
+
+
+
+
+
 
         openDB();
 
