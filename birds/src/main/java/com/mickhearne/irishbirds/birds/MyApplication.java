@@ -15,7 +15,6 @@ public class MyApplication extends Application {
 
 
     private static Context context;
-    private static MyApplication instance = null;
 
 
     public void onCreate(){
@@ -45,9 +44,12 @@ public class MyApplication extends Application {
         ECOMMERCE_TRACKER, // Tracker used by all ecommerce transactions from a company.
     }
 
+
     static HashMap<TrackerName, Tracker> mTrackers = new HashMap<TrackerName, Tracker>();
 
+
     private static final String PROPERTY_ID = "UA-50547496-1";
+
 
     public static Tracker getTracker(TrackerName trackerId) {
         if (!mTrackers.containsKey(trackerId)) {

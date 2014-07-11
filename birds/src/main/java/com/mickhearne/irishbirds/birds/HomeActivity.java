@@ -23,6 +23,7 @@ import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
 import com.mickhearne.irishbirds.birds.model.Bird;
 import com.mickhearne.irishbirds.birds.utilities.AnalyticsData;
+import com.mickhearne.irishbirds.birds.utilities.Const;
 import com.mickhearne.irishbirds.birds.utilities.JSONPullParser;
 import com.mickhearne.irishbirds.birds.utilities.MyLocation;
 import com.mickhearne.irishbirds.birds.utilities.MyToast;
@@ -57,35 +58,6 @@ public class HomeActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-
-
-
-
-
-        String url = "https://irishbirds.firebaseio.com/birds";
-        Firebase dataRef = new Firebase(url);
-        dataRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot snapshot) {
-
-                Log.i("mick", "Firebase stuff count: " + snapshot.getChildren().iterator().hasNext());
-
-
-            }
-
-            @Override
-            public void onCancelled(FirebaseError error) {
-                System.err.println("Listener was cancelled");
-            }
-        });
-
-
-
-
-
-
-
-
         openDB();
 
         SharedPreferences pref = MyApplication.getAppContext().getSharedPreferences("Irish Birds Prefs", 0);
@@ -100,7 +72,7 @@ public class HomeActivity extends Activity implements View.OnClickListener {
         }
 
         font = Typeface.createFromAsset(this.getApplicationContext().getAssets(),
-                "fonts/fontawesome-webfont.ttf");
+                Const.MY_FONT);
 
         checkPlay();
 
