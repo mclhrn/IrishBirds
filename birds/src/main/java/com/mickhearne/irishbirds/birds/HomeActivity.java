@@ -84,16 +84,16 @@ public class HomeActivity extends Activity implements View.OnClickListener {
         int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getBaseContext());
 
         // Showing status
-        if(status == ConnectionResult.SUCCESS) {
+//        if(status == ConnectionResult.SUCCESS) {
 
             initUI();
 
-        } else {
-            int requestCode = 10;
-            Dialog dialog = GooglePlayServicesUtil.getErrorDialog(status, this, requestCode);
-            dialog.show();
-
-        }
+//        } else {
+//            int requestCode = 10;
+//            Dialog dialog = GooglePlayServicesUtil.getErrorDialog(status, this, requestCode);
+//            dialog.show();
+//
+//        }
     }
 
 
