@@ -2,7 +2,6 @@ package com.mickhearne.irishbirds.birds.fragments;
 
 import android.app.Activity;
 import android.app.Fragment;
-import android.app.ListFragment;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -14,38 +13,27 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ListView;
-
-import com.mickhearne.irishbirds.birds.list.ListViewAdapter;
-import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
-import com.mickhearne.irishbirds.birds.model.Bird;
-
-import java.util.List;
 
 import com.mickhearne.irishbirds.birds.R;
+import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
+import com.mickhearne.irishbirds.birds.list.ListViewAdapter;
+import com.mickhearne.irishbirds.birds.model.Bird;
 import com.mickhearne.irishbirds.birds.utilities.AnalyticsData;
+
+import java.util.List;
 
 public class BirdsFragment extends Fragment implements TextWatcher {
 
 
     private List<Bird> birds;
-
     private boolean refAtoZ = false;
-
     private BirdsDataSource datasource;
-
     public final static String LOGTAG = null;
-
     private ArrayAdapter<Bird> adapter;
-
     private View v;
-
     private AbsListView lv;
-
     private int bgColor;
-
     OnBirdSelectedListener mCallback;
-
     public static BirdsFragment newInstance() {
         BirdsFragment f = new BirdsFragment();
         return f;

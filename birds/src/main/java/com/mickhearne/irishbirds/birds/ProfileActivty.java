@@ -46,8 +46,6 @@ public class ProfileActivty extends Activity implements
             detailPage = false;
 
         }
-
-        Log.i("birds", "will call buildUI: " + detailPage);
         buildUI();
     }
 
@@ -63,7 +61,7 @@ public class ProfileActivty extends Activity implements
         getFragmentManager().beginTransaction()
                 .add(R.id.container, BirdProfileFragment.newInstance(bird, bgColor))
                 .commit();
-        Log.i("birds", "in buildUI: " + detailPage);
+
         if (detailPage) {
 
             Fragment fragment = null;
@@ -81,8 +79,6 @@ public class ProfileActivty extends Activity implements
                 default:
                     break;
             }
-
-            Log.i("birds", "in buildUI if detail block: " + fragment + " " + fragment.getClass());
 
             getFragmentManager().beginTransaction()
                     .add(R.id.bird_list_container, fragment)
@@ -129,6 +125,7 @@ public class ProfileActivty extends Activity implements
     public void OnBirdSeenSelected(Bird selection, int bgColor) {
         onBirdSelected(selection, bgColor);
     }
+
 
     @Override
     public void onBirdWishSelected(Bird selection, int bgColor) {

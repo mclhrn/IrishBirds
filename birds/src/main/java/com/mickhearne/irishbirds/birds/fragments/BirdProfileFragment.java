@@ -2,10 +2,7 @@ package com.mickhearne.irishbirds.birds.fragments;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.content.res.Configuration;
-import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -34,17 +31,11 @@ import com.mickhearne.irishbirds.birds.utilities.MyToast;
 public class BirdProfileFragment extends android.app.Fragment {
 
     private View v;
-
     private Bird bird;
-
     private BirdsDataSource datasource;
-
     boolean isBirdsSeen, isWishlist;
-
     private OnFragmentInteractionListener mListener;
-
     private int bgColor;
-
     private LinearLayout ll;
 
 
@@ -269,6 +260,7 @@ public class BirdProfileFragment extends android.app.Fragment {
         super.onDetach();
         mListener = null;
     }
+
 
     /**
      * This interface must be implemented by activities that contain this

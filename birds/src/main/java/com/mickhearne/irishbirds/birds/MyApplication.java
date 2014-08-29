@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 import com.google.android.gms.analytics.GoogleAnalytics;
+import com.google.android.gms.analytics.Logger;
 import com.google.android.gms.analytics.Tracker;
 
 import java.util.HashMap;
@@ -57,7 +58,7 @@ public class MyApplication extends Application {
             GoogleAnalytics analytics = GoogleAnalytics.getInstance(MyApplication.getAppContext());
 
             // Set the log level to verbose.
-//            GoogleAnalytics.getInstance(MyApplication.getAppContext()).getLogger().setLogLevel(Logger.LogLevel.VERBOSE);
+            GoogleAnalytics.getInstance(MyApplication.getAppContext()).getLogger().setLogLevel(Logger.LogLevel.VERBOSE);
 
             // When dry run is set, hits will not be dispatched, but will still be logged as
             // though they were dispatched.

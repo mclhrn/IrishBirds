@@ -1,7 +1,7 @@
 package com.mickhearne.irishbirds.birds;
 
-import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -22,13 +22,11 @@ public class MapsActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_maps);
-        setUpMapIfNeeded();
-
     }
+
 
     @Override
     protected void onResume() {
@@ -74,6 +72,7 @@ public class MapsActivity extends FragmentActivity {
         }
     }
 
+
     /**
      * This is where we can add markers or lines, add listeners or move the camera. In this case, we
      * just add a marker near Africa.
@@ -91,11 +90,12 @@ public class MapsActivity extends FragmentActivity {
         LatLng CURRENT_LOC = new LatLng(HomeActivity.LAT, HomeActivity.LNG);
 
         for (int i = 0; i < birdsSeen.size(); i++) {
-
             mMap.addMarker(new MarkerOptions().position(myMarker = new LatLng(birdsSeen.get(i)
-                    .getLatitude(), birdsSeen.get(i)
+                    .getLatitude(),
+                    birdsSeen.get(i)
                     .getLongitude()))
-                    .title(birdsSeen.get(i).getName()));
+                    .title(birdsSeen.get(i)
+                    .getName()));
         }
 
         mMap.addMarker(new MarkerOptions().position(CURRENT_LOC).title("You are here"));

@@ -1,8 +1,6 @@
 package com.mickhearne.irishbirds.birds;
 
 import android.app.Activity;
-import android.app.Dialog;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -10,16 +8,9 @@ import android.graphics.Typeface;
 import android.location.Location;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.firebase.client.DataSnapshot;
-import com.firebase.client.Firebase;
-import com.firebase.client.FirebaseError;
-import com.firebase.client.ValueEventListener;
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
 import com.mickhearne.irishbirds.birds.model.Bird;
 import com.mickhearne.irishbirds.birds.utilities.AnalyticsData;
@@ -29,11 +20,8 @@ import com.mickhearne.irishbirds.birds.utilities.MyLocation;
 import com.mickhearne.irishbirds.birds.utilities.MyToast;
 
 import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -43,13 +31,9 @@ public class HomeActivity extends Activity implements View.OnClickListener {
 
 
     public static double LAT = 0;
-
     public static double LNG = 0;
-
     private Typeface font;
-
     private BirdsDataSource datasource;
-
     private static SharedPreferences.Editor editor;
 
 
@@ -74,26 +58,9 @@ public class HomeActivity extends Activity implements View.OnClickListener {
         font = Typeface.createFromAsset(this.getApplicationContext().getAssets(),
                 Const.MY_FONT);
 
-        checkPlay();
+        initUI();
 
         setLocation();
-    }
-
-    private void checkPlay() {
-        // Getting status
-        int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getBaseContext());
-
-        // Showing status
-//        if(status == ConnectionResult.SUCCESS) {
-
-            initUI();
-
-//        } else {
-//            int requestCode = 10;
-//            Dialog dialog = GooglePlayServicesUtil.getErrorDialog(status, this, requestCode);
-//            dialog.show();
-//
-//        }
     }
 
 
@@ -177,7 +144,6 @@ public class HomeActivity extends Activity implements View.OnClickListener {
             return null;
         }
     }
-
 
 
     private void setLocation() {
