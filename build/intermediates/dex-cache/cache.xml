@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/michaelhearne/Documents/Home/Development/Projects/Irish Birds/Source Code/Android/IrishBirds/birds/build/intermediates/pre-dexed/debug/firebase-client-jvm-LATEST-674a16dbd8a154d29a54bfe5f1689ff6345ddeb8.jar"
+        jar="/Users/michaelhearne/Documents/Home/Development/Projects/Irish Birds/Source Code/Android/IrishBirds/birds/libs/firebase-client-jvm-LATEST.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="fc1173d54caca22acada4742a4651bfa66470e9e"/>
+    <item
+        dex="/Users/michaelhearne/Documents/Home/Development/Projects/Irish Birds/Source Code/Android/IrishBirds/birds/build/intermediates/pre-dexed/debug/classes-5ee140e8465c6aa3f6813b66709879040294ba3d.jar"
+        jar="/Users/michaelhearne/Documents/Home/Development/Projects/Irish Birds/Source Code/Android/IrishBirds/birds/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="/Users/michaelhearne/Documents/Home/Development/Projects/Irish Birds/Source Code/Android/IrishBirds/birds/build/intermediates/pre-dexed/debug/libGoogleAnalyticsServices-ef22ba5bc15773badb6a0e96906fac278edcdd48.jar"
+        jar="/Users/michaelhearne/Documents/Home/Development/Projects/Irish Birds/Source Code/Android/IrishBirds/birds/libs/libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e887c6c9b31b39a39b0eaba981448b78902ea813"/>
+    <item
+        dex="/Users/michaelhearne/Documents/Home/Development/Projects/Irish Birds/Source Code/Android/IrishBirds/birds/build/intermediates/pre-dexed/release/classes-141d8ace3c697da00742e2186b026abe2dc0e407.jar"
+        jar="/Users/michaelhearne/Documents/Home/Development/Projects/Irish Birds/Source Code/Android/IrishBirds/birds/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa"/>
+    <item
+        dex="/Users/michaelhearne/Documents/Home/Development/Projects/Irish Birds/Source Code/Android/IrishBirds/birds/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/Users/michaelhearne/Documents/Home/Development/Projects/Irish Birds/Source Code/Android/IrishBirds/birds/build/intermediates/pre-dexed/debug/classes-f8e752c4df8082f0b80e5b7a10fdfebcd11bf18e.jar"
+        jar="/Users/michaelhearne/Documents/Home/Development/Projects/Irish Birds/Source Code/Android/IrishBirds/birds/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1ed7a7a05185651f9af41ad93711cb96b66f331c"/>
+
+</pre-dex-items>

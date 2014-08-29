@@ -1,6 +1,7 @@
 package com.mickhearne.irishbirds.birds.fragments;
 
 import android.app.Activity;
+import android.app.Fragment;
 import android.app.ListFragment;
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +10,8 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -18,12 +21,13 @@ import com.mickhearne.irishbirds.birds.list.ListViewAdapter;
 import com.mickhearne.irishbirds.birds.R;
 import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
 import com.mickhearne.irishbirds.birds.model.Bird;
+import com.mickhearne.irishbirds.birds.utilities.AnalyticsData;
 import com.mickhearne.irishbirds.birds.utilities.MyToast;
 
 import java.util.List;
 
 
-public class BirdsWishlistFragment extends ListFragment implements TextWatcher {
+public class BirdsWishlistFragment extends Fragment implements TextWatcher {
 
 
     private List<Bird> birds;
@@ -37,6 +41,8 @@ public class BirdsWishlistFragment extends ListFragment implements TextWatcher {
     private OnBirdWishSelectedListener mCallback;
 
     private int bgColor;
+
+    private AbsListView lv;
 
     private View v;
 
@@ -80,7 +86,7 @@ public class BirdsWishlistFragment extends ListFragment implements TextWatcher {
     private void initUI() {
 
         // Get handles to UI objects
-        ListView lv = (ListView) v.findViewById(android.R.id.list);
+        lv = (AbsListView) v.findViewById(R.id.list);
         EditText inputSearch = (EditText) v.findViewById(R.id.wish_input_search);
 
         // Enable filtering on list
@@ -93,7 +99,17 @@ public class BirdsWishlistFragment extends ListFragment implements TextWatcher {
 
     public void refreshDisplay() {
         adapter = new ListViewAdapter(getActivity(), birds);
-        setListAdapter(adapter);
+        lv.setAdapter(adapter);
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View v,
+                                    int position, long id) {
+                Bird bird = adapter.getItem(position);
+
+                mCallback.onBirdWishSelected(bird, bgColor);
+
+            }
+        });
     }
 
 
@@ -131,11 +147,11 @@ public class BirdsWishlistFragment extends ListFragment implements TextWatcher {
 
 
     @Override
-    public void onListItemClick(ListView lv, View v, int position, long id) {
+    public void onStart() {
+        super.onStart();
 
-        Bird bird = adapter.getItem(position);
-
-        mCallback.onBirdWishSelected(bird, bgColor);
+        // Google Analytics
+        AnalyticsData.sendWithScreenName("Bird Wish List Screen");
     }
 
 

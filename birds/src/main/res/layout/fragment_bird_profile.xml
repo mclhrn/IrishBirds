@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#FFFFFF"
+    android:background="@color/list_item_title"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -15,6 +14,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <!--Title Text-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -26,8 +26,7 @@
                 android:layout_width="10dp"
                 android:layout_height="match_parent"
                 android:layout_marginTop="-8dp"
-                android:background="#e19132"
-                android:text="@string/empty" />
+                android:background="@color/home_button_birds" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -40,6 +39,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:textIsSelectable="false"
+                    android:textColor="@color/text"
                     android:textSize="28sp"
                     android:textStyle="bold" />
 
@@ -48,12 +48,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
+                    android:textColor="@color/text"
                     android:textIsSelectable="false"
-                    android:textSize="14sp"
+                    android:textSize="18sp"
                     android:textStyle="italic" />
+
             </LinearLayout>
+
         </LinearLayout>
 
+        <!--Main Image-->
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="wrap_content"
@@ -63,8 +67,7 @@
                 android:id="@+id/div_bar_2"
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
-                android:background="#e19132"
-                android:text="@string/empty" />
+                android:background="@color/home_button_birds" />
 
             <ImageView
                 android:id="@+id/main_profile_image"
@@ -79,136 +82,73 @@
                 android:id="@+id/div_bar_3"
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
-                android:background="#e19132"
-                android:text="@string/empty" />
+                android:background="@color/home_button_birds" />
+
         </LinearLayout>
 
+        <!--Main Text-->
         <TextView
-            android:id="@+id/status_sub_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/status_sub_head"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/profile_sub_head"
+            android:text="@string/status_sub_head" />
 
         <TextView
-            android:id="@+id/status"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textIsSelectable="false"
-            android:textSize="14sp" />
+            style="@style/profile_body_text"
+            android:id="@+id/status" />
 
         <TextView
-            android:id="@+id/identification_sub_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/identification_sub_head"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/profile_sub_head"
+            android:text="@string/identification_sub_head" />
 
         <TextView
-            android:id="@+id/identification"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textIsSelectable="false"
-            android:textSize="14sp" />
+            style="@style/profile_body_text"
+            android:id="@+id/identification" />
 
         <TextView
-            android:id="@+id/diet_sub_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/diet_sub_head"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/profile_sub_head"
+            android:text="@string/diet_sub_head" />
 
         <TextView
-            android:id="@+id/diet"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textIsSelectable="false"
-            android:textSize="14sp" />
+            style="@style/profile_body_text"
+            android:id="@+id/diet" />
 
         <TextView
-            android:id="@+id/breeding_sub_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/breeding_sub_head"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/profile_sub_head"
+            android:text="@string/breeding_sub_head" />
 
         <TextView
-            android:id="@+id/breeding"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textIsSelectable="false"
-            android:textSize="14sp" />
+            style="@style/profile_body_text"
+            android:id="@+id/breeding" />
 
         <TextView
-            android:id="@+id/wintering_habits_sub_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/wintering_habits_sub_head"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/profile_sub_head"
+            android:text="@string/wintering_habits_sub_head" />
 
         <TextView
-            android:id="@+id/wintering_habits"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textIsSelectable="false"
-            android:textSize="14sp" />
+            style="@style/profile_body_text"
+            android:id="@+id/wintering_habits" />
 
         <TextView
-            android:id="@+id/where_to_see_sub_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/where_to_see_sub_head"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/profile_sub_head"
+            android:text="@string/where_to_see_sub_head" />
 
         <TextView
-            android:id="@+id/where_to_see"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textIsSelectable="false"
-            android:textSize="14sp" />
+            style="@style/profile_body_text"
+            android:id="@+id/where_to_see" />
 
         <TextView
-            android:id="@+id/conservation_status_sub_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/conservation_status_sub_head"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/profile_sub_head"
+            android:text="@string/conservation_status_sub_head" />
 
         <TextView
-            android:id="@+id/conservation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textIsSelectable="false"
-            android:textSize="14sp" />
+            style="@style/profile_body_text"
+            android:id="@+id/conservation" />
 
         <TextView
             android:id="@+id/div_bar_4"
             android:layout_width="match_parent"
             android:layout_height="10dp"
             android:layout_marginTop="10dp"
-            android:background="#e19132"
-            android:text="@string/empty" />
+            android:background="@color/home_button_birds" />
 
     </LinearLayout>
 

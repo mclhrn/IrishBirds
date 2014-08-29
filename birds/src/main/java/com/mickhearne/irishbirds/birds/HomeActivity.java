@@ -1,8 +1,6 @@
 package com.mickhearne.irishbirds.birds;
 
 import android.app.Activity;
-import android.app.Dialog;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -10,14 +8,13 @@ import android.graphics.Typeface;
 import android.location.Location;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
 import com.mickhearne.irishbirds.birds.model.Bird;
+import com.mickhearne.irishbirds.birds.utilities.AnalyticsData;
+import com.mickhearne.irishbirds.birds.utilities.Const;
 import com.mickhearne.irishbirds.birds.utilities.JSONPullParser;
 import com.mickhearne.irishbirds.birds.utilities.MyLocation;
 import com.mickhearne.irishbirds.birds.utilities.MyToast;
@@ -34,18 +31,11 @@ public class HomeActivity extends Activity implements View.OnClickListener {
 
 
     public static double LAT = 0;
-
     public static double LNG = 0;
-
     private Typeface font;
-
     private BirdsDataSource datasource;
-
-    private static SharedPreferences pref;
-
     private static SharedPreferences.Editor editor;
 
-    private boolean parseData;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -54,10 +44,10 @@ public class HomeActivity extends Activity implements View.OnClickListener {
 
         openDB();
 
-        pref = MyApplication.getAppContext().getSharedPreferences("Irish Birds Prefs", 0);
+        SharedPreferences pref = MyApplication.getAppContext().getSharedPreferences("Irish Birds Prefs", 0);
         editor = pref.edit();
 
-        parseData = pref.getBoolean("parseData", true);
+        boolean parseData = pref.getBoolean("parseData", true);
 
         if (parseData) {
 
@@ -66,28 +56,11 @@ public class HomeActivity extends Activity implements View.OnClickListener {
         }
 
         font = Typeface.createFromAsset(this.getApplicationContext().getAssets(),
-                "fonts/fontawesome-webfont.ttf");
+                Const.MY_FONT);
 
-        checkPlay();
+        initUI();
 
         setLocation();
-    }
-
-    private void checkPlay() {
-        // Getting status
-        int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getBaseContext());
-
-        // Showing status
-        if(status == ConnectionResult.SUCCESS) {
-
-            initUI();
-
-        } else {
-            int requestCode = 10;
-            Dialog dialog = GooglePlayServicesUtil.getErrorDialog(status, this, requestCode);
-            dialog.show();
-
-        }
     }
 
 
@@ -173,7 +146,6 @@ public class HomeActivity extends Activity implements View.OnClickListener {
     }
 
 
-
     private void setLocation() {
         MyLocation.LocationResult locationResult = new MyLocation.LocationResult() {
             @Override
@@ -194,5 +166,14 @@ public class HomeActivity extends Activity implements View.OnClickListener {
 
         MyLocation myLocation = new MyLocation();
         myLocation.getLocation(this, locationResult);
+    }
+
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // Google Analytics
+        AnalyticsData.sendWithScreenName("Home Screen");
     }
 }

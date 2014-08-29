@@ -14,8 +14,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingBottom="10dp"
-            android:paddingLeft="25dp"
-            android:paddingRight="25dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:paddingTop="18dp"
             android:background="#ffffff"
             android:src="@drawable/atoz" 
@@ -48,8 +48,7 @@
             android:layout_marginTop="7dp"
             android:background="#e19132"
             android:paddingBottom="6dp"
-            android:paddingLeft="25dp"
-            android:paddingRight="25dp"
+            android:paddingLeft="20dp"
             android:paddingTop="6dp"
             android:text="@string/ref_guide_title"
             android:textColor="#ffffff"
@@ -57,7 +56,7 @@
     </LinearLayout>
 
     <ListView
-        android:id="@android:id/list"
+    android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

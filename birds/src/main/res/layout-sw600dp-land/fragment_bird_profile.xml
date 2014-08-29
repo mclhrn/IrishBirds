@@ -40,6 +40,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:textIsSelectable="false"
+                    android:textColor="@color/text"
                     android:textSize="28sp"
                     android:textStyle="bold" />
 
@@ -48,6 +49,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
+                    android:textColor="@color/text"
                     android:textIsSelectable="false"
                     android:textSize="14sp"
                     android:textStyle="italic" />
@@ -55,9 +57,20 @@
         </LinearLayout>
 
         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:background="@color/profile_background">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
 
             <TextView
                 android:id="@+id/div_bar_2"
@@ -71,9 +84,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
                 android:contentDescription="@string/main_image"
-                android:src="@drawable/firecrest"
-                android:adjustViewBounds="true"/>
+                android:src="@drawable/firecrest" />
 
             <TextView
                 android:id="@+id/div_bar_3"
@@ -81,126 +94,67 @@
                 android:layout_height="10dp"
                 android:background="#e19132"
                 android:text="@string/empty" />
+            </LinearLayout>
+
         </LinearLayout>
 
+
+        <!--Main Text-->
         <TextView
-            android:id="@+id/status_sub_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/status_sub_head"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/profile_sub_head"
+            android:text="@string/status_sub_head" />
 
         <TextView
-            android:id="@+id/status"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textIsSelectable="false"
-            android:textSize="14sp" />
+            style="@style/profile_body_text"
+            android:id="@+id/status" />
 
         <TextView
-            android:id="@+id/identification_sub_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/identification_sub_head"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/profile_sub_head"
+            android:text="@string/identification_sub_head" />
 
         <TextView
-            android:id="@+id/identification"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textIsSelectable="false"
-            android:textSize="14sp" />
+            style="@style/profile_body_text"
+            android:id="@+id/identification" />
 
         <TextView
-            android:id="@+id/diet_sub_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/diet_sub_head"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/profile_sub_head"
+            android:text="@string/diet_sub_head" />
 
         <TextView
-            android:id="@+id/diet"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textIsSelectable="false"
-            android:textSize="14sp" />
+            style="@style/profile_body_text"
+            android:id="@+id/diet" />
 
         <TextView
-            android:id="@+id/breeding_sub_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/breeding_sub_head"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/profile_sub_head"
+            android:text="@string/breeding_sub_head" />
 
         <TextView
-            android:id="@+id/breeding"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textIsSelectable="false"
-            android:textSize="14sp" />
+            style="@style/profile_body_text"
+            android:id="@+id/breeding" />
 
         <TextView
-            android:id="@+id/wintering_habits_sub_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/wintering_habits_sub_head"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/profile_sub_head"
+            android:text="@string/wintering_habits_sub_head" />
 
         <TextView
-            android:id="@+id/wintering_habits"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textIsSelectable="false"
-            android:textSize="14sp" />
+            style="@style/profile_body_text"
+            android:id="@+id/wintering_habits" />
 
         <TextView
-            android:id="@+id/where_to_see_sub_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/where_to_see_sub_head"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/profile_sub_head"
+            android:text="@string/where_to_see_sub_head" />
 
         <TextView
-            android:id="@+id/where_to_see"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textIsSelectable="false"
-            android:textSize="14sp" />
+            style="@style/profile_body_text"
+            android:id="@+id/where_to_see" />
 
         <TextView
-            android:id="@+id/conservation_status_sub_head"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/conservation_status_sub_head"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            style="@style/profile_sub_head"
+            android:text="@string/conservation_status_sub_head" />
 
         <TextView
-            android:id="@+id/conservation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textIsSelectable="false"
-            android:textSize="14sp" />
+            style="@style/profile_body_text"
+            android:id="@+id/conservation" />
 
         <TextView
             android:id="@+id/div_bar_4"

@@ -1,7 +1,7 @@
 package com.mickhearne.irishbirds.birds;
 
-import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -10,6 +10,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.mickhearne.irishbirds.birds.db.BirdsDataSource;
 import com.mickhearne.irishbirds.birds.model.BirdsSeenModel;
+import com.mickhearne.irishbirds.birds.utilities.AnalyticsData;
 
 import java.util.List;
 
@@ -21,19 +22,27 @@ public class MapsActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_maps);
-        setUpMapIfNeeded();
-
     }
+
 
     @Override
     protected void onResume() {
         super.onResume();
         setUpMapIfNeeded();
     }
+
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // Google Analytics
+        AnalyticsData.sendWithScreenName("Map Screen");
+    }
+
 
     /**
      * Sets up the map if it is possible to do so (i.e., the Google Play services APK is correctly
@@ -63,6 +72,7 @@ public class MapsActivity extends FragmentActivity {
         }
     }
 
+
     /**
      * This is where we can add markers or lines, add listeners or move the camera. In this case, we
      * just add a marker near Africa.
@@ -80,11 +90,12 @@ public class MapsActivity extends FragmentActivity {
         LatLng CURRENT_LOC = new LatLng(HomeActivity.LAT, HomeActivity.LNG);
 
         for (int i = 0; i < birdsSeen.size(); i++) {
-
             mMap.addMarker(new MarkerOptions().position(myMarker = new LatLng(birdsSeen.get(i)
-                    .getLatitude(), birdsSeen.get(i)
+                    .getLatitude(),
+                    birdsSeen.get(i)
                     .getLongitude()))
-                    .title(birdsSeen.get(i).getName()));
+                    .title(birdsSeen.get(i)
+                    .getName()));
         }
 
         mMap.addMarker(new MarkerOptions().position(CURRENT_LOC).title("You are here"));

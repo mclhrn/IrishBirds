@@ -4,6 +4,7 @@
     <color name="list_item_title">#fff</color>
     <color name="list_background">#303030</color>
     <color name="list_background_pressed">#777777</color>
+    <color name="profile_background">#f1f1f1</color>
     <color name="list_divider">#272727</color>
     <color name="counter_text_bg">#626262</color>
     <color name="counter_text_color">#c5c4c4</color>
@@ -12,7 +13,5 @@
     <color name="home_button_birds">#e29337</color>
     <color name="wish_list_bg">#A2BC13</color>
     <color name="seen_list_bg">#007CB2</color>
-
-
-
+    <color name="text">#3d3d3d</color>
 </resources>
